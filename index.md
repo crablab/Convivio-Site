@@ -19,4 +19,4 @@ One Pancras Square
 London  
 N1C 4AG
 
-This is release 1 of our website, our ‘minimum launchable product’. We’re going to work in the open to develop our site, so you can see our workings-out. Follow thinking and progress on our blog.
+This is release 1 of our website, our ‘minimum launchable product’. We’re going to work in the open to develop our site, so you can see our workings-out. Follow thinking and progress on our [blog](https://medium.com/convivio).
