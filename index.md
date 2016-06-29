@@ -9,7 +9,7 @@ That means we take clients beyond simply marketing themselves on the web, to del
 
 Our team has delivered this digital transformation before in the government, finance, and media sectors.
 
-Read our blog on Medium: [https://medium.com/convivio](https://medium.com/convivio)  
+Read our blog on Medium: [https://blog.weareconvivio.com](https://blog.weareconvivio.com)  
 Follow us on twitter: [@weareconvivio](https://twitter.com/weareconvivio)  
 Get in touch: <hello@weareconvivio.com>  
 Our address:  
@@ -19,4 +19,4 @@ One Pancras Square
 London  
 N1C 4AG
 
-This is release 1 of our website, our ‘minimum launchable product’. We’re going to work in the open to develop our site, so you can see our workings-out. Follow thinking and progress on our [blog](https://medium.com/convivio).
+This is release 1 of our website, our ‘minimum launchable product’. We’re going to work in the open to develop our site, so you can see our workings-out. Follow thinking and progress on our [blog](https://blog.weareconvivio.com).
