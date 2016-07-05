@@ -1,7 +1,15 @@
-<footer class="site-footer">
+<footer class="site-footer"  itemscope itemtype="http://schema.org/LocalBusiness">
   <div class="wrapper">
-    {% capture footer-nav-include %}{% include footer-nav.md %}{% endcapture %}
-    {{ footer-nav-include | markdownify }}
+    <div class=" footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {% capture footer-nav-include %}{% include footer-nav.md %}{% endcapture %}
+        {{ footer-nav-include | markdownify }}
+      </div>
+      <div class="footer-col footer-col-2">
+        {% capture address-include %}{% include address.md %}{% endcapture %}
+        {{ address-include | markdownify }}
+      </div>
+    </div>
   </div>
 </footer>
 
