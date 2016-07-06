@@ -9,4 +9,4 @@ That means we take clients beyond simply marketing themselves on the web, to del
 
 Our team has delivered this digital transformation before in the government, finance, and media sectors.
 
-This is release 1 of our website, our ‘minimum launchable product’. We’re going to work in the open to develop our site, so you can see our workings-out. Follow thinking and progress on our [blog](https://blog.weareconvivio.com).
+This is release 1 of our website, our ‘minimum launchable product’. We're going to work in the open to develop our site, so you can see our workings-out. Follow thinking and progress on our <a href="https://blog.weareconvivio.com" target="_blank">blog.</a>
