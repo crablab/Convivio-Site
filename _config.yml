@@ -18,3 +18,5 @@ repository: ConvivioTeam/Convivio-Site
 
 # Build settings
 markdown: kramdown
+
+exclude: [vendor]
