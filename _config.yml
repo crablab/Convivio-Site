@@ -20,3 +20,8 @@ repository: ConvivioTeam/Convivio-Site
 markdown: kramdown
 
 exclude: [vendor]
+
+# Sass compile settings
+sass:
+  style: compressed
+
