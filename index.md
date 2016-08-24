@@ -3,7 +3,7 @@ layout: front
 title: Hello, We Are Convivio
 ---
 
-Convivio is a boutique agency designing and developing digital services for innovative public and private sector organisations.
+We do digital strategy, design, and development for humans.
 
 That means we take clients beyond simply marketing themselves on the web, to delivering their core services online, using modern technology and processes to achieve great <br class="only-full-width" />user experiences.
 
