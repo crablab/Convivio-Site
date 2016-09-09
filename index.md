@@ -11,7 +11,7 @@ This is achieved by developing powerful digital products or services using our c
 
 We've helped large organisations deliver successful digital transformation in the government, finance, and media sectors — and we can help you too.
 
-Why not meet us for a coffee to chat over your challenges and ideas, and see how we can help? Email steve.parks@weareconvivio.com now to set it up.
+Why not meet us for a coffee to chat over your challenges and ideas, and see how we can help? Email <steve.parks@weareconvivio.com> now to set it up.
 
 We look forward to working with you,
 
