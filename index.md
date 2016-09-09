@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: page
 title: Hello, We Are Convivio
 ---
 

@@ -22,8 +22,11 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    700px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-content-width: "(min-width: 700px)";
+$on-palm:          "(max-width: 600px)";
+$palm-up:          "(min-width: 600px)";
+$on-laptop:        "(max-width: 800px)";
+$laptop-up:        "(min-width: 800px)";
 
 $convivio-red:     #ff0000;
 
@@ -36,8 +39,8 @@ $convivio-red:     #ff0000;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
+@mixin media-query($breakpoint) {
+    @media screen and #{$breakpoint} {
         @content;
     }
 }
@@ -46,6 +49,9 @@ $convivio-red:     #ff0000;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout"
+  "base",
+  "layout",
+  "team",
+  "team-member",
+  "team-profile"
 ;

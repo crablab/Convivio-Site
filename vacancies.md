@@ -1,7 +1,8 @@
 ---
-layout: front
+layout: page
 title: Join the Convivio team
 ---
+
 There’ll soon be more seats around Convivio’s big table. It’s been a busy summer already and we’re planning to expand our team.
 
 We prefer building relationships to the traditional ‘CV out of the blue’ approach — so we’d like to start hearing from people now who’d be interested in joining us in the coming months.
