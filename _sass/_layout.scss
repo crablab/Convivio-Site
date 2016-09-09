@@ -233,7 +233,7 @@
 
 // Only displays when you hit the max width of the site, initially created to prevent paragraph widows.
 .only-full-width {
-  @include media-query($content-width) {
+  @include media-query($on-content-width) {
     display: none;
   }
 }

@@ -1,0 +1,58 @@
+.team-member__listing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+  width: 30%;
+}
+
+.team-member__info {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 12px;
+  background: rgba(0,0,0,0.4);
+  transform-origin: bottom;
+  transform: translateY(4.5em);
+  transition: transform 0.2s ease-in, background 0.2s ease-in;
+  padding-bottom: 0.5em;
+  font-weight: lighter;
+  .team-member:hover & {
+    transform: translateY(0);
+    background: rgba(0,0,0,0);
+  }
+  @include media-query($palm-up) {
+    font-size: 16px;
+    transform: translateY(4.5em);
+  }
+}
+
+.team-member__image {
+  height: 0;
+  padding-bottom: 100%;
+  transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
+  .team-member:hover & {
+    filter: brightness(70%) grayscale(20%);
+    -webkit-filter: brightness(70%) grayscale(20%);
+  }
+}
+.team-member__image img {
+  width: 100%;
+  height: auto;
+}
+
+.team-member__name {
+  font-size: 14px;
+  margin: 0;
+  @include media-query($palm-up) {
+    font-size: 16px;
+  }
+}
+
