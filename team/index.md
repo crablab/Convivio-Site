@@ -6,7 +6,9 @@ title: We Are Convivio
 <div class="team__wrapper">
   <h1 class="page-heading">We Are Convivio</h1>
   <div class="team__intro">
-    <p>We're a team of experts in strategy, design, and development. We work all over the UK from home offices, co-working spaces, and cafes.</p>
+    <p>We're a team of friendly experts in strategy, design, and development.</p>
+    
+    <p>We work all over the UK from home offices, co-working spaces, and cafes.</p>
   </div>
   <div class="team__listing">
     <div class="team-member__listing">
