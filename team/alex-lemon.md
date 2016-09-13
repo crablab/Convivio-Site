@@ -15,6 +15,6 @@ I like etymology 🤓 and emojis 🍋<br />
 I believe kindness and understanding make better business🎈 ⚖ 💼</p>
 
 <p><strong>Ask me about:</strong><br />
-– why content matters more than visual design<br />
-– why my face is on coffee tables worldwide
+Why content matters more than visual design<br />
+Why my face is on coffee tables worldwide
 </p>" %}
