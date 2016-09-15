@@ -23,6 +23,8 @@ You can explore our blog to find out a bit more about who we are and what we’r
 
 ## Who are we looking for?
 
+We're on the lookout for front-end and back-end developers, designers, and delivery managers.
+
 We want good communicators who enjoy solving problems, exploring ideas, discovering new ways to work, working with real people, and working on projects that make a difference.
 
 You’ll like drawing on the walls, sticking up post-its, coaching and supporting others, eating great food, and continuously improving yourself, others, and how we do what we do.
