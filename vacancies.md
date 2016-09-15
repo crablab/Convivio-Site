@@ -23,10 +23,6 @@ You can explore our blog to find out a bit more about who we are and what we’r
 
 ## Who are we looking for?
 
-We’re seeking front-end and back-end developers but not just any old developers.
-
-The technical stack stuff isn’t as important to us as your people skills and way of thinking.
-
 We want good communicators who enjoy solving problems, exploring ideas, discovering new ways to work, working with real people, and working on projects that make a difference.
 
 You’ll like drawing on the walls, sticking up post-its, coaching and supporting others, eating great food, and continuously improving yourself, others, and how we do what we do.
