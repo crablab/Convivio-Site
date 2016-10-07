@@ -14,7 +14,12 @@ layout: compress
           <div class="wrapper">
             <div class="home">
               {% include header.html %}
-              <h1 class="page-heading">{{ page.title }}</h1>
+              <!-- { Prevent widows without using a liquid filter } -->
+              {% assign split_title = page.title | split: ' ' %}
+              {% capture title %}
+                {% for word in split_title %}{% if forloop.last == true %}&nbsp;{{ word | strip }}{% else %} {{ word }}{% endif %}{% endfor %}
+              {% endcapture %}
+              <h1 class="page-heading">{{ title }}</h1>
               {{ content }}
             </div>
           </div>

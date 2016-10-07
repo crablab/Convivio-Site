@@ -4,7 +4,7 @@ title: Hello, We Are Convivio
 meta-title: Convivio — Strategy, Design, Development.
 ---
 
-## We do digital strategy, design, and development
+## We do digital strategy, design, and&nbsp;development
 
 Working as one team with you, we can help your organisation go beyond marketing itself on the web to actually delivering core services online.
 

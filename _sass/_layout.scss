@@ -4,6 +4,7 @@
 .site-title {
     float: right;
     width: 22%;
+    margin-left: 10px;
     max-width: 160px;
     height: 0;
     padding-bottom: 14%;
@@ -177,7 +178,8 @@
 
 // Only displays when you hit the max width of the site, initially created to prevent paragraph widows.
 .only-full-width {
-  @include media-query($on-content-width) {
     display: none;
+  @include media-query($on-content-width) {
+    display: block;
   }
 }
