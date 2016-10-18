@@ -1,104 +1,46 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.site-nav {
     float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
+    width: 22%;
+    margin-left: 10px;
+    max-width: 160px;
+    height: 0;
+    padding-bottom: 14%;
+    margin-top: 0.45em;
+    margin-bottom: 0.05em;
+    background: url('images/logos/Mark-Only-Red.svg') no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    overflow:hidden;
+    text-indent:-9000px;
+    display:block;
+    @media screen and (max-width: 426px) {
+        margin-top: 0.25em;
     }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
+    &:hover,
+    &:focus {
+        opacity: 0.8;
     }
 }
 
 
+.site-container {
+    display: table;
+    width: 100%;
+    min-height: 100%;
+}
 
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    background: $background-color-dark;
+    display: table-footer-group;
+    width: 100%;
+}
+.site-footer__inner {
     padding: $spacing-unit 0;
 }
 
@@ -115,7 +57,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey-color-dark;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -148,17 +90,20 @@
   padding: 0 15px;
 }
 
-
-
 /**
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    display: table-row-group;
+}
+.page-content__inner {
+    padding: $spacing-unit / 2 0;
 }
 
 .page-heading {
     font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 600;
 }
 
 .post-list {
@@ -233,7 +178,8 @@
 
 // Only displays when you hit the max width of the site, initially created to prevent paragraph widows.
 .only-full-width {
-  @include media-query($on-content-width) {
     display: none;
+  @include media-query($on-content-width) {
+    display: block;
   }
 }
