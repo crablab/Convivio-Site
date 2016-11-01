@@ -1,4 +1,4 @@
-// Our variables
+// Typography
 $primary-font-family: Helvetica, Arial, san-serif;
 $secondary-font-family: Helvetica, Arial, san-serif;
 $base-font-size:   16px;
@@ -6,23 +6,14 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.4;
 
-$spacing-unit:     30px;
+// Colors
+$jelly-bean: #EC604B;
+$isabelline: #F8F4EA;
 
-$text-color:       #434343;
-$background-color: #F8F4EC;
-$background-color-dark: darken(#F8F4EC, 3%);
-$brand-color:      #FE5F45;
+$black: 343434;
+$grey: #717070;
+$white: #FDFDFF;
 
-$grey-color:       #808080;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    700px;
-
-$on-content-width: "(min-width: 700px)";
-$on-palm:          "(max-width: 600px)";
-$palm-up:          "(min-width: 600px)";
-$on-laptop:        "(max-width: 800px)";
-$laptop-up:        "(min-width: 800px)";
-
+$rajah: #FFD066;
+$keppel: #45A8A3;
+$aquamarine: #70D893;

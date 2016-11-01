@@ -19,7 +19,11 @@ repository: ConvivioTeam/Convivio-Site
 # Build settings
 markdown: kramdown
 
-exclude: [vendor]
+exclude:
+  - package.json
+  - node_modules
+  - vendor
+  - gulpfile.js
 
 # Sass compile settings
 sass:

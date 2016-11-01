@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello, We Are Convivio
-meta-title: Convivio — Strategy, Design, Development.
+title: We help you serve people better online
+meta-title: Convivio — We help you serve people better online
 ---
 
 ## We do digital strategy, design, and&nbsp;development
