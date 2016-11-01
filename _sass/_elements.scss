@@ -1,0 +1,9 @@
+* {
+  @include no-spacing;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+  @include no-spacing;
+}

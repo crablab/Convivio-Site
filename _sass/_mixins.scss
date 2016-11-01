@@ -10,3 +10,35 @@
         @content;
     }
 }
+
+@mixin hide-text{
+  overflow:hidden;
+  text-indent:-9000px;
+  display:block;
+}
+
+@mixin no-spacing {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin link-no-underline($background-color: $white) {
+  text-decoration: none;
+  text-shadow: 0 1px 1px $background-color;
+  &:hover,
+  &:focus {
+    border-bottom: 2px solid;
+  }
+}
+
+@mixin max-width {
+  max-width: $max-width;
+}

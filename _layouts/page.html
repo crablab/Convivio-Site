@@ -4,28 +4,12 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-    <div class="site-container">
-      <div class="page-content">
-      <div class="page-content__inner">
-          <div class="wrapper">
-            <div class="home">
-              {% include header.html %}
-              <!-- { Prevent widows without using a liquid filter } -->
-              {% assign split_title = page.title | split: ' ' %}
-              {% capture title %}
-                {% for word in split_title %}{% if forloop.last == true %}&nbsp;{{ word | strip }}{% else %} {{ word }}{% endif %}{% endfor %}
-              {% endcapture %}
-              <h1 class="page-heading">{{ title }}</h1>
-              {{ content }}
-            </div>
-          </div>
-        </div>
-      </div>
-      {% include footer.html %}
-    </div>
+
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+
   </body>
 </html>

@@ -1,19 +1,23 @@
 // Typography
-$primary-font-family: Helvetica, Arial, san-serif;
-$secondary-font-family: Helvetica, Arial, san-serif;
+$font-family-primary: galano_grotesque_demobold, Helvetica, Arial, san-serif;
+$font-family-secondary: Helvetica, Arial, san-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.4;
 
-// Colors
+// Brand Colors
 $jelly-bean: #EC604B;
 $isabelline: #F8F4EA;
 
-$black: 343434;
+$black: #343434;
 $grey: #717070;
 $white: #FDFDFF;
 
 $rajah: #FFD066;
 $keppel: #45A8A3;
 $aquamarine: #70D893;
+
+// Units
+
+$max-width: 980px;

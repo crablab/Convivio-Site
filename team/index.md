@@ -1,5 +1,5 @@
 ---
-layout: full-width
+layout: page
 title: We Are Convivio
 ---
 

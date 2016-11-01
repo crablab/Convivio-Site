@@ -1,0 +1,16 @@
+.site-nav {
+  list-style-type: none;
+  @include no-spacing;
+}
+.site-nav li {
+  display: inline-block;
+}
+.site-nav li + li {
+  margin-left: 20px;
+}
+.site-nav a {
+  color: $grey;
+  font-family: $font-family-primary;
+  font-size: 18px;
+  @include link-no-underline;
+}
