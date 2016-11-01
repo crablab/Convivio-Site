@@ -17,6 +17,7 @@
 body {
   background-color: #FDFDFF;
   color: #343434;
+  font-family: Helvetica, Arial, san-serif;
   margin: 0;
   padding: 0; }
 
@@ -28,6 +29,9 @@ body {
   background-size: cover;
   height: 0;
   padding-bottom: 24.890829694%; }
+
+.site-logo--white {
+  background-image: url("../images/logos/Wide-White-Large.svg"); }
 
 .site-heading {
   font-size: 38px;
@@ -82,3 +86,43 @@ body {
   width: 100%;
   clear: both;
   margin-top: 35px; }
+
+.sub-heading {
+  font-size: 28px;
+  font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif; }
+
+.sub-heading--centered {
+  text-align: center; }
+
+.content-container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 35px 20px; }
+
+.button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  background: #F8F4EA;
+  border-radius: 5px;
+  font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif;
+  text-align: center;
+  min-width: 8em;
+  padding: 12px;
+  color: #717070;
+  text-decoration: none;
+  margin: 20px 0;
+  cursor: pointer; }
+
+.button--primary {
+  background: #EC604B;
+  color: #F8F4EA;
+  letter-spacing: 0.5px; }
+
+.site-footer {
+  background: #EC604B;
+  color: #F8F4EA;
+  padding: 80px 40px 40px; }
+
+.site-footer a {
+  color: #F8F4EA; }

@@ -1,22 +1,21 @@
-<footer class="site-footer"  itemscope itemtype="http://schema.org/LocalBusiness">
+<footer class="site-footer" >
   <div class="site-footer__inner">
-    <div class="wrapper">
-      <div class=" footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          {% capture footer-nav-include %}{% include footer-nav.md %}{% endcapture %}
-          {{ footer-nav-include | markdownify }}
-        </div>
-        <div class="footer-col footer-col-2">
-          {% capture address-include %}{% include address.md %}{% endcapture %}
-          {{ address-include | markdownify }}
-        </div>
-        <div class="footer-small-print">
-          <small class="minor-text">This is release 1 of our website, our ‘minimum launchable product’. We are working in the open to develop our site, so you can see our workings-out and our mistakes. <a href="https://github.com/ConvivioTeam/Convivio-Site" target="_blank">Watch the Github repo evolve here.</a></small>
-        </div>
-      </div>
+    <div class="site-footer__col-one">
+      <div class="site-logo site-logo--white"></div>
     </div>
+    <p class="site-footer__col-two">
+      Our ambition is to do good for a million people by helping organisations to make measurable improvements to serving them online as citizens, customers, users and staff.<br />
+      <a href="/purpose">Read more</a>
+    </p>
+    <nav class="site-footer__col-three">
+      <ul class="minor-nav">
+        <li><a href="/jobs">Jobs</a></li>
+        <li><a href="http://cookbook.weareconvivio.com">Convivio Cookbook</a></li>
+      </ul>
+    </nav>
   </div>
 </footer>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
