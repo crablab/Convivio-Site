@@ -14,9 +14,14 @@
   cursor: pointer;
   z-index: 2;
   border-bottom: none;
+  box-shadow: 0px 1px 0px 0px #918F89;
   &:hover,
   &:focus {
-
+    background-color: #E6E2D8;
+  }
+  &:active {
+    box-shadow: none;
+     transform: translate(0, 1px);
   }
 }
 
@@ -24,6 +29,11 @@
   background: $jelly-bean;
   color: $isabelline;
   letter-spacing: 0.5px;
+  box-shadow: 0px 1px 0px 0px #A14233;
+  &:hover,
+  &:focus {
+    background-color: #DB5A46;
+  }
 }
 
 .button--spacing-top {
