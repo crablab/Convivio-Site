@@ -8,9 +8,19 @@ layout: compress
   <body>
 
     {% include header.html %}
+
+    {% if page.include-above %}
+      {% include {{page.include-above}} %}
+    {% endif %}
+
     <main class="content-container">
       {{ content }}
     </main>
+
+    {% if page.include-below %}
+      {% include {{page.include-below}} %}
+    {% endif %}
+
     {% include footer.html %}
 
   </body>

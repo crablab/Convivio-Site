@@ -1,0 +1,35 @@
+.such-width {
+  background: $white;
+  position: relative;
+  z-index: 1;
+  margin-top: 110px;
+  padding-bottom: 30px;
+  &:after,
+  &:before {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    transform: skewY(5deg);
+    transform-origin: 0;
+    right: 0;
+    z-index: -1;
+  }
+  &:before {
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+    bottom: auto;
+    top: -50%;
+  }
+}
+.such-width--keppel {
+  background: $keppel;
+  color: $white;
+}
+.such-width__inner {
+  max-width: 740px;
+  margin: 0 auto;
+}

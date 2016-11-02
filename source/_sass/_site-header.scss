@@ -1,10 +1,20 @@
 .site-header {
   background: $isabelline;
+  border-bottom: $mid-grey 1px solid;
+}
+.site-header--image {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 840px;
+  padding-bottom: 212px;
+}
+.site-header--image-people {
+  background-image: url('../images/header/people.png');
 }
 .site-header__inner {
   @include max-width;
   @include clearfix;
-  padding: 20px 40px;
+  padding: 20px 40px 60px;
   margin: 0 auto;
 }
 .site-header__logo {

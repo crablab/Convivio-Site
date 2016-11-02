@@ -2,9 +2,34 @@
   @include no-spacing;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   background-color: $white;
   color: $black;
   font-family: $font-family-secondary;
+  font-weight: 300;
   @include no-spacing;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  &:hover,
+  &:focus {
+    border-bottom: 0;
+  }
+
 }

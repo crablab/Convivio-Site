@@ -1,7 +1,3 @@
-.site-nav {
-  list-style-type: none;
-  @include no-spacing;
-}
 .site-nav li {
   display: inline-block;
 }
@@ -12,5 +8,5 @@
   color: $grey;
   font-family: $font-family-primary;
   font-size: 18px;
-  @include link-no-underline;
+  @include link-no-underline($width: 2px);
 }

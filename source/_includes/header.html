@@ -1,4 +1,10 @@
-<header class="site-header">
+{% if page.header-image %}
+  {% capture classes %}site-header site-header--image site-header--image-{{ page.header-image }}{% endcapture %}
+{% else %}
+    {% assign classes = 'site-header' %}
+{% endif %}
+
+<header class="{{classes}}">
   <div class="site-header__inner">
 
     <div class="site-header__logo">
