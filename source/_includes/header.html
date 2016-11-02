@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="site-header__inner">
+
+    <div class="site-header__logo">
+      <a class="site-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+
+    <nav class="site-header__nav">
+      <ul class="site-nav">
+        <li><a href="/services">Our services</a></li>
+        <li><a href="/purpose">Our purpose</a></li>
+        <li><a href="/team">Our team</a></li>
+        <li><a href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <!-- { Prevent widows without using a liquid filter } -->
+    {% assign split_title = page.title | split: ' ' %}
+    {% capture title %}
+      {% for word in split_title %}{% if forloop.last == true %}&nbsp;{{ word | strip }}{% else %} {{ word }}{% endif %}{% endfor %}
+    {% endcapture %}
+
+    <div class="site-header__heading">
+      <h1 class="site-heading site-heading--centered">{{ title }}</h1>
+    </div>
+
+  </div>
+</header>

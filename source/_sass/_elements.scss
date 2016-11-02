@@ -1,0 +1,10 @@
+* {
+  @include no-spacing;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+  font-family: $font-family-secondary;
+  @include no-spacing;
+}

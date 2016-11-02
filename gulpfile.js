@@ -6,10 +6,10 @@ var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var shell = require('gulp-shell');
 
-var sassDir = './_sass/**/*.scss';
-var cssDir = './css';
-var baseDir = './_site'
-var baseCssDir = './_site/css'
+var sourceDir = './source/';
+var buildDir = './destination'
+var sassDir = './source/_sass/**/*.scss';
+var cssDir = './destination/css';
 
 gulp.task('sass', function () {
   return gulp.src(sassDir)
@@ -19,6 +19,7 @@ gulp.task('sass', function () {
         cascade: false
     }))
     .pipe(gulp.dest(cssDir))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('watch', function() {
@@ -32,7 +33,7 @@ gulp.task('watch', function() {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
 
-  gulp.watch('_site/**/*.html').on('change', browserSync.reload);
+  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.txt', 'source/**/*.js'], ['jekyll-rebuild']);
 
 });
 
@@ -43,12 +44,15 @@ gulp.task('serve', function () {
   browserSync.init({
     notify: true,
     server: {
-      baseDir: baseDir
+      baseDir: buildDir
     }
   });
 });
 
-gulp.task('jekyll-build', shell.task('bundle exec jekyll build --watch'));
+gulp.task('jekyll-build', shell.task('bundle exec jekyll build --config jekyllconfig.yml'));
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+  browserSync.reload();
+});
 
 gulp.task('build', ['jekyll-build', 'sass']);
 gulp.task('default', ['build', 'serve', 'watch']);
