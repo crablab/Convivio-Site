@@ -13,4 +13,7 @@
   @include link-no-underline($width: 2px);
   border-bottom-color: $keppel;
   transition: border-width 0.1s ease-in;
+  &.is-active {
+    color: $black;
+  }
 }

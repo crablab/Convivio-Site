@@ -79,6 +79,8 @@ a {
   transition: border-width 0.1s ease-in; }
   .site-nav a:hover, .site-nav a:focus {
     border-bottom-width: 2px; }
+  .site-nav a.is-active {
+    color: #343434; }
 
 .site-header {
   background: #F8F4EA;
