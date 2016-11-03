@@ -16,17 +16,19 @@
   @include link-no-underline($jelly-bean);
   font-weight: bold;
 }
-.site-footer__col-one {
-  float: left;
-  width: 45%;
-}
-.site-footer__col-two {
-  float: left;
-  width: 55%;
-  max-width: 440px;
-}
-.site-footer__col-three {
-  clear: both;
+@media(min-width: 490px) {
+  .site-footer__col-one {
+    float: left;
+    width: 45%;
+  }
+  .site-footer__col-two {
+    float: left;
+    width: 55%;
+    max-width: 440px;
+  }
+  .site-footer__col-three {
+    clear: both;
+  }
 }
 .site-footer__logo {
   width: 230px;

@@ -8,5 +8,9 @@
   color: $grey;
   font-family: $font-family-primary;
   font-size: 18px;
+  padding-top: 20px;
+  display: inline-block;
   @include link-no-underline($width: 2px);
+  border-bottom-color: $keppel;
+  transition: border-width 0.1s ease-in;
 }
