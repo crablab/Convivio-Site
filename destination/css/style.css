@@ -228,11 +228,17 @@ img {
     background: #45A8A3 center center no-repeat;
     background-size: 60px; }
 
-.icon-list__icon--two:before {
+.icon-list__icon--rajah:before {
   background-color: #FFD066; }
 
-.icon-list__icon--three:before {
+.icon-list__icon--jelly-bean:before {
   background-color: #EC604B; }
+
+.icon-list__icon--twitter:before {
+  background-color: #1da1f2; }
+
+.icon-list__icon--medium:before {
+  background-color: #02b875; }
 
 .icon-list__title {
   font-size: 20px;

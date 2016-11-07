@@ -17,11 +17,17 @@
     background-size: 60px;
   }
 }
-.icon-list__icon--two:before {
+.icon-list__icon--rajah:before {
   background-color: $rajah;
 }
-.icon-list__icon--three:before {
+.icon-list__icon--jelly-bean:before {
   background-color: $jelly-bean;
+}
+.icon-list__icon--twitter:before {
+  background-color: $twitter;
+}
+.icon-list__icon--medium:before {
+  background-color: $medium;
 }
 .icon-list__title {
   font-size: 20px;

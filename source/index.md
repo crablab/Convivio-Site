@@ -9,8 +9,8 @@ include-below: contact.html
 <h2 class="sub-heading sub-heading--centered">Partners help each other grow</h2>
 
 <ul class="icon-list">
-  <li class="icon-list__icon icon-list__icon--one"><h3 class="icon-list__title">Cut costs</h3></li>
-  <li class="icon-list__icon icon-list__icon--two"><h3 class="icon-list__title">Improve service levels</h3></li>
+  <li class="icon-list__icon icon-list__icon--jelly-bean"><h3 class="icon-list__title">Cut costs</h3></li>
+  <li class="icon-list__icon icon-list__icon--rajah"><h3 class="icon-list__title">Improve service levels</h3></li>
   <li class="icon-list__icon icon-list__icon--three"><h3 class="icon-list__title">Grow sales</h3></li>
 </ul>
 
