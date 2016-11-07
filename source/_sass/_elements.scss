@@ -1,5 +1,6 @@
 * {
   @include no-spacing;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,7 +12,6 @@ body {
   color: $black;
   font-family: $font-family-secondary;
   font-weight: 300;
-  @include no-spacing;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,9 +27,18 @@ ul {
 a {
   text-decoration: none;
   border-bottom: 1px solid;
+  color: inherit;
   &:hover,
   &:focus {
     border-bottom: 0;
   }
+}
 
+iframe {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
