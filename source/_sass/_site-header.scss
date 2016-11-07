@@ -1,3 +1,5 @@
+$wide-layout: '(min-width: 740px)';
+
 .site-header {
   background: $isabelline;
   border-bottom: $mid-grey 1px solid;
@@ -15,19 +17,23 @@
   @include max-width;
   @include clearfix;
   margin: 0 auto;
-  padding: 10px 20px 20px;
+  padding: 10px 15px 20px;
   @include media-query($site-nav-inline) {
     padding: 20px 40px 60px;
   }
 }
 .site-header__logo {
-  float: left;
   width: 228px;
+  @include media-query($wide-layout) {
+    float: left;
+  }
 }
 .site-header__nav {
-  float: left;
-  text-align: right;
-  width: calc(100% - 248px);
+  @include media-query($wide-layout) {
+    float: left;
+    text-align: right;
+    width: calc(100% - 248px);
+  }
 }
 .site-header__heading {
   float: left;

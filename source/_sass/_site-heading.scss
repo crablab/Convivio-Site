@@ -1,9 +1,14 @@
+$wide-heading: '(min-width: 475px)';
+
 .site-heading {
-  font-size: 38px;
-  line-height: 1.184210526em;
   font-family: $font-family-primary;
   max-width: 50rem;
   margin: 0 auto;
+  font-size: 24px;
+  @include media-query($wide-heading) {
+    font-size: 38px;
+    line-height: 1.184210526em;
+  }
 }
 .site-heading--centered {
   text-align: center;

@@ -29,7 +29,7 @@ title: Leading Digital Transformation? You’ve found your tribe
 
     <div class="form-group">
       <label class="form-label" for="email">Email</label>
-      <input class="text-input" type="email" id="email" name="email">
+      <input class="text-input" required type="email" id="email" name="email">
     </div>
 
     <div class="form-group">
