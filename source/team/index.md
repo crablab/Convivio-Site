@@ -3,24 +3,17 @@ layout: page
 title: We’re your digital transformation team, ready to support you
 ---
 
-<div class="team__wrapper">
-  <div class="team__intro">
-    <p>For strategy, service design and delivery - we have the specialists to help.</p>
-  </div>
+<h2 class="sub-heading">For strategy, service design and delivery - we can help.</h2>
 
-  <div class="team__listing">
-    <div class="team-member__listing">
-      {% include team-member.html slug="joe-baker" name="Joe Baker" title="Development" location="Birmingham" %}
-      {% include instagram-embed.html hash="BH2R-zeDHj0" %}
-      {% include team-member.html slug="steve-hunton" name="Steve Hunton" title="Delivery" location="Newcastle" %}
-      {% include instagram-embed.html hash="BI5iiCnD9il" %}
-      {% include team-member.html slug="steve-parks" name="Steve Parks" title="Business" location="London" %}
-      {% include team-member.html slug="mike-bell" name="Mike Bell" title="Development" location="Manchester" %}
-      {% include team-member.html slug="alex-lemon" name="Alex Lemon" title="Content" location="London" %}
-      {% include instagram-embed.html hash="BI5i6b-jurL" %}
-      {% include team-member.html slug="lewis-nyman" name="Lewis Nyman" title="Design" location="Brighton" %}
-    </div>
-  </div>
+
+<div class="team-grid">
+  {% include team-member.html slug="joe-baker" name="Joe Baker" title="Technical Lead" location="Birmingham" %}
+  {% include instagram-embed.html hash="BLib5P3FyU7" size="l" %}
+  {% include team-member.html slug="steve-hunton" name="Steve Hunton" title="Head of Service Delivery" location="Newcastle" %}
+  {% include team-member.html slug="steve-parks" name="Steve Parks" title="Digital Business Strategy and Advice" location="London" %}
+  {% include team-member.html slug="mike-bell" name="Mike Bell" title="Senior Developer" location="Manchester" %}
+  {% include team-member.html slug="lewis-nyman" name="Lewis Nyman" title="UX & Design" location="Brighton" %}
+  {% include instagram-embed.html hash="BKysLSigoDv" size="m" %}
 </div>
 
 <h2 class="sub-heading">Associates</h2>
