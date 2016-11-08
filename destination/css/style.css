@@ -450,6 +450,12 @@ a {
   a:hover, a:focus {
     border-bottom: 0; }
 
+.spacing-top {
+  margin-top: 20px; }
+
+.spacing-bottom {
+  margin-bottom: 20px; }
+
 @media screen and (min-width: 700px) {
   .layout-contact-us {
     margin-bottom: -4px; }
@@ -576,6 +582,32 @@ a {
   font-size: 18px; }
   .form-label.is-focused {
     color: #343434; }
+
+.big-numbers-list {
+  counter-reset: big-numbers-list;
+  list-style-type: none;
+  font-size: 18px;
+  margin: 30px 0 60px; }
+
+.big-numbers-list li {
+  position: relative;
+  margin-bottom: 30px; }
+
+.big-numbers-list li:before {
+  content: counter(big-numbers-list);
+  counter-increment: big-numbers-list;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif;
+  position: absolute;
+  right: calc(100% + 0.2em);
+  top: -0.25em;
+  text-align: right; }
+
+.big-numbers-list__title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif; }
 
 .content-container {
   max-width: 740px;
