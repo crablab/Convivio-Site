@@ -640,6 +640,9 @@ a {
     background: #45A8A3 center center no-repeat;
     background-size: 60px; }
 
+.icon-list__icon + .icon-list__icon {
+  padding-left: 20px; }
+
 .icon-list__icon--rajah:before {
   background-color: #FFD066; }
 
