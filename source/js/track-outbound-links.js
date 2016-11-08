@@ -56,6 +56,3 @@ else {
     document.body.attachEvent('onclick', _gaLt);
   });
 }
-
-// The same attach code as above, minified for minimalists.
-var w=window,b=document.body;w.addEventListener?w.addEventListener('load',function(){b.addEventListener('click',_gaLt,!1)},!1):w.attachEvent&&w.attachEvent('onload',function(){b.attachEvent('onclick',_gaLt)});

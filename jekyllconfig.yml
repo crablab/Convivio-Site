@@ -29,10 +29,12 @@ exclude:
   - node_modules
   - vendor
   - gulpfile.js
+  - js
 
-# Don't delete these files on rebuild
+# Don't delete these files on rebuild, as they're handled by gulp
 keep_files:
   - css
+  - js
 
 # Sass compile settings
 sass:

@@ -40,7 +40,7 @@ title: Leading Digital Transformation? You’ve found your tribe
 
   <div class="form-group">
     <label class="form-label" for="message">How can we help you?</label>
-    <textarea class="text-input" rows="10" cols="50" type="email" id="message" name="message"></textarea>
+    <textarea class="text-input text-input--large" rows="5" cols="50" type="email" id="message" name="message"></textarea>
   </div>
 
   <div class="form-group">

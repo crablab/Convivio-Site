@@ -3,6 +3,9 @@
   font-weight: bold;
   font-family: $font-family-primary;
   cursor: pointer;
-  color: $black;
+  color: $grey;
   font-size: 18px;
+  &.is-focused {
+    color: $black;
+  }
 }

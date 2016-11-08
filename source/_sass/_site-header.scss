@@ -19,7 +19,7 @@ $wide-layout: '(min-width: 740px)';
   margin: 0 auto;
   padding: 10px 15px 20px;
   @include media-query($site-nav-inline) {
-    padding: 20px 40px 60px;
+    padding: 20px 40px 40px;
   }
 }
 .site-header__logo {

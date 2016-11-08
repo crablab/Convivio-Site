@@ -11,7 +11,7 @@
   overflow: hidden;
   border-radius: 50%;
   border: 3px solid $keppel;
-  shape-outside: circle(60px at 68px 20px);
+  shape-outside: circle(60px at 70px 20px);
   width: 100px;
   height: 100px;
   margin: -30px -30px 10px 15px;
@@ -19,4 +19,9 @@
     min-width: 200px;
     margin-left: -25px;
   }
+}
+.person-card__text a {
+  color: $isabelline;
+  @include link-no-underline($keppel);
+  font-weight: bold;
 }

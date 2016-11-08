@@ -5,11 +5,16 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var shell = require('gulp-shell');
+var browserify = require('gulp-browserify');
+var uglify = require('gulp-uglify');
 
 var sourceDir = './source/';
 var buildDir = './destination'
 var sassDir = './source/_sass/**/*.scss';
 var cssDir = './destination/css';
+var jsDir = './source/js/*';
+var jsSrc = './source/js/index.js';
+var jsDest = './destination/js';
 
 gulp.task('sass', function () {
   return gulp.src(sassDir)
@@ -22,10 +27,20 @@ gulp.task('sass', function () {
     .pipe(browserSync.stream());
 });
 
+gulp.task('scripts', function() {
+  gulp.src(jsSrc)
+    .pipe(browserify({
+      insertGlobals : true,
+      debug : !gulp.env.production
+    }))
+    // .pipe(uglify())
+    .pipe(gulp.dest(jsDest));
+    browserSync.reload();
+});
+
 gulp.task('watch', function() {
   gulp
-    // Watch the input folder for change,
-    // and run `sass` task when something happens
+    // Run run `sass` task when sass files change
     .watch(sassDir, ['sass'])
     // When there is a change,
     // log a message in the console
@@ -33,7 +48,16 @@ gulp.task('watch', function() {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
 
-  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.txt', 'source/**/*.js'], ['jekyll-rebuild']);
+  gulp
+    // Run run `scripts` task when js files change
+    .watch(jsDir, ['scripts'])
+    // When there is a change,
+    // log a message in the console
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
+
+  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.txt'], ['jekyll-rebuild']);
 
 });
 
@@ -54,5 +78,5 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-gulp.task('build', ['jekyll-build', 'sass']);
+gulp.task('build', ['jekyll-build', 'sass', 'scripts']);
 gulp.task('default', ['build', 'serve', 'watch']);
