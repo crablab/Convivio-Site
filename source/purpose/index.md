@@ -11,7 +11,7 @@ include-below: services.html
 
 <ol class="big-numbers-list">
   <li>Developing using and sharing a solid professional process with better ways to work.</li>
-  <li>Helping forward-thinking proactive changemakers in large organisations deliver positive transformation in the way their organisation works and serves their audiences using digital technology.</li>
+  <li>Helping changemakers in large organisations deliver positive transformation in the way their organisation works and serves their audiences using digital technology.</li>
   <li>Building healthy, long-term partnerships with clients and partners.</li>
 </ol>
 
