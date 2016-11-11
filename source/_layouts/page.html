@@ -6,22 +6,24 @@ layout: compress
 <html>
   {% include head.html %}
   <body>
+  <div class="site-background">
 
-    {% include header.html %}
+      {% include header.html %}
 
-    {% if page.include-above %}
-      {% include {{page.include-above}} %}
-    {% endif %}
+      {% if page.include-above %}
+        {% include {{page.include-above}} %}
+      {% endif %}
 
-    <main class="content-container">
-      {{ content }}
-    </main>
+      <main class="content-container">
+        {{ content }}
+      </main>
 
-    {% if page.include-below %}
-      {% include {{page.include-below}} %}
-    {% endif %}
+      {% if page.include-below %}
+        {% include {{page.include-below}} %}
+      {% endif %}
 
-    {% include footer.html %}
+      {% include footer.html %}
 
+  </div>
   </body>
 </html>

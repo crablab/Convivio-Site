@@ -5,13 +5,13 @@
   margin-left: 20px;
 }
 .site-nav a {
-  color: $grey;
+  color: $isabelline;
   font-family: $font-family-primary;
   font-size: 18px;
   padding-top: 20px;
   display: inline-block;
-  @include link-no-underline($width: 2px);
-  border-bottom-color: $keppel;
+  @include link-no-underline($width: 2px, $background-color: $jelly-bean);
+  border-bottom-color: $rajah;
   transition: border-width 0.05s ease-in;
   &.is-active {
     color: $black;

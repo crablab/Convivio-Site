@@ -1,25 +1,16 @@
 $wide-layout: '(min-width: 740px)';
 
 .site-header {
-  background: $isabelline;
-  border-bottom: $mid-grey 1px solid;
-}
-.site-header--image {
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 840px;
-  padding-bottom: 212px;
-}
-.site-header--image-people {
-  background-image: url('../images/header/people.png');
+  background: linear-gradient(to bottom, $jelly-bean 0%,$jelly-bean 70%, transparent 70%,transparent 100%);
+  color: $isabelline;
 }
 .site-header__inner {
   @include max-width;
   @include clearfix;
   margin: 0 auto;
-  padding: 10px 15px 20px;
+  padding: 10px 15px 10px;
   @include media-query($site-nav-inline) {
-    padding: 20px 40px 40px;
+    padding: 20px 40px 10px;
   }
 }
 .site-header__logo {
@@ -30,7 +21,7 @@ $wide-layout: '(min-width: 740px)';
 }
 .site-header__nav {
   @include media-query($wide-layout) {
-    float: left;
+    float: right;
     text-align: right;
     width: calc(100% - 248px);
   }

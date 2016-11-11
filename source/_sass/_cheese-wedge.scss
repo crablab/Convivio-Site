@@ -1,0 +1,77 @@
+.cheese-wedge {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.cheese-wedge--above {
+  margin-top: 110px;
+}
+.cheese-wedge--above:before {
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform: skewY(5deg);
+  transform-origin: 0;
+  right: 0;
+  z-index: -1;
+  transform: skewY(-5deg);
+  transform-origin: 100%;
+  bottom: 50%;
+}
+.cheese-wedge--below:after {
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: 0;
+  right: 0;
+  z-index: -1;
+  transform: skewY(-5deg);
+  transform-origin: 100%;
+  bottom: -50%;
+}
+.cheese-wedge--right {
+  &:before {
+    transform: skewY(5deg);
+    top: 0;
+  }
+  &:after {
+    transform: skewY(5deg);
+  }
+}
+.cheese-wedge--jelly-bean {
+  &:before,
+  &:after {
+    background: $jelly-bean;
+  }
+}
+.cheese-wedge--keppel {
+  background: $keppel;
+  color: $isabelline;
+  &:before,
+  &:after {
+    background: $keppel;
+  }
+}
+.cheese-wedge__icon {
+  position: absolute;
+  top: -80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+.cheese-wedge__inner {
+  max-width: 740px;
+  margin: 0 auto;
+}
+.cheese-wedge__copy {
+  width: 85%;
+  position: relative;
+  z-index: 10;
+}

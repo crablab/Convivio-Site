@@ -1,14 +1,8 @@
-{% if page.header-image %}
-  {% capture classes %}site-header site-header--image site-header--image-{{ page.header-image }}{% endcapture %}
-{% else %}
-    {% assign classes = 'site-header' %}
-{% endif %}
-
-<header class="{{classes}}">
+<header class="site-header cheese-wedge cheese-wedge--below cheese-wedge--right cheese-wedge--jelly-bean">
   <div class="site-header__inner">
 
     <div class="site-header__logo">
-      <a class="site-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <a class="site-logo site-logo--white" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
     <nav class="site-header__nav">
@@ -28,7 +22,7 @@
     {% endcapture %}
 
     <div class="site-header__heading">
-      <h1 class="site-heading site-heading--centered">{{ title }}</h1>
+      <h1 class="site-heading site-heading--right">{{ title }}</h1>
     </div>
 
   </div>

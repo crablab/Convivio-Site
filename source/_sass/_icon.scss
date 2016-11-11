@@ -1,0 +1,16 @@
+.icon {
+  background: no-repeat right bottom;
+  display: block;
+}
+.icon--lightbulb {
+  height: 420px;
+  width: 420px;
+  background-position: right -20px top;
+  background-size: contain;
+  float: right;
+  background-image: url(../images/icons/lightbulb.svg);
+  @include media-query('(min-width: 1280px)') {
+    margin-right: 10%;
+    background-position: right top;
+  }
+}
