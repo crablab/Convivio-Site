@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Leading Digital Transformation? You’ve found your tribe
+title: Leading Digital Transformation?<br class="full-width-only" /> You’ve found your tribe
+meta-title: Contact us — Convivio
 ---
 
 <p class="intro-copy">In every organisation on the verge of digital transformation is that one person who can see the opportunity and its opposite threats. That one person with the big questions, or the big vision. That one person who is the make-it-happen type.</p>

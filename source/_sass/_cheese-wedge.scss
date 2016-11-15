@@ -73,6 +73,21 @@
     background: $isabelline;
   }
 }
+.cheese-wedge--black {
+  background: $black;
+  color: $white;
+  &:before,
+  &:after {
+    background: $black;
+  }
+}
+// Sometimes the last wedge needs to be different to align with the footer.
+.cheese-wedge--overrride-last {
+  padding-bottom: 4%;
+  &:after {
+    transform: none;
+  }
+}
 
 $dark-aquamarine: darken( $aquamarine, 13% );
 .cheese-wedge--aquamarine {

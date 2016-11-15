@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: You need to deliver change.<br /> We’re ready to help you.
+title: You need to deliver change.<br class="full-width-only" /> We’re ready to help you.
 meta-title: Services — Convivio
 ---
 
@@ -58,6 +58,19 @@ meta-title: Services — Convivio
     <p class="intro-copy">We work as one team with you to provide a multi-disciplinary team of designers, developers and delivery specialists who can work in rapid iterations to deliver your digital service. </p>
 
     <p class="intro-copy">We work in an open and collaborative way, changes and feedback are welcomed as improvements rather than resisted as interference. This ensures we deliver the best possible outcome.</p>
+
+    <a class="button button--primary button--spacing-top" href="/contact">Find out more</a>
+  </div>
+  </div>
+</div>
+
+<div class="cheese-wedge cheese-wedge--black cheese-wedge--right cheese-wedge--overrride-last">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__icon"><i class="icon icon--lightbulb"></i></div>
+  <div class="cheese-wedge__copy">
+    <h2 class="site-heading">What happens after delivery?</h2>
+
+    <p class="intro-copy">Once your service is live we monitor its status, and work with your teams and 3rd party hosting providers to ensure a high quality of service, as well as continuous learning and development. </p>
 
     <a class="button button--primary button--spacing-top" href="/contact">Find out more</a>
   </div>

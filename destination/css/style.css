@@ -458,6 +458,10 @@ a {
 .spacing-bottom {
   margin-bottom: 20px; }
 
+@media screen and (max-width: 980px) {
+  .full-width-only {
+    display: none; } }
+
 @media screen and (min-width: 700px) {
   .layout-contact-us {
     margin-bottom: -4px; }
@@ -692,6 +696,17 @@ a {
   .cheese-wedge--isabelline:before, .cheese-wedge--isabelline:after {
     background: #F8F4EA; }
 
+.cheese-wedge--black {
+  background: #343434;
+  color: #FDFDFF; }
+  .cheese-wedge--black:before, .cheese-wedge--black:after {
+    background: #343434; }
+
+.cheese-wedge--overrride-last {
+  padding-bottom: 4%; }
+  .cheese-wedge--overrride-last:after {
+    transform: none; }
+
 .cheese-wedge--aquamarine {
   background: #3cca6c;
   color: #F8F4EA; }
@@ -787,19 +802,18 @@ a {
       display: none; } }
 
 .icon--lightbulb {
-  height: 460px;
-  width: 400px;
-  background-position: left -20px top 40px;
+  background-position: right top;
   background-size: contain;
   position: absolute;
-  left: 0;
+  right: -5%;
   top: 0;
   background-image: url(../images/icons/lightbulb.svg);
-  z-index: 2; }
+  z-index: 2;
+  height: 130%;
+  width: 50%; }
   @media screen and (min-width: 1210px) {
     .icon--lightbulb {
-      background-position: left top 40px;
-      left: 7%; } }
+      right: 5%; } }
 
 .icon--sign-post {
   background-position: right top;

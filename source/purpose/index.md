@@ -1,6 +1,6 @@
 ---
 layout: page
-title: We Help Organisations Work Better For People
+title: We help organisations work better<br class="full-width-only" /> for people
 header-image: people
 include-below: services.html
 ---
