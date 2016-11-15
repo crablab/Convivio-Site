@@ -73,12 +73,14 @@
     background: $isabelline;
   }
 }
+
+$dark-aquamarine: darken( $aquamarine, 13% );
 .cheese-wedge--aquamarine {
-  background: #53C77A;
+  background: $dark-aquamarine;
   color: $isabelline;
   &:before,
   &:after {
-    background: $aquamarine;
+    background: $dark-aquamarine;
   }
 }
 .cheese-wedge__icon {

@@ -692,10 +692,10 @@ a {
     background: #F8F4EA; }
 
 .cheese-wedge--aquamarine {
-  background: #53C77A;
+  background: #3cca6c;
   color: #F8F4EA; }
   .cheese-wedge--aquamarine:before, .cheese-wedge--aquamarine:after {
-    background: #70D893; }
+    background: #3cca6c; }
 
 .cheese-wedge__icon {
   position: absolute;

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="259px" height="271px" viewBox="0 0 259 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
-    <title>smarty_seo_6</title>
+    <title>swiss-army-knife</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Style-2-v3-Services-page-" transform="translate(-765.000000, -1113.000000)">
             <g id="3.-Prototyping" transform="translate(-85.000000, 917.000000)">
-                <g id="smarty_seo_6" transform="translate(784.000000, 140.000000)">
+                <g id="swiss-army-knife" transform="translate(784.000000, 140.000000)">
                     <g id="Layer_15">
                         <g id="Group">
                             <g>
@@ -32,7 +32,7 @@
                                     </g>
                                 </g>
                             </g>
-                            <g transform="translate(72.638672, 57.298828)" id="Shape" fill="#57B377">
+                            <g transform="translate(72.638672, 57.298828)" id="Shape" fill="#4D9E6A">
                                 <path d="M34.6757168,1.848 L34.6757168,5.75875781 C34.6757168,6.98008008 33.9682793,8.68596094 33.103834,9.54950391 L22.3451895,20.3090508 L54.0260273,20.3090508 L34.1428828,0.42590625 C34.4695312,0.811658203 34.6757168,1.30524023 34.6757168,1.848 Z"></path>
                                 <path d="M89.6000273,32.5398691 L82.0789922,40.060002 C81.2154492,40.9244473 79.508666,41.6309824 78.2873438,41.6309824 L75.3493125,41.6309824 L244.598014,214.419391 C247.707039,208.465275 250.315264,202.207973 252.361328,195.701172 L89.6000273,29.3992617 C90.4635703,30.2628047 90.4635703,31.6763262 89.6000273,32.5398691 Z"></path>
                                 <polygon points="55.4246602 55.0280801 68.822209 41.6309824 42.0275625 41.6309824"></polygon>
