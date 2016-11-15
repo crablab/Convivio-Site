@@ -709,15 +709,21 @@ a {
 .cheese-wedge__inner {
   max-width: 740px;
   margin: 0 auto; }
+  @media screen and (max-width: 931px) {
+    .cheese-wedge__inner {
+      padding: 0 20px; } }
 
 .cheese-wedge__copy {
-  width: 85%;
-  margin-left: 15%;
   position: relative;
   z-index: 10; }
-  .cheese-wedge--right .cheese-wedge__copy {
-    margin-left: 0;
-    margin-right: 15%; }
+  @media screen and (min-width: 931px) {
+    .cheese-wedge__copy {
+      width: 85%;
+      margin-left: 15%; } }
+  @media screen and (min-width: 931px) {
+    .cheese-wedge--right .cheese-wedge__copy {
+      margin-left: 0;
+      margin-right: 15%; } }
 
 .intro-copy {
   margin-top: 15px;
@@ -775,6 +781,9 @@ a {
 .icon {
   background: no-repeat right bottom;
   display: block; }
+  @media screen and (max-width: 930px) {
+    .icon {
+      display: none; } }
 
 .icon--lightbulb {
   height: 460px;
@@ -802,7 +811,7 @@ a {
   background-image: url(../images/icons/signpost.svg); }
   @media screen and (min-width: 1280px) {
     .icon--sign-post {
-      right: 10%; } }
+      right: 5%; } }
 
 .icon--magnifying-glass {
   height: 390px;
@@ -828,7 +837,7 @@ a {
   background-image: url(../images/icons/swiss-army-knife.svg); }
   @media screen and (min-width: 1280px) {
     .icon--swiss-army-knife {
-      right: 10%; } }
+      right: 5%; } }
 
 .icon--developer {
   height: 390px;

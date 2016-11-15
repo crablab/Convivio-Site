@@ -1,6 +1,9 @@
 .icon {
   background: no-repeat right bottom;
   display: block;
+  @include media-query('(max-width: 930px)') {
+    display: none;
+  }
 }
 .icon--lightbulb {
   height: 460px;
@@ -27,7 +30,7 @@
   bottom: -100px;
   background-image: url(../images/icons/signpost.svg);
   @include media-query('(min-width: 1280px)') {
-    right: 10%;
+    right: 5%;
   }
 }
 .icon--magnifying-glass {
@@ -53,7 +56,7 @@
   bottom: -100px;
   background-image: url(../images/icons/swiss-army-knife.svg);
   @include media-query('(min-width: 1280px)') {
-    right: 10%;
+    right: 5%;
   }
 }
 .icon--developer {

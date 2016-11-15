@@ -93,14 +93,21 @@
 .cheese-wedge__inner {
   max-width: 740px;
   margin: 0 auto;
+  @include media-query('(max-width: 931px)') {
+    padding: 0 20px;
+  }
 }
 .cheese-wedge__copy {
-  width: 85%;
-  margin-left: 15%;
+  @include media-query('(min-width: 931px)') {
+    width: 85%;
+    margin-left: 15%;
+  }
   position: relative;
   z-index: 10;
   .cheese-wedge--right & {
-    margin-left: 0;
-    margin-right: 15%;
+    @include media-query('(min-width: 931px)') {
+      margin-left: 0;
+      margin-right: 15%;
+    }
   }
 }
