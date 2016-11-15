@@ -564,7 +564,7 @@ a {
       padding: 20px 40px 10px; } }
 
 .site-header__logo {
-  width: 228px; }
+  width: 250px; }
   @media screen and (min-width: 740px) {
     .site-header__logo {
       float: left; } }
@@ -573,7 +573,7 @@ a {
   .site-header__nav {
     float: right;
     text-align: right;
-    width: calc(100% - 248px); } }
+    width: calc(100% - 250px); } }
 
 .site-header__heading {
   float: left;

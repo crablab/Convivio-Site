@@ -30,7 +30,7 @@ $wide-layout: '(min-width: 740px)';
   }
 }
 .site-header__logo {
-  width: 228px;
+  width: 250px;
   @include media-query($wide-layout) {
     float: left;
   }
@@ -39,7 +39,7 @@ $wide-layout: '(min-width: 740px)';
   @include media-query($wide-layout) {
     float: right;
     text-align: right;
-    width: calc(100% - 248px);
+    width: calc(100% - 250px);
   }
 }
 .site-header__heading {

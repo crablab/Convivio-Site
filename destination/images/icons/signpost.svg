@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="210px" height="235px" viewBox="0 0 210 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
-    <title>smarty_travel_1</title>
+    <title>signpost</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Style-2-v3-Services-page-" transform="translate(-802.000000, -361.000000)">
             <g id="1.-Strategy" transform="translate(-74.000000, 151.000000)">
-                <g id="smarty_travel_1" transform="translate(838.000000, 179.000000)">
+                <g id="signpost" transform="translate(838.000000, 179.000000)">
                     <g id="Layer_10">
                         <g id="Group">
                             <g>
@@ -18,7 +18,7 @@
                                     <rect id="Rectangle-path" fill="#EC604B" x="10.6203704" y="15.8268746" width="42.4814815" height="21.2927375"></rect>
                                     <polygon id="Shape" fill="#EC604B" points="11.4487036 15.1831897 11.4487036 38.1831897 0.828703704 26.6831897"></polygon>
                                     <rect id="Rectangle-path" fill="#FDFDFF" x="42.4814815" y="47.6851131" width="42.4814815" height="21.2927375"></rect>
-                                    <polygon id="Shape" fill="#FDFDFF" points="83.8287037 47.1831897 83.8287037 69.1831897 94.8287037 58.1831897"></polygon>
+                                    <polygon id="Shape" fill="#FDFDFF" points="83.8287037 47.1831897 83.8287037 70.1831897 94.8287037 58.6831897"></polygon>
                                     <rect id="Rectangle-path" fill="#343434" x="26.5509259" y="100.753233" width="42.4814815" height="5.30280172"></rect>
                                 </g>
                             </g>
