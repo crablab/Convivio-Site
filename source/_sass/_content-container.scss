@@ -1,5 +1,14 @@
 .content-container {
   max-width: 740px;
   margin: 0 auto;
-  padding: 130px 20px 60px;
+  padding: 0 20px;
+}
+.content-container--top {
+  padding-top: 130px;
+}
+.content-container--bottom {
+  padding-bottom: 60px;
+}
+.content-container--wide {
+  max-width: 960px;
 }
