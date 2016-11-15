@@ -11,11 +11,11 @@ include-below: contact.html
 
 <ul class="icon-list">
   <li class="icon-list__icon icon-list__icon--calculate">
-    <h3 class="icon-list__title">Cut costs</h3>
+    <h3 class="icon-list__title">Reduce costs</h3>
     <!-- <p class="icon-list__copy">Enable your users and staff to self-serve with simpler processes, bringing huge efficiency gains.</p> -->
   </li>
   <li class="icon-list__icon icon-list__icon--rosette">
-    <h3 class="icon-list__title">Improve service levels</h3>
+    <h3 class="icon-list__title">Improve services</h3>
     <!-- <p class="icon-list__copy">Help your users and staff get things done quickly and easily by focusing on their needs.</p> -->
   </li>
   <li class="icon-list__icon icon-list__icon--chart">
