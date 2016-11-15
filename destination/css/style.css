@@ -702,11 +702,6 @@ a {
   .cheese-wedge--black:before, .cheese-wedge--black:after {
     background: #343434; }
 
-.cheese-wedge--overrride-last {
-  padding-bottom: 4%; }
-  .cheese-wedge--overrride-last:after {
-    transform: none; }
-
 .cheese-wedge--aquamarine {
   background: #3cca6c;
   color: #F8F4EA; }

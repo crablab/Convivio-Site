@@ -2,6 +2,7 @@
 layout: full-width
 title: You need to deliver change.<br class="full-width-only" /> We’re ready to help you.
 meta-title: Services — Convivio
+include-below: contact.html
 ---
 
 <div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--right">
@@ -64,7 +65,7 @@ meta-title: Services — Convivio
   </div>
 </div>
 
-<div class="cheese-wedge cheese-wedge--black cheese-wedge--right cheese-wedge--overrride-last">
+<div class="cheese-wedge cheese-wedge--black cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__icon"><i class="icon icon--lightbulb"></i></div>
   <div class="cheese-wedge__copy">
