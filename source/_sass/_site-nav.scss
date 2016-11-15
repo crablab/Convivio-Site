@@ -14,6 +14,6 @@
   border-bottom-color: $rajah;
   transition: border-width 0.05s ease-in;
   &.is-active {
-    color: $black;
+    border-bottom-width: 2px;
   }
 }

@@ -3,6 +3,22 @@ $wide-layout: '(min-width: 740px)';
 .site-header {
   background: linear-gradient(to bottom, $jelly-bean 0%,$jelly-bean 70%, transparent 70%,transparent 100%);
   color: $isabelline;
+  position: relative;
+  z-index: 1;
+}
+.site-header:after {
+  background: $jelly-bean;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: 0;
+  right: 0;
+  z-index: -1;
+  transform: skewY(5deg);
+  transform-origin: 100%;
+  bottom: -50%;
 }
 .site-header__inner {
   @include max-width;

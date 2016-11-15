@@ -524,11 +524,27 @@ a {
   .site-nav a:hover, .site-nav a:focus {
     border-bottom-width: 2px; }
   .site-nav a.is-active {
-    color: #343434; }
+    border-bottom-width: 2px; }
 
 .site-header {
   background: linear-gradient(to bottom, #EC604B 0%, #EC604B 70%, transparent 70%, transparent 100%);
-  color: #F8F4EA; }
+  color: #F8F4EA;
+  position: relative;
+  z-index: 1; }
+
+.site-header:after {
+  background: #EC604B;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: 0;
+  right: 0;
+  z-index: -1;
+  transform: skewY(5deg);
+  transform-origin: 100%;
+  bottom: -50%; }
 
 .site-header__inner {
   max-width: 980px;
@@ -609,32 +625,31 @@ a {
 .content-container {
   max-width: 740px;
   margin: 0 auto;
-  padding: 100px 20px 40px; }
+  padding: 130px 20px 60px; }
 
 .cheese-wedge {
   position: relative;
   z-index: 1;
-  padding-bottom: 30px;
-  font-weight: 400; }
+  padding: 30px 0;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: right; }
 
-.cheese-wedge--above {
-  margin-top: 110px; }
-
-.cheese-wedge--above:before {
+.cheese-wedge:before {
   content: '';
   display: block;
   height: 100%;
   left: 0;
   position: absolute;
-  transform: skewY(5deg);
   transform-origin: 0;
   right: 0;
   z-index: -1;
   transform: skewY(-5deg);
-  transform-origin: 100%;
-  bottom: 50%; }
+  transform-origin: 0;
+  top: 0; }
 
-.cheese-wedge--below:after {
+.cheese-wedge:after {
   bottom: 0;
   content: '';
   display: block;
@@ -648,12 +663,14 @@ a {
   transform-origin: 100%;
   bottom: -50%; }
 
-.cheese-wedge--right:before {
-  transform: skewY(5deg);
-  top: 0; }
-
-.cheese-wedge--right:after {
-  transform: skewY(5deg); }
+.cheese-wedge--right {
+  text-align: left; }
+  .cheese-wedge--right:before {
+    transform-origin: 100%;
+    transform: skewY(5deg); }
+  .cheese-wedge--right:after {
+    transform-origin: 0;
+    transform: skewY(-5deg); }
 
 .cheese-wedge--jelly-bean:before, .cheese-wedge--jelly-bean:after {
   background: #EC604B; }
@@ -664,12 +681,29 @@ a {
   .cheese-wedge--keppel:before, .cheese-wedge--keppel:after {
     background: #45A8A3; }
 
+.cheese-wedge--rajah {
+  background: #FFD066; }
+  .cheese-wedge--rajah:before, .cheese-wedge--rajah:after {
+    background: #FFD066; }
+
+.cheese-wedge--isabelline {
+  background: #F8F4EA; }
+  .cheese-wedge--isabelline:before, .cheese-wedge--isabelline:after {
+    background: #F8F4EA; }
+
+.cheese-wedge--aquamarine {
+  background: #53C77A;
+  color: #F8F4EA; }
+  .cheese-wedge--aquamarine:before, .cheese-wedge--aquamarine:after {
+    background: #70D893; }
+
 .cheese-wedge__icon {
   position: absolute;
   top: -80px;
   bottom: 0;
   right: 0;
   left: 0;
+  overflow: hidden;
   z-index: 5; }
 
 .cheese-wedge__inner {
@@ -678,8 +712,12 @@ a {
 
 .cheese-wedge__copy {
   width: 85%;
+  margin-left: 15%;
   position: relative;
   z-index: 10; }
+  .cheese-wedge--right .cheese-wedge__copy {
+    margin-left: 0;
+    margin-right: 15%; }
 
 .intro-copy {
   margin-top: 15px;
@@ -739,16 +777,71 @@ a {
   display: block; }
 
 .icon--lightbulb {
-  height: 420px;
-  width: 420px;
-  background-position: right -20px top;
+  height: 460px;
+  width: 400px;
+  background-position: left -20px top 40px;
   background-size: contain;
-  float: right;
-  background-image: url(../images/icons/lightbulb.svg); }
-  @media screen and (min-width: 1280px) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../images/icons/lightbulb.svg);
+  z-index: 2; }
+  @media screen and (min-width: 1210px) {
     .icon--lightbulb {
-      margin-right: 10%;
-      background-position: right top; } }
+      background-position: left top 40px;
+      left: 7%; } }
+
+.icon--sign-post {
+  height: 390px;
+  width: 360px;
+  background-position: right -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  right: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/signpost.svg); }
+  @media screen and (min-width: 1280px) {
+    .icon--sign-post {
+      right: 10%; } }
+
+.icon--magnifying-glass {
+  height: 390px;
+  width: 360px;
+  background-position: left -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  left: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/glass.svg); }
+  @media screen and (min-width: 1700px) {
+    .icon--magnifying-glass {
+      left: 10%; } }
+
+.icon--swiss-army-knife {
+  height: 390px;
+  width: 360px;
+  background-position: right -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  right: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/swiss-army-knife.svg); }
+  @media screen and (min-width: 1280px) {
+    .icon--swiss-army-knife {
+      right: 10%; } }
+
+.icon--developer {
+  height: 390px;
+  width: 360px;
+  background-position: left -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  left: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/developer.svg); }
+  @media screen and (min-width: 1700px) {
+    .icon--developer {
+      left: 10%; } }
 
 .person-card {
   background: #45A8A3;
@@ -931,7 +1024,24 @@ a {
   font-size: 14px;
   line-height: 1.357142857em;
   padding: 80px 40px 40px;
-  -webkit-font-smoothing: initial; }
+  -webkit-font-smoothing: initial;
+  z-index: 1;
+  position: relative;
+  margin-top: 80px; }
+
+.site-footer:before {
+  background: #EC604B;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: 0;
+  right: 0;
+  z-index: -1;
+  top: 0;
+  transform-origin: 100%;
+  transform: skewY(5deg); }
 
 .site-footer__inner {
   max-width: 980px;

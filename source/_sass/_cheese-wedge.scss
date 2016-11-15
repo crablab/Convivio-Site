@@ -1,27 +1,26 @@
 .cheese-wedge {
   position: relative;
   z-index: 1;
-  padding-bottom: 30px;
+  padding: 30px 0;
   font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: right;
 }
-.cheese-wedge--above {
-  margin-top: 110px;
-}
-.cheese-wedge--above:before {
+.cheese-wedge:before {
   content: '';
   display: block;
   height: 100%;
   left: 0;
   position: absolute;
-  transform: skewY(5deg);
   transform-origin: 0;
   right: 0;
   z-index: -1;
   transform: skewY(-5deg);
-  transform-origin: 100%;
-  bottom: 50%;
+  transform-origin: 0;
+  top: 0;
 }
-.cheese-wedge--below:after {
+.cheese-wedge:after {
   bottom: 0;
   content: '';
   display: block;
@@ -36,12 +35,14 @@
   bottom: -50%;
 }
 .cheese-wedge--right {
+  text-align: left;
   &:before {
+    transform-origin: 100%;
     transform: skewY(5deg);
-    top: 0;
   }
   &:after {
-    transform: skewY(5deg);
+    transform-origin: 0;
+    transform: skewY(-5deg);
   }
 }
 .cheese-wedge--jelly-bean {
@@ -58,12 +59,35 @@
     background: $keppel;
   }
 }
+.cheese-wedge--rajah {
+  background: $rajah;
+  &:before,
+  &:after {
+    background: $rajah;
+  }
+}
+.cheese-wedge--isabelline {
+  background: $isabelline;
+  &:before,
+  &:after {
+    background: $isabelline;
+  }
+}
+.cheese-wedge--aquamarine {
+  background: #53C77A;
+  color: $isabelline;
+  &:before,
+  &:after {
+    background: $aquamarine;
+  }
+}
 .cheese-wedge__icon {
   position: absolute;
   top: -80px;
   bottom: 0;
   right: 0;
   left: 0;
+  overflow: hidden;
   z-index: 5;
 }
 .cheese-wedge__inner {
@@ -72,6 +96,11 @@
 }
 .cheese-wedge__copy {
   width: 85%;
+  margin-left: 15%;
   position: relative;
   z-index: 10;
+  .cheese-wedge--right & {
+    margin-left: 0;
+    margin-right: 15%;
+  }
 }

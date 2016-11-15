@@ -3,14 +3,69 @@
   display: block;
 }
 .icon--lightbulb {
-  height: 420px;
-  width: 420px;
-  background-position: right -20px top;
+  height: 460px;
+  width: 400px;
+  background-position: left -20px top 40px;
   background-size: contain;
-  float: right;
+  position: absolute;
+  left: 0;
+  top: 0;
   background-image: url(../images/icons/lightbulb.svg);
+  z-index: 2;
+  @include media-query('(min-width: 1210px)') {
+  background-position: left top 40px;
+    left: 7%;
+  }
+}
+.icon--sign-post {
+  height: 390px;
+  width: 360px;
+  background-position: right -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  right: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/signpost.svg);
   @include media-query('(min-width: 1280px)') {
-    margin-right: 10%;
-    background-position: right top;
+    right: 10%;
+  }
+}
+.icon--magnifying-glass {
+  height: 390px;
+  width: 360px;
+  background-position: left -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  left: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/glass.svg);
+  @include media-query('(min-width: 1700px)') {
+    left: 10%;
+  }
+}
+.icon--swiss-army-knife {
+  height: 390px;
+  width: 360px;
+  background-position: right -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  right: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/swiss-army-knife.svg);
+  @include media-query('(min-width: 1280px)') {
+    right: 10%;
+  }
+}
+.icon--developer {
+  height: 390px;
+  width: 360px;
+  background-position: left -20px top 20px;
+  background-size: contain;
+  position: absolute;
+  left: -130px;
+  bottom: -100px;
+  background-image: url(../images/icons/developer.svg);
+  @include media-query('(min-width: 1700px)') {
+    left: 10%;
   }
 }

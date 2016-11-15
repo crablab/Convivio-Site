@@ -5,6 +5,23 @@
   line-height: 1.357142857em;
   padding: 80px 40px 40px;
   -webkit-font-smoothing: initial;
+  z-index: 1;
+  position: relative;
+  margin-top: 80px;
+}
+.site-footer:before {
+  background: $jelly-bean;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: 0;
+  right: 0;
+  z-index: -1;
+  top: 0;
+  transform-origin: 100%;
+  transform: skewY(5deg);
 }
 .site-footer__inner {
   @include max-width;
