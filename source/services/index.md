@@ -1,7 +1,7 @@
 ---
 layout: full-width
 title: You need to deliver change.<br /> We’re ready to help you.
-meta-title: Services
+meta-title: Services — Convivio
 ---
 
 <div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--right">
@@ -51,7 +51,7 @@ meta-title: Services
 
 <div class="cheese-wedge cheese-wedge--isabelline">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--developer"></i></div>
+  <div class="cheese-wedge__icon"><i class="icon icon--devices"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Delivery</h2>
 

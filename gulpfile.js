@@ -1,5 +1,6 @@
 'use strict';
 
+require('harmonize')();
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
@@ -7,6 +8,7 @@ var browserSync = require('browser-sync').create();
 var shell = require('gulp-shell');
 var browserify = require('gulp-browserify');
 var uglify = require('gulp-uglify');
+// var imagemin = require('gulp-imagemin');
 
 var sourceDir = './source/';
 var buildDir = './destination'
@@ -15,6 +17,8 @@ var cssDir = './destination/css';
 var jsDir = './source/js/*';
 var jsSrc = './source/js/index.js';
 var jsDest = './destination/js';
+var imgSrc = './source/images/**/*';
+var imgDest = './destination/images';
 
 gulp.task('sass', function () {
   return gulp.src(sassDir)
@@ -38,6 +42,13 @@ gulp.task('scripts', function() {
     browserSync.reload();
 });
 
+gulp.task('images', function() {
+  gulp.src(imgSrc)
+    // .pipe(imagemin())
+    .pipe(gulp.dest(imgDest))
+    browserSync.reload();
+});
+
 gulp.task('watch', function() {
   gulp
     // Run run `sass` task when sass files change
@@ -51,6 +62,15 @@ gulp.task('watch', function() {
   gulp
     // Run run `scripts` task when js files change
     .watch(jsDir, ['scripts'])
+    // When there is a change,
+    // log a message in the console
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
+
+  gulp
+    // Run run `scripts` task when js files change
+    .watch(imageDir, ['images'])
     // When there is a change,
     // log a message in the console
     .on('change', function(event) {
@@ -78,5 +98,5 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-gulp.task('build', ['jekyll-build', 'sass', 'scripts']);
+gulp.task('build', ['jekyll-build', 'sass', 'scripts', 'images']);
 gulp.task('default', ['build', 'serve', 'watch']);

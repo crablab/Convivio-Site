@@ -35,6 +35,7 @@ exclude:
 keep_files:
   - css
   - js
+  - images
 
 # Sass compile settings
 sass:

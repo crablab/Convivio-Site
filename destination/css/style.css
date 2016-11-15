@@ -801,56 +801,56 @@ a {
       left: 7%; } }
 
 .icon--sign-post {
-  height: 390px;
-  width: 360px;
-  background-position: right -20px top 20px;
+  background-position: right top;
   background-size: contain;
   position: absolute;
-  right: -130px;
-  bottom: -100px;
+  height: 100%;
+  width: 40%;
+  right: -12%;
+  bottom: -25%;
   background-image: url(../images/icons/signpost.svg); }
   @media screen and (min-width: 1280px) {
     .icon--sign-post {
-      right: 5%; } }
+      right: 0; } }
 
 .icon--magnifying-glass {
-  height: 390px;
-  width: 360px;
   background-position: left -20px top 20px;
   background-size: contain;
   position: absolute;
-  left: -130px;
-  bottom: -100px;
+  height: 100%;
+  width: 30%;
+  left: -10%;
+  bottom: -25%;
   background-image: url(../images/icons/glass.svg); }
-  @media screen and (min-width: 1700px) {
+  @media screen and (min-width: 1280px) {
     .icon--magnifying-glass {
-      left: 10%; } }
+      left: 0; } }
 
 .icon--swiss-army-knife {
-  height: 390px;
-  width: 360px;
   background-position: right -20px top 20px;
   background-size: contain;
   position: absolute;
-  right: -130px;
-  bottom: -100px;
+  height: 95%;
+  width: 30%;
+  right: -10%;
+  bottom: -25%;
   background-image: url(../images/icons/swiss-army-knife.svg); }
   @media screen and (min-width: 1280px) {
     .icon--swiss-army-knife {
-      right: 5%; } }
+      right: 0; } }
 
-.icon--developer {
-  height: 390px;
-  width: 360px;
-  background-position: left -20px top 20px;
+.icon--devices {
+  background-position: left -20px top 30px;
   background-size: contain;
   position: absolute;
-  left: -130px;
-  bottom: -100px;
-  background-image: url(../images/icons/developer.svg); }
-  @media screen and (min-width: 1700px) {
-    .icon--developer {
-      left: 10%; } }
+  background-image: url(../images/icons/devices.svg);
+  left: -5%;
+  width: 30%;
+  height: 140%;
+  bottom: -70%; }
+  @media screen and (min-width: 1280px) {
+    .icon--devices {
+      left: 0; } }
 
 .person-card {
   background: #45A8A3;
