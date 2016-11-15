@@ -72,3 +72,16 @@
     left: 0;
   }
 }
+.icon--coffee {
+  background-position: left -20px top 50px;
+  background-size: contain;
+  position: absolute;
+  background-image: url(../images/icons/coffee.svg);
+  left: 0;
+  width: 21%;
+  height: 130%;
+  bottom: -65%;
+  @include media-query('(min-width: 1280px)') {
+    left: 0;
+  }
+}

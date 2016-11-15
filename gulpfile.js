@@ -70,7 +70,7 @@ gulp.task('watch', function() {
 
   gulp
     // Run run `scripts` task when js files change
-    .watch(imageDir, ['images'])
+    .watch(imgSrc, ['images'])
     // When there is a change,
     // log a message in the console
     .on('change', function(event) {
