@@ -32,7 +32,7 @@ function _gaLt(event){
     }
     else if (el.href.indexOf(location.host) == -1) { // External link
       ga('send', 'event', 'External link', el.href, referrer);
-      open_link = true;
+      // open_link = true;
     }
 
     if (open_link) {
