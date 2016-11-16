@@ -801,7 +801,8 @@ a {
       width: 85%;
       margin-left: 15%; } }
   @media screen and (min-width: 931px) {
-    .cheese-wedge--right .cheese-wedge__copy {
+    .cheese-wedge--right .cheese-wedge__copy,
+    .cheese-wedge--align-left .cheese-wedge__copy {
       margin-left: 0;
       margin-right: 15%; } }
 
@@ -1043,7 +1044,7 @@ a {
   -webkit-font-smoothing: initial; }
 
 .team-grid__location {
-  display: none;
+  display: inline;
   -webkit-font-smoothing: initial; }
 
 .button {
