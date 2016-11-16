@@ -4,10 +4,6 @@ title: Leading Digital Transformation?<br class="full-width-only" /> You’ve fo
 meta-title: Contact us — Convivio
 ---
 
-<p class="intro-copy">In every organisation on the verge of digital transformation is that one person who can see the opportunity and its opposite threats. That one person with the big questions, or the big vision. That one person who is the make-it-happen type.</p>
-
-<p class="intro-copy">It’s often a challenging, and sometimes lonely, role to take on — but but we love to help with that. We’ve helped others just like you, and we can help you too.</p>
-
 
 <form action="https://liveformhq.com/form/161b572d-afda-45cf-95ab-7b9492e5125d" method="POST" accept-charset="utf-8">
 <div class="layout-contact-us">
@@ -23,6 +19,9 @@ meta-title: Contact us — Convivio
   <input type="hidden" value="http://weareconvivio.com/thank-you" name="_redirect" />
 
   <div class="layout-contact-us__column-two">
+    <p class="intro-copy medium-up-only">In every organisation on the verge of digital transformation is that one person who can see the opportunity and its opposite threats. That one person with the big questions, or the big vision. That one person who is the make-it-happen type.</p>
+
+    <p class="intro-copy medium-up-only">It’s often a challenging, and sometimes lonely, role to take on — but but we love to help with that. We’ve helped others just like you, and we can help you too.</p>
     <div class="form-group">
       <label class="form-label" for="name">Name</label>
       <input class="text-input" type="text" id="name" name="name">

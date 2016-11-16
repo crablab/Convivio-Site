@@ -1,25 +1,22 @@
 .person-card {
   background: $keppel;
   color: $isabelline;
-  padding: 15px;
   margin: 20px 0;
-  border-top-right-radius: 50px;
   font-weight: 400;
 }
-.person-card__image {
-  float: right;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 3px solid $keppel;
-  shape-outside: circle(60px at 70px 20px);
-  width: 100px;
-  height: 100px;
-  margin: -30px -30px 10px 15px;
-  img {
-    min-width: 200px;
-    margin-left: -50px;
-    margin-top: -20px;
+@include media-query('(max-width: 700px)') {
+  .person-card {
+    @include clearfix();
   }
+  .person-card__image {
+    float: right;
+    width: 30%;
+    padding-left: 10px;
+    line-height: 0;
+  }
+}
+.person-card__text {
+  padding: 15px;
 }
 .person-card__text a {
   color: $isabelline;

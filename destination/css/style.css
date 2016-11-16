@@ -475,8 +475,7 @@ a {
       clear: both; }
   .layout-contact-us__column-one {
     float: right;
-    width: 33%;
-    margin-top: 18px; }
+    width: 33%; }
   .layout-contact-us__column-two {
     float: left;
     width: 66%;
@@ -897,25 +896,22 @@ a {
 .person-card {
   background: #45A8A3;
   color: #F8F4EA;
-  padding: 15px;
   margin: 20px 0;
-  border-top-right-radius: 50px;
   font-weight: 400; }
 
-.person-card__image {
-  float: right;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 3px solid #45A8A3;
-  -webkit-shape-outside: circle(60px at 70px 20px);
-  shape-outside: circle(60px at 70px 20px);
-  width: 100px;
-  height: 100px;
-  margin: -30px -30px 10px 15px; }
-  .person-card__image img {
-    min-width: 200px;
-    margin-left: -50px;
-    margin-top: -20px; }
+@media screen and (max-width: 700px) {
+  .person-card:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .person-card__image {
+    float: right;
+    width: 30%;
+    padding-left: 10px;
+    line-height: 0; } }
+
+.person-card__text {
+  padding: 15px; }
 
 .person-card__text a {
   color: #F8F4EA;
