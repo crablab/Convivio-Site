@@ -462,6 +462,10 @@ a {
   .full-width-only {
     display: none; } }
 
+@media screen and (max-width: 510px) {
+  .medium-up-only {
+    display: none; } }
+
 @media screen and (min-width: 700px) {
   .layout-contact-us {
     margin-bottom: -4px; }

@@ -3,6 +3,7 @@ layout: full-width
 title: We help organisations work better<br class="full-width-only" /> for people
 include-below: services.html
 ---
+
 <div class="content-container content-container--top">
   <h2 class="sub-heading">Our ambition is to do good for a million people.</h2>
 
@@ -14,7 +15,7 @@ include-below: services.html
     {% include team-member.html slug="steve-hunton" name="Steve Hunton" title="Head of Service Delivery" location="Newcastle" %}
     {% include instagram-embed.html hash="BLib5P3FyU7" size="l" caption="Our first quarterly retreat, starting with dinner." %}
     {% include team-member.html slug="steve-parks" name="Steve Parks" title="Digital Business Strategy and Advice" location="London" %}
-    {% include instagram-embed.html hash="BKysLSigoDv" size="m" caption="Steve P and Lewis sample the wares of Dublin." %}
+    {% include grid-image.html img="/images/work/workshop.jpg" urk="https://blog.weareconvivio.com/weeknotes-week-1-be23cf06b287#.hk4j368bn" caption="Our Day One kickoff workshop." %}
     {% include team-member.html slug="lewis-nyman" name="Lewis Nyman" title="UX & Design" location="Brighton" %}
     {% include team-member.html slug="joe-baker" name="Joe Baker" title="Technical Lead" location="Birmingham" %}
   </div>

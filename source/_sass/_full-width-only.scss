@@ -3,3 +3,9 @@
     display: none;
   }
 }
+
+.medium-up-only {
+  @include media-query('(max-width: 510px)') {
+    display: none;
+  }
+}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: We help you serve people better online
+title: We help you serve people<br class="medium-up-only" /> better online
 meta-title: Convivio — We help you serve people better online
 include-below: contact.html
 ---
