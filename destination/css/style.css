@@ -512,6 +512,9 @@ a {
 .site-heading--right {
   text-align: right; }
 
+.site-nav {
+  display: inline-block; }
+
 .site-nav li {
   display: inline-block; }
 
@@ -534,6 +537,37 @@ a {
   .site-nav a.is-active {
     border-bottom-width: 2px; }
 
+.site-nav__dropdown-toggle {
+  background: transparent;
+  border: 0;
+  color: #F8F4EA;
+  font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif;
+  font-size: 18px;
+  padding-top: 20px;
+  display: inline-block;
+  margin-left: 20px; }
+
+.site-nav__dropdown {
+  background: #45A8A3;
+  font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif;
+  right: 0;
+  top: 25px;
+  padding: 10px 0; }
+  .site-nav__dropdown::before {
+    border: 8px transparent solid;
+    border-bottom-color: #45A8A3;
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 10px; }
+  .site-nav__dropdown a {
+    font-size: 20px;
+    display: block;
+    padding: 5px 10px;
+    border: 0;
+    line-height: 1em;
+    vertical-align: top; }
+
 .site-header {
   background: linear-gradient(to bottom, #EC604B 0%, #EC604B 70%, transparent 70%, transparent 100%);
   color: #F8F4EA;
@@ -552,7 +586,10 @@ a {
   z-index: -1;
   transform: skewY(5deg);
   transform-origin: 100%;
-  bottom: -50%; }
+  bottom: -20%; }
+  @media screen and (min-width: 650px) {
+    .site-header:after {
+      bottom: -50%; } }
 
 .site-header__inner {
   max-width: 980px;
@@ -562,27 +599,36 @@ a {
     content: "";
     display: table;
     clear: both; }
-  @media screen and (min-width: 770px) {
+  @media screen and (min-width: 451px) {
     .site-header__inner {
       padding: 20px 40px 10px; } }
 
 .site-header__logo {
-  width: 250px; }
-  @media screen and (min-width: 740px) {
+  width: 250px;
+  float: left; }
+  @media screen and (max-width: 450px) {
     .site-header__logo {
-      float: left; } }
+      width: 200px; } }
 
-@media screen and (min-width: 740px) {
-  .site-header__nav {
-    float: right;
-    text-align: right;
-    width: calc(100% - 250px); } }
+.site-header__nav {
+  float: right;
+  text-align: right;
+  width: calc(100% - 250px);
+  padding-left: 30px; }
+  @media screen and (max-width: 450px) {
+    .site-header__nav {
+      width: calc(100% - 200px);
+      padding-left: 20px;
+      margin-top: -2px; } }
 
 .site-header__heading {
   float: left;
   width: 100%;
   clear: both;
-  margin-top: 35px; }
+  margin-top: 15px; }
+  @media screen and (min-width: 451px) {
+    .site-header__heading {
+      margin-top: 35px; } }
 
 .sub-heading {
   font-size: 28px;
@@ -635,7 +681,13 @@ a {
   padding: 0 20px; }
 
 .content-container--top {
-  padding-top: 130px; }
+  padding-top: 30px; }
+  @media screen and (min-width: 451px) {
+    .content-container--top {
+      padding-top: 60px; } }
+  @media screen and (min-width: 650px) {
+    .content-container--top {
+      padding-top: 130px; } }
 
 .content-container--bottom {
   padding-bottom: 60px; }
@@ -667,7 +719,6 @@ a {
   top: 0; }
 
 .cheese-wedge:after {
-  bottom: 0;
   content: '';
   display: block;
   height: 100%;
@@ -773,13 +824,17 @@ a {
     content: '';
     display: block;
     width: 90px;
+    max-width: 100%;
     height: 90px;
     margin: 0 auto 10px;
     background: none center center no-repeat;
     background-size: 100%; }
 
 .icon-list__icon + .icon-list__icon {
-  padding-left: 20px; }
+  padding-left: 10px; }
+  @media screen and (min-width: 451px) {
+    .icon-list__icon + .icon-list__icon {
+      padding-left: 20px; } }
 
 .icon-list__icon--calculate {
   color: #DBA349; }
@@ -1031,22 +1086,73 @@ a {
 .button--spacing-top {
   margin-top: 20px; }
 
+/*
+ * Core styles for PriorityNav.js
+ * These styles are not optional and should always be included
+ *
+ * Free to use under the MIT License.
+ * http://twitter.com/GijsRoge
+ */
+.priority-nav {
+  white-space: nowrap;
+  /*
+    * Makes sure the menu's are inline-block so they don't take up
+    * the entire width of its parent. This will break the plugin.
+    */ }
+
+.priority-nav > ul {
+  display: inline-block; }
+
+.priority-nav > ul > li {
+  display: inline-block; }
+
+.priority-nav-has-dropdown .priority-nav__dropdown-toggle {
+  position: relative; }
+
+.priority-nav__wrapper {
+  position: relative; }
+
+.priority-nav__dropdown {
+  position: absolute;
+  visibility: hidden; }
+
+.priority-nav__dropdown.show {
+  visibility: visible; }
+
+.priority-nav__dropdown-toggle {
+  visibility: hidden;
+  position: absolute; }
+
+.priority-nav-is-visible {
+  visibility: visible; }
+
+.priority-nav-is-hidden {
+  visibility: hidden; }
+
 .cta-combo {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
   margin-top: 25px; }
+  @media screen and (min-width: 451px) {
+    .cta-combo {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
 
 .cta-combo__copy {
   font-size: 20px;
   line-height: 1.1em;
-  width: 60%;
   margin-top: -2px; }
+  @media screen and (min-width: 451px) {
+    .cta-combo__copy {
+      width: 60%; } }
 
 .cta-combo__button {
-  width: 40%;
-  padding-left: 20px; }
+  margin-top: 20px; }
+  @media screen and (min-width: 451px) {
+    .cta-combo__button {
+      margin-top: 0;
+      width: 40%;
+      padding-left: 20px; } }
 
 .social-links {
   font-size: 14px;

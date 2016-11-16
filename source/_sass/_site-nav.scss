@@ -1,3 +1,6 @@
+.site-nav {
+  display: inline-block;
+}
 .site-nav li {
   display: inline-block;
 }
@@ -15,5 +18,37 @@
   transition: border-width 0.05s ease-in;
   &.is-active {
     border-bottom-width: 2px;
+  }
+}
+.site-nav__dropdown-toggle {
+  background: transparent;
+  border: 0;
+  color: $isabelline;
+  font-family: $font-family-primary;
+  font-size: 18px;
+  padding-top: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.site-nav__dropdown {
+  background: $keppel;
+  font-family: $font-family-primary;
+  right: 0;
+  top: 25px;
+  padding: 10px 0;
+  &::before {
+    @include triangle(top, 8px, $keppel);
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 10px;
+  }
+  a {
+    font-size: 20px;
+    display: block;
+    padding: 5px 10px;
+    border: 0;
+    line-height: 1em;
+    vertical-align: top;
   }
 }

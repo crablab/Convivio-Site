@@ -28,4 +28,6 @@ $max-width: 980px;
 
 // Breakpoints
 
-$site-nav-inline: '(min-width: 770px)';
+$wide-layout: '(min-width: 650px)';
+$medium-layout: '(min-width: 451px)';
+$narrow-layout: '(max-width: 450px)';

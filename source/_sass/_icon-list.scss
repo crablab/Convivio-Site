@@ -10,6 +10,7 @@
     content: '';
     display: block;
     width: 90px;
+    max-width: 100%;
     height: 90px;
     margin: 0 auto 10px;
     background: none center center no-repeat;
@@ -17,7 +18,10 @@
   }
 }
 .icon-list__icon + .icon-list__icon {
-  padding-left: 20px;
+  padding-left: 10px;
+  @include media-query($medium-layout) {
+    padding-left: 20px;
+  }
 }
 .icon-list__icon--calculate {
   color: #DBA349;
@@ -48,6 +52,4 @@
   font-size: 20px;
   line-height: 22px;
   font-weight: bold;
-}
-.icon-list__copy {
 }
