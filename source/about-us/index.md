@@ -21,9 +21,9 @@ include-below: services.html
   </div>
 </div>
 
-<div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--right">
+<div class="cheese-wedge cheese-wedge--rajah cheese-wedge--align-left">
   <div class="cheese-wedge__inner">
-    <div class="cheese-wedge__icon"><i class="icon icon--sign-post"></i></div>
+    <div class="cheese-wedge__icon"><i class="icon icon--magnifying-glass"></i></div>
     <div class="cheese-wedge__copy">
       <h2 class="site-heading">Our focus</h2>
 
@@ -37,9 +37,9 @@ include-below: services.html
   </div>
 </div>
 
-<div class="cheese-wedge cheese-wedge--rajah">
+<div class="cheese-wedge cheese-wedge--aquamarine cheese-wedge--right">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--magnifying-glass"></i></div>
+  <div class="cheese-wedge__icon"><i class="icon icon--swiss-army-knife"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Our ways of working are governed by our values</h2>
 

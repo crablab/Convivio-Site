@@ -1,11 +1,12 @@
 .cheese-wedge {
   position: relative;
   z-index: 1;
-  padding-bottom: 30px;
   font-weight: 400;
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: right;
+  padding-bottom: 70px;
+  padding-top: 30px;
 }
 .cheese-wedge:before {
   content: '';
@@ -45,6 +46,9 @@
     transform: skewY(-5deg);
   }
 }
+.cheese-wedge--with-cta {
+  padding-bottom: 30px;
+}
 .cheese-wedge--jelly-bean {
   &:before,
   &:after {
@@ -80,6 +84,9 @@
   &:after {
     background: $black;
   }
+}
+.cheese-wedge--align-left {
+  text-align: left;
 }
 
 $dark-aquamarine: darken( $aquamarine, 13% );

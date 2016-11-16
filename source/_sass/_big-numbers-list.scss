@@ -9,7 +9,7 @@
   margin-bottom: 30px;
 }
 .big-numbers-list li:before {
-  content: counter(big-numbers-list);
+  // content: counter(big-numbers-list);
   counter-increment: big-numbers-list;
   font-size: 45px;
   font-weight: bold;
@@ -20,7 +20,7 @@
   text-align: right;
 }
 .big-numbers-list__title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   font-family: $font-family-primary;
 }

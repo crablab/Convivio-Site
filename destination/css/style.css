@@ -616,7 +616,6 @@ a {
   margin-bottom: 30px; }
 
 .big-numbers-list li:before {
-  content: counter(big-numbers-list);
   counter-increment: big-numbers-list;
   font-size: 45px;
   font-weight: bold;
@@ -627,7 +626,7 @@ a {
   text-align: right; }
 
 .big-numbers-list__title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   font-family: galano_grotesque_demobold, Helvetica, Arial, san-serif; }
 
@@ -648,11 +647,12 @@ a {
 .cheese-wedge {
   position: relative;
   z-index: 1;
-  padding-bottom: 30px;
   font-weight: 400;
   margin-top: 5%;
   margin-bottom: 5%;
-  text-align: right; }
+  text-align: right;
+  padding-bottom: 70px;
+  padding-top: 30px; }
 
 .cheese-wedge:before {
   content: '';
@@ -690,6 +690,9 @@ a {
     transform-origin: 0;
     transform: skewY(-5deg); }
 
+.cheese-wedge--with-cta {
+  padding-bottom: 30px; }
+
 .cheese-wedge--jelly-bean:before, .cheese-wedge--jelly-bean:after {
   background: #EC604B; }
 
@@ -714,6 +717,9 @@ a {
   color: #FDFDFF; }
   .cheese-wedge--black:before, .cheese-wedge--black:after {
     background: #343434; }
+
+.cheese-wedge--align-left {
+  text-align: left; }
 
 .cheese-wedge--aquamarine {
   background: #3cca6c;
