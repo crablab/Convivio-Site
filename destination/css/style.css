@@ -1220,7 +1220,7 @@ a {
     float: left;
     width: 45%; }
   .site-footer__col-two {
-    float: left;
+    float: right;
     width: 55%;
     max-width: 440px; }
   .site-footer__col-three {
