@@ -711,7 +711,13 @@ a {
   font-weight: 400;
   text-align: right;
   padding-bottom: 60px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  margin-top: 10vw;
+  margin-bottom: 10vw; }
+  @media screen and (min-width: 500px) {
+    .cheese-wedge {
+      margin-top: 50px;
+      margin-bottom: 50px; } }
 
 .cheese-wedge:before {
   content: '';

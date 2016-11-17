@@ -5,6 +5,12 @@
   text-align: right;
   padding-bottom: 60px;
   padding-top: 30px;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  @include media-query('(min-width: 500px)') {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 .cheese-wedge:before {
   @include cheese-wedge;
