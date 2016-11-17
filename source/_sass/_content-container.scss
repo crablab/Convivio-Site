@@ -8,9 +8,6 @@
   @include media-query($medium-layout) {
     padding-top: 60px;
   }
-  @include media-query($wide-layout) {
-    padding-top: 130px;
-  }
 }
 .content-container--bottom {
   padding-bottom: 60px;

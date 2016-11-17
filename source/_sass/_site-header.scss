@@ -1,23 +1,13 @@
 .site-header {
-  background: linear-gradient(to bottom, $jelly-bean 0%,$jelly-bean 70%, transparent 70%,transparent 100%);
+  background: $jelly-bean;
   color: $isabelline;
   position: relative;
   z-index: 1;
 }
 .site-header:after {
-  background: $jelly-bean;
-  content: '';
-  display: block;
-  height: 0;
-  padding-bottom: 22vw;
-  left: 0;
-  position: absolute;
-  transform-origin: 0;
-  right: 0;
-  z-index: -1;
-  transform: skewY(5deg);
-  transform-origin: 100%;
-  bottom: -5.1vw;
+  @include cheese-wedge;
+  @include cheese-wedge-background-below($jelly-bean);
+  top: 100%;
 }
 .site-header__inner {
   @include max-width;

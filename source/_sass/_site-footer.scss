@@ -3,32 +3,21 @@
   color: $isabelline;
   font-size: 14px;
   line-height: 1.357142857em;
-  padding: 80px 40px 40px;
+  padding: 0 40px 40px;
   -webkit-font-smoothing: initial;
   z-index: 1;
   position: relative;
-  margin-top: 5vw;
 }
 .site-footer:before {
-  background: $jelly-bean;
-  content: '';
-  display: block;
-  height: 0;
-  padding-bottom: 22vw;
-  left: 0;
-  position: absolute;
-  transform-origin: 0;
-  right: 0;
-  z-index: -1;
-  top: -0.1vw;
-  transform-origin: 100%;
-  transform: skewY(5deg);
+  @include cheese-wedge;
+  @include cheese-wedge-background-above($jelly-bean);
+  transform: scaleX(-1);
+  bottom: 100%;
 }
 .site-footer__inner {
   @include max-width;
   @include clearfix();
   margin: 0 auto;
-  margin-top: -100px;
 }
 .site-footer a {
   color: $isabelline;

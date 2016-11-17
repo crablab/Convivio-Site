@@ -2,52 +2,26 @@
   position: relative;
   z-index: 1;
   font-weight: 400;
-  margin-top: 5vw;
-  margin-bottom: 5vw;
   text-align: right;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
   padding-top: 30px;
 }
 .cheese-wedge:before {
-  content: '';
-  display: block;
-  height: 0;
-  padding-bottom: 22vw;
-  left: 0;
-  right: 0;
-  position: absolute;
-  transform-origin: 0;
-  z-index: -1;
-  transform: skewY(-5deg);
-  transform-origin: 0;
-  top: 0;
+  @include cheese-wedge;
+  bottom: 100%;
 }
 .cheese-wedge:after {
-  content: '';
-  display: block;
-  height: 0;
-  padding-bottom: 22vw;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-  transform: skewY(5deg);
-  transform-origin: 100%;
-  bottom: -5vw;
+  @include cheese-wedge;
+  top: 100%;
 }
 .cheese-wedge--right {
   text-align: left;
   &:before {
-    transform-origin: 100%;
-    transform: skewY(5deg);
+    transform: scaleX(-1);
   }
   &:after {
-    transform-origin: 0;
-    transform: skewY(-5deg);
+    transform: scaleX(-1);
   }
-}
-.cheese-wedge--with-cta {
-  padding-bottom: 30px;
 }
 .cheese-wedge--jelly-bean {
   &:before,
@@ -58,45 +32,54 @@
 .cheese-wedge--keppel {
   background: $keppel;
   color: $isabelline;
-  &:before,
+  &:before {
+    @include cheese-wedge-background-above($keppel);
+  }
   &:after {
-    background: $keppel;
+    @include cheese-wedge-background-below($keppel);
   }
 }
 .cheese-wedge--rajah {
   background: $rajah;
-  &:before,
+  &:before {
+    @include cheese-wedge-background-above($rajah);
+  }
   &:after {
-    background: $rajah;
+    @include cheese-wedge-background-below($rajah);
   }
 }
 .cheese-wedge--isabelline {
   background: $isabelline;
-  &:before,
+  &:before {
+    @include cheese-wedge-background-above($isabelline);
+  }
   &:after {
-    background: $isabelline;
+    @include cheese-wedge-background-below($isabelline);
   }
 }
 .cheese-wedge--black {
   background: $black;
   color: $white;
-  &:before,
+  &:before {
+    @include cheese-wedge-background-above($black);
+  }
   &:after {
-    background: $black;
+    @include cheese-wedge-background-below($black);
+  }
+}
+.cheese-wedge--aquamarine {
+  $dark-aquamarine: darken( $aquamarine, 13% );
+  background: $dark-aquamarine;
+  color: $isabelline;
+  &:before {
+    @include cheese-wedge-background-above($dark-aquamarine);
+  }
+  &:after {
+    @include cheese-wedge-background-below($dark-aquamarine);
   }
 }
 .cheese-wedge--align-left {
   text-align: left;
-}
-
-$dark-aquamarine: darken( $aquamarine, 13% );
-.cheese-wedge--aquamarine {
-  background: $dark-aquamarine;
-  color: $isabelline;
-  &:before,
-  &:after {
-    background: $dark-aquamarine;
-  }
 }
 .cheese-wedge__icon {
   position: absolute;
@@ -129,3 +112,4 @@ $dark-aquamarine: darken( $aquamarine, 13% );
     }
   }
 }
+
