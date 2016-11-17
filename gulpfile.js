@@ -10,6 +10,8 @@ var browserify = require('gulp-browserify');
 var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
 var cleanCSS = require('gulp-clean-css');
+var responsive = require('gulp-responsive');
+var clean = require('gulp-clean');
 
 var sourceDir = './source/';
 var buildDir = './destination'
@@ -18,8 +20,14 @@ var cssDir = './destination/css';
 var jsDir = './source/js/*';
 var jsSrc = ['./source/js/index.js','./source/js/track-outbound-links.js'];
 var jsDest = './destination/js';
-var imgSrc = './source/images/**/*';
+var imgSrc = './source/images/**/*.{jpg,png}';
+var svgSrc = './source/images/**/*.svg';
 var imgDest = './destination/images';
+
+gulp.task('clean', function () {
+  return gulp.src(buildDir, {read: false})
+    .pipe(clean());
+});
 
 gulp.task('sass', function () {
   return gulp.src(sassDir)
@@ -45,10 +53,39 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('images', function() {
-  gulp.src(imgSrc)
+  gulp.src(svgSrc)
     .pipe(imagemin())
     .pipe(gulp.dest(imgDest))
     browserSync.reload();
+
+  gulp.src(imgSrc)
+  .pipe(responsive({
+    '**/*': [
+      {
+        width: 500,
+        rename: { suffix: '--medium' },
+      },
+      {
+        width: 250,
+        rename: { suffix: '--small' },
+      }
+    ],
+  }, {
+    // Global configuration for all images
+    // The output quality for JPEG, WebP and TIFF output formats
+    quality: 70,
+    strictMatchImages: false,
+    // Use progressive (interlace) scan for JPEG and PNG output
+    progressive: true,
+    // Zlib compression level of PNG output format
+    compressionLevel: 6,
+    // Strip all metadata
+    withMetadata: false,
+    withoutEnlargement: false,
+  }))
+  .pipe(gulp.dest(imgDest))
+  browserSync.reload();
+
 });
 
 gulp.task('watch', function() {
