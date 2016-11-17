@@ -42,11 +42,23 @@
   }
 }
 
-.icon-list__icon--twitter:before {
-  background-color: $twitter;
+.icon-list__icon--twitter {
+  color: $twitter;
+  &:before {
+    background-image: url(../images/icons/gull.svg);
+  }
 }
-.icon-list__icon--medium:before {
-  background-color: $medium;
+.icon-list__icon--medium {
+  color: $aquamarine;
+  &:before {
+    background-image: url(../images/icons/newspaper.svg);
+  }
+}
+.icon-list__icon--news {
+  color: $keppel;
+  &:before {
+    background-image: url(../images/icons/paper-plane.svg);
+  }
 }
 .icon-list__title {
   font-size: 20px;

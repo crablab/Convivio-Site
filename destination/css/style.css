@@ -871,11 +871,20 @@ a {
   .icon-list__icon--chart:before {
     background-image: url(../images/icons/chart.svg); }
 
-.icon-list__icon--twitter:before {
-  background-color: #1da1f2; }
+.icon-list__icon--twitter {
+  color: #1da1f2; }
+  .icon-list__icon--twitter:before {
+    background-image: url(../images/icons/gull.svg); }
 
-.icon-list__icon--medium:before {
-  background-color: #02b875; }
+.icon-list__icon--medium {
+  color: #70D893; }
+  .icon-list__icon--medium:before {
+    background-image: url(../images/icons/newspaper.svg); }
+
+.icon-list__icon--news {
+  color: #45A8A3; }
+  .icon-list__icon--news:before {
+    background-image: url(../images/icons/paper-plane.svg); }
 
 .icon-list__title {
   font-size: 20px;
