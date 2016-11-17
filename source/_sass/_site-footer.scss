@@ -3,10 +3,13 @@
   color: $isabelline;
   font-size: 14px;
   line-height: 1.357142857em;
-  padding: 0 40px 40px;
   -webkit-font-smoothing: initial;
   z-index: 1;
   position: relative;
+  padding: 0 20px 20px;
+  @media(min-width: 490px) {
+    padding: 0 40px 40px;
+  }
 }
 .site-footer:before {
   @include cheese-wedge;
@@ -24,6 +27,14 @@
   @include link-no-underline($jelly-bean);
   font-weight: bold;
 }
+@media(max-width: 489px) {
+  .site-footer__col-one {
+    margin-bottom: 20px;
+  }
+  .site-footer__col-two {
+    margin-bottom: 20px;
+  }
+}
 @media(min-width: 490px) {
   .site-footer__col-one {
     float: left;
@@ -33,6 +44,7 @@
     float: right;
     width: 55%;
     max-width: 440px;
+    padding-left: 20px;
   }
   .site-footer__col-three {
     clear: both;
