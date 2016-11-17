@@ -8,16 +8,8 @@ include-below: services.html
   <h2 class="sub-heading">Our ambition is to do good for a million people.</h2>
 
   <p class="intro-copy spacing-top">We do this by helping organisations make measurable improvements to serving people online as citizens, customers, users, and staff.</p>
+  {% include work-grid.html %}
 
-  <div class="team-grid spacing-top">
-    {% include team-member.html slug="mike-bell" url="https://twitter.com/mikebell_" name="Mike Bell" title="Senior Developer" location="Manchester" %}
-    {% include team-member.html slug="steve-hunton" url="https://twitter.com/SteveHunton" name="Steve Hunton" title="Head of Service Delivery" location="Newcastle" %}
-    {% include instagram-embed.html hash="BLib5P3FyU7" size="l" caption="Our first quarterly retreat, starting with dinner" %}
-    {% include team-member.html slug="steve-parks" url="https://twitter.com/steveparks" name="Steve Parks" title="Digital Business Strategy and Advice" location="London" %}
-    {% include grid-image.html img="/images/work/workshop.jpg" urk="https://blog.weareconvivio.com/weeknotes-week-1-be23cf06b287#.hk4j368bn" caption="Our Day One kickoff workshop" %}
-    {% include team-member.html slug="lewis-nyman" url="https://twitter.com/lewisnyman" name="Lewis Nyman" title="UX & Design" location="Brighton" %}
-    {% include team-member.html slug="joe-baker" url="https://twitter.com/joesb" name="Joe Baker" title="Technical Lead" location="Birmingham" %}
-  </div>
 </div>
 
 <div class="cheese-wedge cheese-wedge--rajah cheese-wedge--align-left">
