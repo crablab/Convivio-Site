@@ -11,7 +11,7 @@ include-below: address.html
 
   <div class="layout-contact-us__column-one">
     <div class="person-card">
-      <div class="person-card__image"><img src="/images/team/steve-parks-alt.jpg" alt="Steve Parks" /></div>
+      <div class="person-card__image"><img src="/images/team/steve-parks-alt--small.jpg" alt="Steve Parks" /></div>
       <p class="person-card__text"><strong>I’m Steve Parks</strong> and I lead the team here. Let’s meet for a coffee, in person or virtually, and chat over your plans.<br /><a href="mailto:steve.parks@convivio.team">steve.parks@convivio.team</a></p>
     </div>
   </div>
