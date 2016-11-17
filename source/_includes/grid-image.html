@@ -1,5 +1,5 @@
 <a href="{{ include.url }}" class="team-grid__card{% if include.span %} team-grid__card--span-{{ include.span }}{% endif %}">
-  <div class="team-grid__image"><img src="{{ include.img }}" /></div>
+  <div class="team-grid__image"><img src="{{ include.img }}" srcset="{{ include.srcset }}" /></div>
   <div class="team-grid__info">
     <div class="team-grid__title">{{ include.caption }}</div>
   </div>

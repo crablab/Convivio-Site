@@ -66,8 +66,16 @@ gulp.task('images', function() {
         rename: { suffix: '--medium' },
       },
       {
+        width: 500 * 2,
+        rename: { suffix: '--medium@2x' },
+      },
+      {
         width: 250,
         rename: { suffix: '--small' },
+      },
+      {
+        width: 250 * 2,
+        rename: { suffix: '--small@2x' },
       }
     ],
   }, {
