@@ -8,14 +8,15 @@ var browserSync = require('browser-sync').create();
 var shell = require('gulp-shell');
 var browserify = require('gulp-browserify');
 var uglify = require('gulp-uglify');
-// var imagemin = require('gulp-imagemin');
+var imagemin = require('gulp-imagemin');
+var cleanCSS = require('gulp-clean-css');
 
 var sourceDir = './source/';
 var buildDir = './destination'
 var sassDir = './source/_sass/**/*.scss';
 var cssDir = './destination/css';
 var jsDir = './source/js/*';
-var jsSrc = './source/js/index.js';
+var jsSrc = ['./source/js/index.js','./source/js/track-outbound-links.js'];
 var jsDest = './destination/js';
 var imgSrc = './source/images/**/*';
 var imgDest = './destination/images';
@@ -27,6 +28,7 @@ gulp.task('sass', function () {
         browsers: ['last 2 versions'],
         cascade: false
     }))
+    .pipe(cleanCSS())
     .pipe(gulp.dest(cssDir))
     .pipe(browserSync.stream());
 });
@@ -37,14 +39,14 @@ gulp.task('scripts', function() {
       insertGlobals : true,
       debug : !gulp.env.production
     }))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest(jsDest));
     browserSync.reload();
 });
 
 gulp.task('images', function() {
   gulp.src(imgSrc)
-    // .pipe(imagemin())
+    .pipe(imagemin())
     .pipe(gulp.dest(imgDest))
     browserSync.reload();
 });

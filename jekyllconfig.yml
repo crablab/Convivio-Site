@@ -9,7 +9,7 @@
 title: Convivio
 email: hello@weareconvivio.com
 description: > # this means to ignore newlines until "baseurl:"
-  We do digital strategy, design, and development.
+  We help you serve people better online.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://weareconvivio.com" # the base hostname & protocol for your site
 twitter_username: weareconvivio
@@ -37,7 +37,4 @@ keep_files:
   - js
   - images
 
-# Sass compile settings
-sass:
-  style: compressed
 
