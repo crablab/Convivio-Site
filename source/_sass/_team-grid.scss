@@ -4,14 +4,21 @@
 }
 .team-grid__card {
   height: 0;
-  width: 25%;
-  padding-bottom: 25%;
   border: none;
   position: relative;
   overflow: hidden;
+  width: 50%;
+  padding-bottom: 50%;
+  @include media-query('(min-width: 550px)') {
+    width: 25%;
+    padding-bottom: 25%;
+  }
 }
 .team-grid__card--span-2 {
-  width: 50%;
+  width: 100%;
+  @include media-query('(min-width: 550px)') {
+    width: 50%;
+  }
 }
 .team-grid__info {
   position: absolute;
