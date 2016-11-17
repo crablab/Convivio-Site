@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Leading Digital Transformation?<br class="full-width-only" /> You’ve found your tribe
-meta-title: Contact us — Convivio
+meta-title: Contact us
 include-below: address.html
 ---
 
