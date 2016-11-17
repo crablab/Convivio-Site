@@ -968,6 +968,19 @@ a {
     .icon--coffee {
       left: 0; } }
 
+.icon--coffee-rajah {
+  background-position: left -20px top 50px;
+  background-size: contain;
+  position: absolute;
+  background-image: url(../images/icons/coffee--rajah.svg);
+  left: 0;
+  width: 21%;
+  height: 130%;
+  bottom: -65%; }
+  @media screen and (min-width: 1280px) {
+    .icon--coffee-rajah {
+      left: 0; } }
+
 .person-card {
   background: #45A8A3;
   color: #F8F4EA;
