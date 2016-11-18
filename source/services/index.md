@@ -1,7 +1,7 @@
 ---
 layout: full-width
 title: You need to deliver change.<br class="full-width-only" /> We’re ready to help you.
-meta-title: Services — Convivio
+meta-title: Services
 include-below: contact.html
 ---
 

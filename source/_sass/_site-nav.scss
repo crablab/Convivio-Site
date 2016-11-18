@@ -34,7 +34,7 @@
   background: $keppel;
   font-family: $font-family-primary;
   right: 0;
-  top: 25px;
+  top: 26px;
   padding: 10px 0;
   &::before {
     @include triangle(top, 8px, $keppel);
