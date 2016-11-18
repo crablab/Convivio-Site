@@ -11,9 +11,9 @@ include-below: contact.html
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Strategy</h2>
 
-    <p class="intro-copy">We research and evaluate the opportunities and environment to develop a clear digital strategy, including proposals for digital services to explore.</p>
+    <p class="intro-copy">We research and evaluate the opportunities and environment to develop a clear digital strategy, for existing digital services or new ones to explore.</p>
 
-    <p class="intro-copy">We assess the level of digital and delivery skills, tools and processes in your organisation and provide training and coaching to develop them — ensuring that you are ready to deliver successful digital services.</p>
+    <p class="intro-copy">We assess the level of digital and delivery skills, tools and processes in your organisation and provide training and coaching to develop them — ensuring that your teams are ready to deliver successful digital services.</p>
   </div>
   </div>
 </div>
@@ -39,7 +39,7 @@ include-below: contact.html
 
     <p class="intro-copy">We work as one team with you and your colleagues to develop rough and cheap prototypes of complex, risky or novel parts of the proposed service in order to test ideas, reduce risk and find the best path to take.</p>
 
-    <p class="intro-copy">We test these ideas with the target users of the service. This is where the learning happens, and by going through this stage the final result is likely to deliver much higher value at much lower risk.</p>
+    <p class="intro-copy">We test these ideas with the target users of the service. This is where the learning happens, and by going through this stage the delivery phase is likely to deliver higher value at lower risk.</p>
   </div>
   </div>
 </div>
@@ -52,7 +52,7 @@ include-below: contact.html
 
     <p class="intro-copy">We work as one team with you to provide a multi-disciplinary team of designers, developers and delivery specialists who can work in rapid iterations to deliver your digital service. </p>
 
-    <p class="intro-copy">We work in an open and collaborative way, changes and feedback are welcomed as improvements rather than resisted as interference. This ensures we deliver the best possible outcome.</p>
+    <p class="intro-copy">We work in an open and collaborative way, within a solid delivery process, embracing new learning and change as way to deliver the best outcome.</p>
   </div>
   </div>
 </div>
@@ -63,7 +63,7 @@ include-below: contact.html
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">What happens after delivery?</h2>
 
-    <p class="intro-copy">Once your service is live we monitor its status, and work with your teams and 3rd party hosting providers to ensure a high quality of service, as well as continuous learning and development. </p>
+    <p class="intro-copy">Once your service is live, that's not the end of the journey — it's a living thing that needs nurturing, monitoring and improving. As well as supporting the live service, we put in place a process of continuous delivery with improvements based on data, user research and more. </p>
   </div>
   </div>
 </div>

@@ -12,7 +12,7 @@ include-below: address.html
   <div class="layout-contact-us__column-one">
     <div class="person-card">
       <div class="person-card__image"><img src="/images/team/steve-parks-alt--small.jpg" alt="Steve Parks" /></div>
-      <p class="person-card__text"><strong>I’m Steve Parks</strong> and I lead the team here. Let’s meet for a coffee, in person or virtually, and chat over your plans.<br /><a href="mailto:steve.parks@convivio.team">steve.parks@convivio.team</a></p>
+      <p class="person-card__text"><strong>I’m Steve Parks</strong> and I lead the Convivio team. Let’s meet for a coffee (in person or virtually) and chat over your plans.<br /><a href="mailto:steve.parks@weareconvivio.com">Email me directly</a></p>
     </div>
   </div>
   <input type="hidden" name="utf8" value="✓">
@@ -20,9 +20,9 @@ include-below: address.html
   <input type="hidden" value="http://weareconvivio.com/thank-you" name="_redirect" />
 
   <div class="layout-contact-us__column-two">
-    <p class="intro-copy medium-up-only">In every organisation on the verge of digital transformation is that one person who can see the opportunity and its opposite threats. That one person with the big questions, or the big vision. That one person who is the make-it-happen type.</p>
+    <p class="intro-copy medium-up-only">In every organisation on the verge of digital transformation is that one person who is the make-it-happen type, with the vision and some big questions.</p>
 
-    <p class="intro-copy medium-up-only">It’s often a challenging, and sometimes lonely, role to take on — but but we love to help with that. We’ve helped others just like you, and we can help you too.</p>
+    <p class="intro-copy medium-up-only">It’s a challenging, and sometimes lonely, role to take on — but we’ve supported others just like you, and we can help you too.</p>
     <div class="form-group">
       <label class="form-label" for="name">Name</label>
       <input class="text-input" type="text" id="name" name="name">

@@ -19,9 +19,9 @@ include-below: services.html
       <h2 class="site-heading">Our focus</h2>
 
       <ol class="big-numbers-list">
-    <li>Developing using and sharing a solid professional process with better ways to work.</li>
-    <li>Helping changemakers in large organisations deliver positive transformation in the way their organisation works and serves their audiences using digital technology.</li>
-    <li>Building healthy, long-term partnerships with clients and partners.</li>
+    <li>Developing, using and sharing a solid professional process with better ways to work.</li>
+    <li>Helping changemakers in large organisations deliver positive transformation in the way their organisation works and serve their audiences using digital technology.</li>
+    <li>Building healthy, long-term partnerships with clients and other agencies.</li>
   </ol>
 
     </div>
@@ -31,11 +31,11 @@ include-below: services.html
 <div class="cheese-wedge cheese-wedge--aquamarine cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
-    <h2 class="site-heading">Our ways of working are governed by our values</h2>
+    <h2 class="site-heading">We have a strong culture, which is...</h2>
 
     <ol class="big-numbers-list">
       <li><h3 class="big-numbers-list__title">Healthy</h3> Putting people first, looking after ourselves and others, looking long-term, working sustainably. Working with integrity, being honest and frank, being ethical, earning trust. Doing the right thing.</li>
-      <li><h3 class="big-numbers-list__title">Professional</h3> Developing talent and tools, asking great questions, having high standards and ensuring quality. Achieving excellence. Doing things right.</li>
+      <li><h3 class="big-numbers-list__title">Professional</h3> Developing our talents and tools, asking great questions, having high standards and ensuring quality. Achieving excellence. Doing things right.</li>
       <li><h3 class="big-numbers-list__title">Ambitious</h3> Growing ourselves, our knowledge and our expertise. Constantly seeking to be better. Aiming higher. Thinking long term. Change the world. Doing things big.</li>
       <li><h3 class="big-numbers-list__title">Delivering</h3> Focus and momentum. Meeting the expectations of others. Getting things done done.</li>
       <li><h3 class="big-numbers-list__title">Sharing</h3> Extreme transparency, amazing communication, brilliant collaboration, being open with our work, being consultative, and spreading success. Doing things together.</li>

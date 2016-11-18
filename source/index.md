@@ -6,7 +6,7 @@ include-below: contact.html
 ---
 
 
-<h2 class="sub-heading sub-heading--centered">Digital transformation can help cut costs, improve service levels or grow sales.</h2>
+<h2 class="sub-heading sub-heading--centered">Digital transformation can reduce costs, improve service or grow sales.</h2>
 
 <ul class="icon-list">
   <li class="icon-list__icon icon-list__icon--calculate">
@@ -20,10 +20,10 @@ include-below: contact.html
   </li>
 </ul>
 
-<p class="intro-copy">It takes a digital leader with a great team around them to make it happen, with a focus on user needs and successful delivery.</p>
+<p class="intro-copy">It takes a digital leader with a great team around them, working to a solid process, to make it happen.</p>
 
 <div class="cta-combo">
-  <p class="cta-combo__copy">We’ve helped digital leaders do this work in well-known organisations, and we can be your team too.</p>
+  <p class="cta-combo__copy">We’ve helped digital leaders achieve this in government and well-known brands, and we can be your team too.</p>
 
   <div class="cta-combo__button">
     <a class="button button--primary button--cta" href="/services">Our services</a>
