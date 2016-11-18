@@ -12,7 +12,7 @@ include-below: address.html
   <div class="layout-contact-us__column-one">
     <div class="person-card">
       <div class="person-card__image"><img src="/images/team/steve-parks-alt--small.jpg" alt="Steve Parks" /></div>
-      <p class="person-card__text"><strong>I’m Steve Parks</strong> and I lead the Convivio team. Let’s meet for a coffee (in person or virtually) and chat over your plans.<br /><a href="mailto:steve.parks@weareconvivio.com">steve.parks@weareconvivio.com</a></p>
+      <p class="person-card__text"><strong>I’m Steve Parks</strong> and I lead the Convivio team. Let’s meet for a coffee (in person or virtually) and chat over your plans.<br /><a href="mailto:steve.parks@weareconvivio.com">Email me directly</a></p>
     </div>
   </div>
   <input type="hidden" name="utf8" value="✓">
