@@ -1,1 +1,33 @@
-<svg width="210" height="235" viewBox="0 0 210 235" xmlns="http://www.w3.org/2000/svg"><title>signpost</title><g fill="none" fill-rule="evenodd"><g transform="translate(-38 -31)"><ellipse cx="84.963" cy="84.845" rx="84.963" ry="84.845"/><path fill="#343434" d="M79.652 37.12h10.62v96h-10.62z"/><path fill="#343434" d="M79.653 37.817h10.62l-5.31-6z"/><path fill="#EC604B" d="M47.791 47.644h42.481v21.293h-42.48z"/><path fill="#EC604B" d="M48.62 47v23L38 58.5z"/><path fill="#FDFDFF" d="M79.652 79.502h42.481v21.293h-42.48z"/><path fill="#FDFDFF" d="M121 79v23l11-11.5z"/><path fill="#343434" d="M63.722 132.57h42.481v5.303h-42.48z"/></g><path fill="#3A8F8B" d="M41.653 48.502V37.936H9.792l31.86 31.817z"/><path d="M89.444 43.24L52.274 6.12v42.422h31.86l10.62 10.627-10.62 10.584h-31.86v31.817h15.93v5.303H25.722l113.647 127.82a84.554 84.554 0 0 0 38.483-14.598c14.73-10.25 26.056-25.04 31.945-42.338L89.444 43.239z" fill="#3A8F8B"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="235px" viewBox="0 0 210 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>signpost</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-2-v3-Services-page-" transform="translate(-802.000000, -361.000000)">
+            <g id="1.-Strategy" transform="translate(-74.000000, 151.000000)">
+                <g id="signpost" transform="translate(838.000000, 179.000000)">
+                    <g id="Layer_10">
+                        <g id="Group">
+                            <g>
+                                <ellipse id="Oval" cx="84.962963" cy="84.8448276" rx="84.962963" ry="84.8448276"></ellipse>
+                                <g transform="translate(37.171296, 31.816810)">
+                                    <rect id="Rectangle-path" fill="#343434" x="42.4814815" y="5.30280172" width="10.6203704" height="96"></rect>
+                                    <polygon id="Shape" fill="#343434" points="42.4814815 6 53.1018519 6 47.7916667 0"></polygon>
+                                    <rect id="Rectangle-path" fill="#EC604B" x="10.6203704" y="15.8268746" width="42.4814815" height="21.2927375"></rect>
+                                    <polygon id="Shape" fill="#EC604B" points="11.4487036 15.1831897 11.4487036 38.1831897 0.828703704 26.6831897"></polygon>
+                                    <rect id="Rectangle-path" fill="#FDFDFF" x="42.4814815" y="47.6851131" width="42.4814815" height="21.2927375"></rect>
+                                    <polygon id="Shape" fill="#FDFDFF" points="83.8287037 47.1831897 83.8287037 70.1831897 94.8287037 58.6831897"></polygon>
+                                    <rect id="Rectangle-path" fill="#343434" x="26.5509259" y="100.753233" width="42.4814815" height="5.30280172"></rect>
+                                </g>
+                            </g>
+                            <polygon id="Shape" fill="#3A8F8B" points="79.6527778 79.5019234 79.6527778 68.9364224 47.7916667 68.9364224 79.6527778 100.753233"></polygon>
+                            <path d="M127.444444,74.2392241 L90.2731481,37.1196121 L90.2731481,47.6436849 L90.2731481,68.9364224 L90.2731481,79.5420259 L122.134259,79.5420259 L132.75463,90.1685091 L122.134259,100.753233 L100.893519,100.753233 L90.2731481,100.753233 L90.2731481,111.358836 L90.2731481,132.570043 L106.203704,132.570043 L106.203704,137.872845 L63.7222222,137.872845 L177.368608,265.693109 C191.562069,264.02571 204.684532,258.865089 215.851852,251.094828 C230.581974,240.845175 241.907603,226.055329 247.796598,208.756596 L127.444444,74.2392241 Z" id="Shape" fill="#3A8F8B"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
