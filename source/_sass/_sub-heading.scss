@@ -1,6 +1,6 @@
 .sub-heading {
   font-size: 28px;
-  font-family: $font-family-primary;
+  @include font-primary;
 }
 .sub-heading--centered {
   text-align: center;

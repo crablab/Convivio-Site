@@ -42,13 +42,11 @@
 .team-grid__name {
   font-size: 24px;
   line-height: 1em;
-  font-family: $font-family-primary;
-  font-weight: bold;
+  @include font-primary;
 }
 .team-grid__title {
   display: block;
-  font-weight: bold;
-  font-family: $font-family-primary;
+  @include font-primary;
   line-height: 1.1em;
 }
 .team-grid__seperator {

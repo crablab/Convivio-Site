@@ -12,8 +12,7 @@
   // content: counter(big-numbers-list);
   counter-increment: big-numbers-list;
   font-size: 45px;
-  font-weight: bold;
-  font-family: $font-family-primary;
+  @include font-primary;
   position: absolute;
   right: calc(100% + 5px);
   top: -18px;
@@ -21,6 +20,5 @@
 }
 .big-numbers-list__title {
   font-size: 22px;
-  font-weight: bold;
-  font-family: $font-family-primary;
+  @include font-primary;
 }

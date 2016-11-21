@@ -30,6 +30,12 @@
   }
 }
 
+@mixin font-primary() {
+  font-family: $font-family-primary;
+  font-weight: normal;
+  font-style: normal;
+}
+
 @mixin link-no-underline($background-color: $white, $width: 1px) {
   text-decoration: none;
   text-shadow: 0 1px 1px $background-color;

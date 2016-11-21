@@ -16,7 +16,6 @@
       </nav>
     </div>
 
-    <!-- { Prevent widows without using a liquid filter } -->
     {% assign split_title = page.title | split: ' ' %}
     {% capture title %}
       {% for word in split_title %}{% if forloop.last == true %}&nbsp;{{ word | strip }}{% else %} {{ word }}{% endif %}{% endfor %}

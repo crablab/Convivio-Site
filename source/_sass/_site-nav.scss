@@ -9,7 +9,7 @@
 }
 .site-nav a {
   color: $isabelline;
-  font-family: $font-family-primary;
+  @include font-primary;
   font-size: 18px;
   padding-top: 20px;
   display: inline-block;
@@ -24,7 +24,7 @@
   background: transparent;
   border: 0;
   color: $isabelline;
-  font-family: $font-family-primary;
+  @include font-primary;
   font-size: 18px;
   padding-top: 20px;
   display: inline-block;
@@ -32,7 +32,7 @@
 }
 .site-nav__dropdown {
   background: $keppel;
-  font-family: $font-family-primary;
+  @include font-primary;
   right: 0;
   top: 26px;
   padding: 10px 0;

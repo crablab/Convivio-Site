@@ -1,7 +1,6 @@
 .form-label {
   display: block;
-  font-weight: bold;
-  font-family: $font-family-primary;
+  @include font-primary;
   cursor: pointer;
   color: $grey;
   font-size: 18px;

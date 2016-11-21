@@ -1,8 +1,7 @@
 .formatted-text {
   font-weight: 400;
   h2, h3, h4 {
-    font-family: $font-family-primary;
-    font-weight: bold;
+    @include font-primary;
   }
   h2 {
     font-size: 28px;

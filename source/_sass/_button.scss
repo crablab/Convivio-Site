@@ -1,11 +1,10 @@
 .button {
   display: inline-block;
-  font-weight: bold;
   font-size: 18px;
   line-height: 1.333333333em;
   background: $isabelline;
   border-radius: 5px;
-  font-family: $font-family-primary;
+  @include font-primary;
   text-align: center;
   min-width: 8em;
   padding: .666666667em .888888889em;
