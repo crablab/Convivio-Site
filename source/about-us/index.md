@@ -36,8 +36,8 @@ include-below: services.html
     <ol class="big-numbers-list">
       <li><h3 class="big-numbers-list__title">Healthy</h3> Putting people first, looking after ourselves and others, looking long-term, working sustainably. Working with integrity, being honest and frank, being ethical, earning trust. Doing the right thing.</li>
       <li><h3 class="big-numbers-list__title">Professional</h3> Developing our talents and tools, asking great questions, having high standards and ensuring quality. Achieving excellence. Doing things right.</li>
-      <li><h3 class="big-numbers-list__title">Ambitious</h3> Growing ourselves, our knowledge and our expertise. Constantly seeking to be better. Aiming higher. Thinking long term. Change the world. Doing things big.</li>
-      <li><h3 class="big-numbers-list__title">Delivering</h3> Focus and momentum. Meeting the expectations of others. Getting things done done.</li>
+      <li><h3 class="big-numbers-list__title">Ambitious</h3> Growing ourselves, our knowledge and our expertise. Constantly seeking to be better. Aiming higher. Thinking long term. Change the world. Do things big.</li>
+      <li><h3 class="big-numbers-list__title">Delivering</h3> Focus and momentum. Meeting the expectations of others. Getting things done.</li>
       <li><h3 class="big-numbers-list__title">Sharing</h3> Extreme transparency, amazing communication, brilliant collaboration, being open with our work, being consultative, and spreading success. Doing things together.</li>
     </ol>
   </div>

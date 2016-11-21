@@ -1,22 +1,14 @@
+// This list no longer has numbers by design.
+// A lesson in component naming.
+// RIP numbers.
 .big-numbers-list {
-  counter-reset: big-numbers-list;
   list-style-type: none;
   font-size: 18px;
-  margin: 30px 0 60px;
+line-height: 1.35em;
+  margin-top: 30px;
 }
-.big-numbers-list li {
-  position: relative;
-  margin-bottom: 30px;
-}
-.big-numbers-list li:before {
-  // content: counter(big-numbers-list);
-  counter-increment: big-numbers-list;
-  font-size: 45px;
-  @include font-primary;
-  position: absolute;
-  right: calc(100% + 5px);
-  top: -18px;
-  text-align: right;
+.big-numbers-list li + li {
+  margin-top: 30px;
 }
 .big-numbers-list__title {
   font-size: 22px;
