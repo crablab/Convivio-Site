@@ -31,7 +31,7 @@ include-below: services.html
 <div class="cheese-wedge cheese-wedge--aquamarine cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
-    <h2 class="site-heading">We have a strong culture, which is...</h2>
+    <h2 class="site-heading">Our culture</h2>
 
     <ol class="big-numbers-list">
       <li><h3 class="big-numbers-list__title">Healthy</h3> Putting people first, looking after ourselves and others, looking long-term, working sustainably. Working with integrity, being honest and frank, being ethical, earning trust. Doing the right thing.</li>
