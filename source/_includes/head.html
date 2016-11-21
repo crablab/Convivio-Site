@@ -13,4 +13,16 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
  <script type="text/javascript" src="/webfonts/MyFontsWebfontsKit.js"></script>
+ <script type="text/javascript">
+    (function() {
+        var path = '//easy.myfonts.net/v2/js?sid=210852(font-family=Avenir+Next+Pro+Italic)&sid=210860(font-family=Avenir+Next+Pro+Bold)&sid=217165(font-family=Avenir+Next+Pro)&sid=255228(font-family=Avenir+Next+Pro+Light)&key=Pke1IMrvPk',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+</script>
 </head>
