@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: We help organisations work better<br class="full-width-only" /> for people
+title: We help organisations<br class="full-width-only" /> work better for people
 meta-title: About us
 include-below: services.html
 ---

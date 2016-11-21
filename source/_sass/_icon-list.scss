@@ -63,5 +63,5 @@
 .icon-list__title {
   font-size: 20px;
   line-height: 22px;
-  font-weight: bold;
+  @include font-primary;
 }

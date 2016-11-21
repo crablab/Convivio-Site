@@ -1,6 +1,6 @@
 ---
 layout: formatted-text
-title: Join the Convivio team
+title: Join the team
 ---
 <p class="intro-copy">There’ll soon be more seats around Convivio’s big table. It’s been a busy summer already and we’re planning to expand our team.</p>
 
