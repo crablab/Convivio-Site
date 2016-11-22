@@ -24,6 +24,7 @@
 .cheese-wedge:after {
   @include cheese-wedge;
   top: 100%;
+  transform: scaleY(-1);
 }
 .cheese-wedge--right {
   text-align: left;
@@ -35,7 +36,7 @@
     }
   }
   &:after {
-    transform: scaleX(-1);
+    transform: scale(-1, -1);
   }
 }
 .cheese-wedge--jelly-bean {
@@ -47,50 +48,40 @@
 .cheese-wedge--keppel {
   background: $keppel;
   color: $isabelline;
-  &:before {
-    @include cheese-wedge-background-above($keppel);
-  }
+  &:before,
   &:after {
-    @include cheese-wedge-background-below($keppel);
+    @include cheese-wedge-background($keppel);
   }
 }
 .cheese-wedge--rajah {
   background: $rajah;
-  &:before {
-    @include cheese-wedge-background-above($rajah);
-  }
+  &:before,
   &:after {
-    @include cheese-wedge-background-below($rajah);
+    @include cheese-wedge-background($rajah);
   }
 }
 .cheese-wedge--isabelline {
   background: $isabelline;
-  &:before {
-    @include cheese-wedge-background-above($isabelline);
-  }
+  &:before,
   &:after {
-    @include cheese-wedge-background-below($isabelline);
+    @include cheese-wedge-background($isabelline);
   }
 }
 .cheese-wedge--black {
   background: $black;
   color: $white;
-  &:before {
-    @include cheese-wedge-background-above($black);
-  }
+  &:before,
   &:after {
-    @include cheese-wedge-background-below($black);
+    @include cheese-wedge-background($black);
   }
 }
 .cheese-wedge--aquamarine {
   $dark-aquamarine: darken( $aquamarine, 13% );
   background: $dark-aquamarine;
   color: $isabelline;
-  &:before {
-    @include cheese-wedge-background-above($dark-aquamarine);
-  }
+  &:before,
   &:after {
-    @include cheese-wedge-background-below($dark-aquamarine);
+    @include cheese-wedge-background($dark-aquamarine);
   }
 }
 .cheese-wedge--align-left {

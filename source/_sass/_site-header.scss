@@ -6,7 +6,8 @@
 }
 .site-header:after {
   @include cheese-wedge;
-  @include cheese-wedge-background-below($jelly-bean);
+  @include cheese-wedge-background($jelly-bean);
+  transform: scaleY(-1);
   top: 100%;
 }
 .site-header__inner {

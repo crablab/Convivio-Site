@@ -6,7 +6,7 @@ include-below: contact.html
 ---
 
 
-<h2 class="sub-heading sub-heading--centered">We do strategy, design, and development to transform your business.</h2>
+<h2 class="sub-heading sub-heading--centered">We do strategy, design, and development<br class="full-width-only" />  to transform your business.</h2>
 
 <ul class="icon-list">
   <li class="icon-list__icon icon-list__icon--calculate">
