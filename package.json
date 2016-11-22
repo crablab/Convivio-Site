@@ -9,19 +9,20 @@
     "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^2.0.13",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^3.1.1",
     "gulp-responsive": "^2.6.0",
     "gulp-sass": "^2.3.2",
     "gulp-shell": "^0.5.2",
     "gulp-uglify": "^2.0.0",
-    "harmonize": "^1.4.4"
+    "harmonize": "^1.4.4",
+    "sass-svg": "^1.0.1"
   },
   "dependencies": {
     "add-class": "^1.0.3",
     "autosize": "^3.0.18",
     "bean": "^1.0.15",
     "priority-nav": "^1.0.12",
-    "remove-class": "^1.0.0",
-    "sass-svg": "^1.0.1"
+    "remove-class": "^1.0.0"
   }
 }
