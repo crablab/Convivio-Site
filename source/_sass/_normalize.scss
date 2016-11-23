@@ -11,8 +11,8 @@
    ========================================================================== */
 
 html {
-  font-family: sans-serif; /* 1 */
-  line-height: 1.15; /* 2 */
+  // font-family: sans-serif; /* 1 */
+  // line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
@@ -24,9 +24,9 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 
-body {
-  margin: 0;
-}
+// body {
+//   margin: 0;
+// }
 
 /**
  * Add the correct display in IE 9-.
@@ -46,10 +46,10 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
+// h1 {
+//   font-size: 2em;
+//   margin: 0.67em 0;
+// }
 
 /* Grouping content
    ========================================================================== */
@@ -69,20 +69,20 @@ main { /* 1 */
  * Add the correct margin in IE 8.
  */
 
-figure {
-  margin: 1em 40px;
-}
+// figure {
+//   margin: 1em 40px;
+// }
 
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
 
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
-}
+// hr {
+//   box-sizing: content-box; /* 1 */
+//   height: 0; /* 1 */
+//   overflow: visible; /* 2 */
+// }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -132,19 +132,19 @@ abbr[title] {
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 
-b,
-strong {
-  font-weight: inherit;
-}
+// b,
+// strong {
+//   font-weight: inherit;
+// }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,
-strong {
-  font-weight: bolder;
-}
+// b,
+// strong {
+//   font-weight: bolder;
+// }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -249,26 +249,26 @@ svg:not(:root) {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
-}
+// button,
+// input,
+// optgroup,
+// select,
+// textarea {
+//   font-family: sans-serif; /* 1 */
+//   font-size: 100%; /* 1 */
+//   line-height: 1.15; /* 1 */
+//   margin: 0; /* 2 */
+// }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
 
-button,
-input { /* 1 */
-  overflow: visible;
-}
+// button,
+// input { /* 1 */
+//   overflow: visible;
+// }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -320,11 +320,11 @@ button:-moz-focusring,
  * Change the border, margin, and padding in all browsers (opinionated).
  */
 
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+// fieldset {
+//   border: 1px solid #c0c0c0;
+//   margin: 0 2px;
+//   padding: 0.35em 0.625em 0.75em;
+// }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -333,14 +333,14 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 
-legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
-}
+// legend {
+//   box-sizing: border-box; /* 1 */
+//   color: inherit; /* 2 */
+//   display: table; /* 1 */
+//   max-width: 100%; /* 1 */
+//   padding: 0; /* 3 */
+//   white-space: normal; /* 1 */
+// }
 
 /**
  * 1. Add the correct display in IE 9-.
