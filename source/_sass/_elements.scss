@@ -10,8 +10,7 @@ html {
 body {
   background-color: $jelly-bean;
   color: $black;
-  font-family: $font-family-secondary;
-  font-weight: 300;
+  @include font-secondary;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,3 +44,7 @@ a {
   }
 }
 
+ b,
+ strong {
+  @include font-secondary--bold;
+}

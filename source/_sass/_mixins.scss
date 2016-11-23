@@ -31,9 +31,30 @@
 }
 
 @mixin font-primary() {
-  font-family: $font-family-primary;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: bold;
+  .fonts-loaded & {
+    font-family: $font-family-primary;
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@mixin font-secondary() {
+  .fonts-loaded & {
+    font-family: $font-family-secondary;
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@mixin font-secondary--bold() {
+  font-weight: bold;
+  .fonts-loaded & {
+    font-family: $font-family-secondary--bold;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 @mixin link-no-underline($background-color: $white, $width: 1px) {

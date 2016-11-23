@@ -2,7 +2,6 @@
   background: $keppel;
   color: $isabelline;
   margin: 20px 0;
-  font-weight: 400;
 }
 @include media-query('(max-width: 700px)') {
   .person-card {
@@ -21,5 +20,5 @@
 .person-card__text a {
   color: $isabelline;
   @include link-no-underline($keppel);
-  font-weight: bold;
+  @include font-secondary--bold;
 }

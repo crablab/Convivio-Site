@@ -3,3 +3,4 @@
 .publish
 node_modules
 destination
+source/_includes/critical.css
