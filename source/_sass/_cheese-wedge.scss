@@ -1,0 +1,121 @@
+.cheese-wedge {
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+  text-align: right;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  @include media-query('(min-width: 500px)') {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.cheese-wedge:before {
+  @include cheese-wedge;
+  bottom: 100%;
+  // iPhone 6/7 have this 0.5px bug
+  @include media-query($iphone6-7) {
+    height: calc(10vw + .5px);
+    left: -10px;
+  }
+}
+.cheese-wedge:after {
+  @include cheese-wedge;
+  top: 100%;
+  transform: scaleY(-1);
+}
+.cheese-wedge--right {
+  text-align: left;
+  &:before {
+    transform: scaleX(-1);
+    @include media-query($iphone6-7) {
+      right: -10px;
+      left: 0;
+    }
+  }
+  &:after {
+    transform: scale(-1, -1);
+  }
+}
+.cheese-wedge--jelly-bean {
+  &:before,
+  &:after {
+    background: $jelly-bean;
+  }
+}
+.cheese-wedge--keppel {
+  background: $keppel;
+  color: $isabelline;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($keppel);
+  }
+}
+.cheese-wedge--rajah {
+  background: $rajah;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($rajah);
+  }
+}
+.cheese-wedge--isabelline {
+  background: $isabelline;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($isabelline);
+  }
+}
+.cheese-wedge--black {
+  background: $black;
+  color: $white;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($black);
+  }
+}
+.cheese-wedge--aquamarine {
+  $dark-aquamarine: darken( $aquamarine, 13% );
+  background: $dark-aquamarine;
+  color: $isabelline;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($dark-aquamarine);
+  }
+}
+.cheese-wedge--align-left {
+  text-align: left;
+}
+.cheese-wedge__icon {
+  position: absolute;
+  top: -80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: visible;
+  z-index: 5;
+}
+.cheese-wedge__inner {
+  max-width: 740px;
+  margin: 0 auto;
+  @include media-query('(max-width: 931px)') {
+    padding: 0 20px;
+  }
+}
+.cheese-wedge__copy {
+  @include media-query('(min-width: 931px)') {
+    width: 85%;
+    margin-left: 15%;
+  }
+  position: relative;
+  z-index: 10;
+  .cheese-wedge--right &,
+  .cheese-wedge--align-left & {
+    @include media-query('(min-width: 931px)') {
+      margin-left: 0;
+      margin-right: 15%;
+    }
+  }
+}
+

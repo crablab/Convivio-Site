@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="site-header__inner">
+
+    <div class="site-header__logo">
+      <a class="site-logo site-logo--white" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+
+    <div class="site-header__nav">
+      <nav>
+        <ul class="site-nav">
+          <li><a {% if page.url == '/what-we-do/' %} class="is-active" {% endif %}href="/what-we-do" >What we do</a></li>
+          <li><a {% if page.url == '/about-us/' %} class="is-active" {% endif %}href="/about-us">About us</a></li>
+          <li><a target="_blank" href="http://blog.weareconvivio.com">Blog</a></li>
+          <li><a {% if page.url == '/contact/' %} class="is-active" {% endif %}href="/contact">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    {% assign split_title = page.title | split: ' ' %}
+    {% capture title %}
+      {% for word in split_title %}{% if forloop.last == true %}&nbsp;{{ word | strip }}{% else %} {{ word }}{% endif %}{% endfor %}
+    {% endcapture %}
+
+    <div class="site-header__heading">
+      <h1 class="site-heading site-heading--right">{{ title }}</h1>
+    </div>
+
+  </div>
+</header>

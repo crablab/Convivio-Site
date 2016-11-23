@@ -1,0 +1,10 @@
+.form-label {
+  display: block;
+  @include font-primary;
+  cursor: pointer;
+  color: $grey;
+  font-size: 18px;
+  &.is-focused {
+    color: $black;
+  }
+}

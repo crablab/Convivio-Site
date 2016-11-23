@@ -1,0 +1,96 @@
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($breakpoint) {
+    @media screen and #{$breakpoint} {
+        @content;
+    }
+}
+
+@mixin hide-text {
+  overflow:hidden;
+  text-indent:-9000px;
+  display:block;
+}
+
+@mixin no-spacing {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin font-primary() {
+  font-family: $font-family-primary;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin link-no-underline($background-color: $white, $width: 1px) {
+  text-decoration: none;
+  text-shadow: 0 1px 1px $background-color;
+  border-bottom: 0 solid;
+  &:hover,
+  &:focus {
+    border-bottom-width: $width;
+  }
+}
+
+@mixin max-width {
+  max-width: $max-width;
+}
+
+@mixin triangle($dir, $size, $color) {
+    border: $size transparent solid;
+
+    @if ($dir == "top" or $dir == "up") {
+        border-bottom-color: $color;
+    }
+    @else if ($dir == "right" or $dir == "after") {
+        border-left-color: $color;
+    }
+    @else if ($dir == "bottom" or $dir == "down") {
+        border-top-color: $color;
+    }
+    @else if ($dir == "left" or $dir == "before") {
+        border-right-color: $color;
+    }
+}
+
+@mixin cheese-wedge {
+ content: '';
+  display: block;
+  height: 10vw;
+  max-height: 50px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@import './node_modules/sass-svg/node_modules/sassdash/index';
+@import './node_modules/sass-svg/index';
+
+@mixin cheese-wedge-background($color) {
+  @include svg ('svg',(
+    viewBox: 0 0 100 100,
+    preserveAspectRatio: 'none'
+  )) {
+    @include svg('polygon', (
+      fill: $color,
+      points: (0,100 100,0 100,100)
+    ));
+  }
+}

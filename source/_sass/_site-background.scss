@@ -1,0 +1,7 @@
+// We set the real site background here instead of
+// on the body because it's quite nice to match the
+// header and footer when you overscroll
+.site-background {
+  background-color: $isabelline;
+  overflow: hidden;
+}

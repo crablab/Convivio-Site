@@ -1,0 +1,11 @@
+.full-width-only {
+  @include media-query('(max-width: 980px)') {
+    display: none;
+  }
+}
+
+.medium-up-only {
+  @include media-query('(max-width: 570px)') {
+    display: none;
+  }
+}

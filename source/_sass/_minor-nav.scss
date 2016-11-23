@@ -1,0 +1,10 @@
+.minor-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.minor-nav li {
+  padding-right: 1.3em;
+}
+.minor-nav a {
+  @include link-no-underline($jelly-bean);
+}

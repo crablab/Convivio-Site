@@ -1,0 +1,61 @@
+.site-footer {
+  background: $jelly-bean;
+  color: $isabelline;
+  font-size: 14px;
+  line-height: 1.357142857em;
+  -webkit-font-smoothing: initial;
+  z-index: 1;
+  position: relative;
+  padding: 0 20px 20px;
+  @media(min-width: 490px) {
+    padding: 0 40px 40px;
+  }
+}
+.site-footer:before {
+  @include cheese-wedge;
+  @include cheese-wedge-background($jelly-bean);
+  transform: scaleX(-1);
+  bottom: 100%;
+  // iPhone 6/7 have this 0.5px bug
+  @include media-query($iphone6-7) {
+    height: calc(10vw + .5px);
+    right: -10px;
+  }
+}
+.site-footer__inner {
+  @include max-width;
+  @include clearfix();
+  margin: 0 auto;
+}
+.site-footer a {
+  color: $isabelline;
+  @include link-no-underline($jelly-bean);
+  font-weight: bold;
+}
+@media(max-width: 489px) {
+  .site-footer__col-one {
+    margin-bottom: 20px;
+  }
+  .site-footer__col-two {
+    margin-bottom: 20px;
+  }
+}
+@media(min-width: 490px) {
+  .site-footer__col-one {
+    float: left;
+    width: 45%;
+  }
+  .site-footer__col-two {
+    float: right;
+    width: 55%;
+    max-width: 440px;
+    padding-left: 20px;
+  }
+  .site-footer__col-three {
+    clear: both;
+  }
+}
+.site-footer__logo {
+  width: 230px;
+  margin-bottom: 15px;
+}

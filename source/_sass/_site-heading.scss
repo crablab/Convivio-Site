@@ -1,0 +1,16 @@
+$wide-heading: '(min-width: 475px)';
+
+.site-heading {
+  @include font-primary;
+  font-size: 24px;
+  @include media-query($wide-heading) {
+    font-size: 38px;
+    line-height: 1.184210526em;
+  }
+}
+.site-heading--centered {
+  text-align: center;
+}
+.site-heading--right {
+  text-align: right;
+}

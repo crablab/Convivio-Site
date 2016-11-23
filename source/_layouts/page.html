@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+  <div class="site-background">
+
+      {% include header.html %}
+
+      {% if page.include-above %}
+        {% include {{page.include-above}} %}
+      {% endif %}
+
+      <main class="content-container content-container--top content-container--bottom">
+        {{ content }}
+      </main>
+
+      {% if page.include-below %}
+        {% include {{page.include-below}} %}
+      {% endif %}
+
+      {% include footer.html %}
+
+  </div>
+  </body>
+</html>

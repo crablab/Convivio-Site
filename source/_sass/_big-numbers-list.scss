@@ -1,0 +1,16 @@
+// This list no longer has numbers by design.
+// A lesson in component naming.
+// RIP numbers.
+.big-numbers-list {
+  list-style-type: none;
+  font-size: 18px;
+line-height: 1.35em;
+  margin-top: 30px;
+}
+.big-numbers-list li + li {
+  margin-top: 30px;
+}
+.big-numbers-list__title {
+  font-size: 22px;
+  @include font-primary;
+}

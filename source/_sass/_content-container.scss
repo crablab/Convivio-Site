@@ -1,0 +1,17 @@
+.content-container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content-container--top {
+  padding-top: 10vw;
+  @include media-query($medium-layout) {
+    padding-top: 80px;
+  }
+}
+.content-container--bottom {
+  padding-bottom: 60px;
+}
+.content-container--wide {
+  max-width: 960px;
+}
