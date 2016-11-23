@@ -8,7 +8,12 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="google-site-verification" content="KHl4yrET7iiMzLYr9dyL8Zrez6B4ZTFOYjZ7QvOYvNM" />
 
-  <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}" media="all" />
+  <style>{% include critical.css %}</style>
+
+  <link rel="preload" href="/css/style.css?v={{ site.time | date: '%s' }}" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}">
+  </noscript>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -41,10 +46,8 @@
 
   var fontA = new FontFaceObserver('AvenirNextLTW01-Regular');
   var fontB = new FontFaceObserver('Avenir Next LT W01 Bold', {
-      weight: 700
     });
   var fontC = new FontFaceObserver('Galano Grotesque W00 Bold', {
-      weight: '700'
     });
 
   Promise.all([fontA.load(), fontB.load(), fontC.load()]).then(function () {

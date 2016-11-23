@@ -10,7 +10,7 @@ html {
 body {
   background-color: $jelly-bean;
   color: $black;
-  font-family: $font-family-secondary;
+  @include font-secondary;
 }
 
 h1, h2, h3, h4, h5, h6 {

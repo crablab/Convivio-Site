@@ -12,6 +12,7 @@ var imagemin = require('gulp-imagemin');
 var cleanCSS = require('gulp-clean-css');
 var responsive = require('gulp-responsive');
 var clean = require('gulp-clean');
+var critical = require('critical');
 
 var sourceDir = './source/';
 var buildDir = './destination'
@@ -96,6 +97,26 @@ gulp.task('images', function() {
 
 });
 
+gulp.task('critical', function (cb) {
+    critical.generate({
+        base: 'destination/',
+        src: 'index.html',
+        css: ['destination/css/style.css'],
+        dest: 'source/_includes/critical.css',
+        extract: false,
+        dimensions: [{
+          width: 320,
+          height: 480
+        },{
+          width: 768,
+          height: 1024
+        },{
+          width: 1280,
+          height: 960
+        }]
+    });
+});
+
 gulp.task('watch', function() {
   gulp
     // Run run `sass` task when sass files change
@@ -124,7 +145,7 @@ gulp.task('watch', function() {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
 
-  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.txt'], ['jekyll-rebuild']);
+  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.txt', 'source/_includes/*.css'], ['jekyll-rebuild']);
 
 });
 
