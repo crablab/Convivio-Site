@@ -31,22 +31,28 @@
 }
 
 @mixin font-primary() {
-  font-family: $font-family-primary;
-  font-weight: normal;
-  font-style: normal;
+  .fonts-loaded & {
+    font-family: $font-family-primary;
+    font-weight: normal;
+    font-style: normal;
+  }
 }
 
 @mixin font-secondary() {
-  font-family: $font-family-secondary;
-  font-weight: normal;
-  font-style: normal;
+  .fonts-loaded & {
+    font-family: $font-family-secondary;
+    font-weight: normal;
+    font-style: normal;
+  }
 }
 
 @mixin font-secondary--bold() {
-  font-family: $font-family-secondary--bold;
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
+  .fonts-loaded & {
+    font-family: $font-family-secondary--bold;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 @mixin link-no-underline($background-color: $white, $width: 1px) {
