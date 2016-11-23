@@ -12,7 +12,7 @@
 }
 .site-footer:before {
   @include cheese-wedge;
-  @include cheese-wedge-background-above($jelly-bean);
+  @include cheese-wedge-background($jelly-bean);
   transform: scaleX(-1);
   bottom: 100%;
   // iPhone 6/7 have this 0.5px bug

@@ -12,6 +12,7 @@ var imagemin = require('gulp-imagemin');
 var cleanCSS = require('gulp-clean-css');
 var responsive = require('gulp-responsive');
 var clean = require('gulp-clean');
+var ghPages = require('gulp-gh-pages');
 var critical = require('critical');
 
 var sourceDir = './source/';
@@ -159,6 +160,11 @@ gulp.task('serve', function () {
       baseDir: buildDir
     }
   });
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./destination/**/*')
+    .pipe(ghPages());
 });
 
 gulp.task('jekyll-build', shell.task('bundle exec jekyll build --config jekyllconfig.yml'));
