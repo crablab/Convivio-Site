@@ -13,6 +13,11 @@
     height: calc(10vw + .5px);
     left: -10px;
   }
+  @include media-query($nexus6) {
+    top: calc(100% - .5px);
+    height: calc(10vw + .5px);
+    left: -10px;
+  }
 }
 .site-header__inner {
   @include max-width;
