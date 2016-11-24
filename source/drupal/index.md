@@ -2,7 +2,6 @@
 layout: full-width
 title: Powered by Drupal
 meta-title: Drupal
-include-below: contact.html
 ---
 
 <div class="content-container content-container--top content-container--bottom">
@@ -57,6 +56,31 @@ include-below: contact.html
       <li>We're all highly involved in the Drupal community. Our CEO, Steve Parks, has been in the Drupal community for 12 years, starting out building Drupal sites, and then taking a leadership role. He has three times been one of the chairs of the annual Drupal conference.</li>
     </ol>
 
+  </div>
+  </div>
+</div>
+
+<div class="cheese-wedge cheese-wedge--drupal">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__icon"><i class="icon icon--sign-post"></i></div>
+  <div class="cheese-wedge__copy">
+    <h2 class="site-heading">Find Out More about Drupal</h2>
+
+    <p class="intro-copy">Drupal.com has information about Drupal, while Drupal.org is a hub for the community and collaboration on development. In the UK drupal.org.uk is a place where drupal developers gather to learn and share.</p>
+
+  </div>
+  </div>
+</div>
+
+<div class="cheese-wedge cheese-wedge--keppel cheese-wedge--right">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__icon"><i class="icon icon--coffee"></i></div>
+  <div class="cheese-wedge__copy">
+    <h2 class="site-heading">Need Drupal experience?<br class="full-width-only" /> Let's have a chat.</h2>
+
+    <p class="intro-copy">We often find there’s one visionary person driving digital transformation in big organisations — a digital hero. It can be hard, and sometimes lonely, work, but ultimately very rewarding. We understand the challenges you face, and we can help.</p>
+
+    <a class="button button--spacing-top" href="/contact">Contact us</a>
   </div>
   </div>
 </div>

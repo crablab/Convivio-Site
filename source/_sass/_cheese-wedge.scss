@@ -88,6 +88,14 @@
     @include cheese-wedge-background($dark-aquamarine);
   }
 }
+.cheese-wedge--drupal {
+  background: $drupal;
+  color: $isabelline;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($drupal);
+  }
+}
 .cheese-wedge--align-left {
   text-align: left;
 }
