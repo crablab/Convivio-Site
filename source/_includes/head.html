@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}">
   </noscript>
 
+  <script>
+    {% include loadCSS.js %}
+    {% include cssrelpreload.js %}
+  </script>
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
  <style type="text/css">
