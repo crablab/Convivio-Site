@@ -25,6 +25,10 @@
   @include cheese-wedge;
   top: 100%;
   transform: scaleY(-1);
+  @include media-query($iphone6-7) {
+    height: calc(10vw + .5px);
+    left: -10px;
+  }
 }
 .cheese-wedge--right {
   text-align: left;

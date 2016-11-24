@@ -9,6 +9,10 @@
   @include cheese-wedge-background($jelly-bean);
   transform: scaleY(-1);
   top: 100%;
+  @include media-query($iphone6-7) {
+    height: calc(10vw + .5px);
+    left: -10px;
+  }
 }
 .site-header__inner {
   @include max-width;
