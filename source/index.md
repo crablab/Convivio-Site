@@ -24,4 +24,4 @@ include-below: contact.html
 
 <p class="intro-copy">We’ve helped digital leaders achieve this in government and well-known brands, and we can be your team too.</p>
 
-<a class="button button--primary button--spacing-top" href="/services">See what we do</a>
+<a class="button button--primary button--spacing-top" href="/what-we-do">See what we do</a>
