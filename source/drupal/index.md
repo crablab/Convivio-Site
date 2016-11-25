@@ -25,7 +25,6 @@ meta-title: Drupal
 
 <div class="cheese-wedge cheese-wedge--rajah  cheese-wedge--align-left">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--sign-post"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Our Drupal services</h2>
 
@@ -45,7 +44,6 @@ meta-title: Drupal
 
 <div class="cheese-wedge cheese-wedge--aquamarine  cheese-wedge--right">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--sign-post"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">We're Drupal 8 experts</h2>
 
@@ -62,7 +60,6 @@ meta-title: Drupal
 
 <div class="cheese-wedge cheese-wedge--drupal">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--sign-post"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Find Out More about Drupal</h2>
 
@@ -74,7 +71,6 @@ meta-title: Drupal
 
 <div class="cheese-wedge cheese-wedge--keppel cheese-wedge--right">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--coffee"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Need Drupal experience?<br class="full-width-only" /> Let's have a chat.</h2>
 
