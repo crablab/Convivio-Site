@@ -48,12 +48,25 @@ meta-title: Drupal
     <h2 class="site-heading">We're Drupal 8 experts</h2>
 
     <ol class="big-numbers-list">
-      <li><strong>Joe Baker,</strong> our tech lead, has been working with Drupal since xxx. He led Oxfam internationals work to _____ which Drupal was great for because ______. He was also the architect and lead developer for a Drupal-based system to take the entire recruitment system for judges in the UK online.</li>
-      <li><strong>Lewis Nyman,</strong> our UX Design lead, has worked with Drupal since xxx. He has _____, and led the UX work to make the judicial recruitment system highly user friendly, taking advantage of Drupal’s ability to completely customise both the user and admin experiences.</li>
-      <li><strong>Mike Bell,</strong> senior developer, has been working with Drupal for ___ years. He ____</li>
+      <li><strong>Joe Baker,</strong> tech lead, Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse.</li>
+      <li><strong>Lewis Nyman,</strong> our UX Design lead, was on the Drupal usability team, maintained a Drupal Core theme during Drupal 8 development, and was a top 30 contributor to Drupal 8. He's worked with many organisations that use Drupal including Comic Relief, Royal Mail, and Kew Gardens.</li>
+      <li><strong>Mike Bell,</strong> senior developer, Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse.</li>
       <li>We're all highly involved in the Drupal community. Our CEO, Steve Parks, has been in the Drupal community for 12 years, starting out building Drupal sites, and then taking a leadership role. He has three times been one of the chairs of the annual Drupal conference.</li>
     </ol>
 
+  </div>
+  </div>
+</div>
+
+
+<div class="cheese-wedge cheese-wedge--keppel cheese-wedge--right">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__copy">
+    <h2 class="site-heading">Need Drupal experience?<br class="full-width-only" /> Let's have a chat.</h2>
+
+    <p class="intro-copy">We often find there’s one visionary person driving digital transformation in big organisations — a digital hero. It can be hard, and sometimes lonely, work, but ultimately very rewarding. We understand the challenges you face, and we can help.</p>
+
+    <a class="button button--spacing-top" href="/contact">Contact us</a>
   </div>
   </div>
 </div>
@@ -68,16 +81,3 @@ meta-title: Drupal
   </div>
   </div>
 </div>
-
-<div class="cheese-wedge cheese-wedge--keppel cheese-wedge--right">
-  <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__copy">
-    <h2 class="site-heading">Need Drupal experience?<br class="full-width-only" /> Let's have a chat.</h2>
-
-    <p class="intro-copy">We often find there’s one visionary person driving digital transformation in big organisations — a digital hero. It can be hard, and sometimes lonely, work, but ultimately very rewarding. We understand the challenges you face, and we can help.</p>
-
-    <a class="button button--spacing-top" href="/contact">Contact us</a>
-  </div>
-  </div>
-</div>
-
