@@ -17,7 +17,8 @@
     "gulp-shell": "^0.5.2",
     "gulp-uglify": "^2.0.0",
     "harmonize": "^1.4.4",
-    "sass-svg": "^1.0.1"
+    "sass-svg": "^1.0.1",
+    "sassdash": "^0.8.2"
   },
   "dependencies": {
     "add-class": "^1.0.3",
