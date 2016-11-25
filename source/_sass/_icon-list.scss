@@ -41,6 +41,36 @@
     background-image: url(../images/icons/chart.svg);
   }
 }
+.icon-list__icon--phone {
+  color: #DBA349;
+  &:before {
+    background-image: url(../images/icons/phone.svg);
+  }
+}
+.icon-list__icon--connected {
+  color: $jelly-bean;
+  &:before {
+    background-image: url(../images/icons/connected.svg);
+  }
+}
+.icon-list__icon--devices {
+  color: $keppel;
+  &:before {
+    background-image: url(../images/icons/devices-circle.svg);
+  }
+}
+.icon-list__icon--lock {
+  color: $jelly-bean;
+  &:before {
+    background-image: url(../images/icons/lock.svg);
+  }
+}
+.icon-list__icon--lock-2 {
+  color: $keppel;
+  &:before {
+    background-image: url(../images/icons/lock-2.svg);
+  }
+}
 
 .icon-list__icon--twitter {
   color: $twitter;

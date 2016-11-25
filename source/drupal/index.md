@@ -6,21 +6,21 @@ meta-title: Drupal
 
 <div class="content-container content-container--top content-container--bottom">
 
-  <h2 class="sub-heading sub-heading--centered">Drupal 8 powers the open web.</h2>
+  <h2 class="sub-heading sub-heading--centered">Drupal powers the open web.</h2>
 
   <ul class="icon-list">
-    <li class="icon-list__icon icon-list__icon--calculate">
-      <h3 class="icon-list__title">Benefit 1</h3>
+    <li class="icon-list__icon icon-list__icon--phone">
+      <h3 class="icon-list__title">Mobile first</h3>
     </li>
-    <li class="icon-list__icon icon-list__icon--rosette">
-      <h3 class="icon-list__title">Benefit 2</h3>
+    <li class="icon-list__icon icon-list__icon--connected">
+      <h3 class="icon-list__title">Integrated experiences</h3>
     </li>
-    <li class="icon-list__icon icon-list__icon--chart">
-      <h3 class="icon-list__title">Benefit 3</h3>
+    <li class="icon-list__icon icon-list__icon--lock-2">
+      <h3 class="icon-list__title">Highly secure</h3>
     </li>
   </ul>
 
-  <p class="intro-copy">The main tool that we work with is Drupal 8, a world-class web application framework. It began life in 2000 as a simple content management system like Wordpress, but has evolved to become a highly advanced framework for building complex web applications.</p>
+  <p class="intro-copy">The main tool that we work with is Drupal, a world-class web application framework. It began life in 2000 as a simple content management system like Wordpress, but has evolved to become a highly advanced framework for building complex web applications.</p>
 </div>
 
 <div class="cheese-wedge cheese-wedge--rajah  cheese-wedge--align-left">
@@ -29,11 +29,11 @@ meta-title: Drupal
     <h2 class="site-heading">Our Drupal services</h2>
 
     <ol class="big-numbers-list">
-      <li><h3 class="big-numbers-list__title">Drupal Audit</h3>
+      <li><h3 class="big-numbers-list__title">Drupal audit</h3>
       Have our expert team check the security, performance, and build quality of your site. We provide detailed recommendations for remedial action, and recommendations for other steps to take.</li>
-      <li><h3 class="big-numbers-list__title">Drupal 8 Upgrade</h3>
+      <li><h3 class="big-numbers-list__title">Drupal 8 upgrade</h3>
       Versions of Drupal prior to Drupal 7 are no longer supported and need to be upgraded for security and stability. We can take you smoothly and professionally through this process.</li>
-      <li><h3 class="big-numbers-list__title">Drupal 8 development</h3>
+      <li><h3 class="big-numbers-list__title">Drupal development</h3>
       We can design and develop your new Drupal site, with our professional approach to project delivery.</li>
       <li><h3 class="big-numbers-list__title">Drupal consultancy</h3> Advice on drupal development, usability, theming, performance, security, hosting and more.</li>
     </ol>
@@ -45,7 +45,7 @@ meta-title: Drupal
 <div class="cheese-wedge cheese-wedge--aquamarine  cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
-    <h2 class="site-heading">We're Drupal 8 experts</h2>
+    <h2 class="site-heading">We're Drupal experts</h2>
 
     <ol class="big-numbers-list">
       <li><strong>Joe Baker,</strong> tech lead, Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse.</li>
@@ -74,9 +74,9 @@ meta-title: Drupal
 <div class="cheese-wedge cheese-wedge--drupal">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
-    <h2 class="site-heading">Find Out More about Drupal</h2>
+    <h2 class="site-heading">Find out more about Drupal</h2>
 
-    <p class="intro-copy">Drupal.com has information about Drupal, while Drupal.org is a hub for the community and collaboration on development. In the UK drupal.org.uk is a place where drupal developers gather to learn and share.</p>
+    <p class="intro-copy"><a href="http://drupal.com/" target="_blank">Drupal.com</a> has information about Drupal, while <a href="http://drupal.org/" target="_blank">Drupal.org</a> is a hub for the community and collaboration on development. In the UK <a href="http://drupal.org.uk/" target="_blank">Drupal.org.uk</a> is a place where drupal developers gather to learn and share.</p>
 
   </div>
   </div>
