@@ -23,7 +23,7 @@ meta-title: Drupal
   <p class="intro-copy">The main tool that we work with is Drupal, a world-class web application framework. It began life in 2000 as a simple content management system like Wordpress, but has evolved to become a highly advanced framework for building complex web applications.</p>
 </div>
 
-<div class="cheese-wedge cheese-wedge--rajah  cheese-wedge--align-left">
+<div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--align-left">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Our Drupal services</h2>
@@ -59,7 +59,7 @@ meta-title: Drupal
 </div>
 
 
-<div class="cheese-wedge cheese-wedge--keppel cheese-wedge--right">
+<div class="cheese-wedge cheese-wedge--rajah cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Need Drupal experience?<br class="full-width-only" /> Let's have a chat.</h2>
