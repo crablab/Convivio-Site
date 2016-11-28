@@ -17,7 +17,23 @@ In the project root folder, run:
 
 ## Local development
 
+Run `gulp`
+
+It compiles the site to `destination`, starts a local server for that folder, and watches the various files to recompile when modified.
+
 ## Deploying to production
+
+To ensure the site is built correctly, run:
+
+1. `gulp build`
+2. `gulp critical`
+3. `gulp build` again
+
+Finally, run `gulp deploy` to push the `destination` folder contents to the `gh-pages` branch.
+
+The build and deploy process is currently a little convoluted in the name of performance and the [critical rendering path.](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+
+The `gulp critical` task needs a generated site to be able to figure out the critical CSS on the page. Once the critical.css is generated the site needs to be built again to include the CSS inline.
 
 ## Folder structure
 
