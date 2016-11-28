@@ -13,7 +13,8 @@ var cleanCSS = require('gulp-clean-css');
 var responsive = require('gulp-responsive');
 var clean = require('gulp-clean');
 var ghPages = require('gulp-gh-pages');
-var critical = require('critical');
+var critical = require('critical').stream;
+var gutil = require('gulp-util');
 
 var sourceDir = './source/';
 var buildDir = './destination'
@@ -99,23 +100,21 @@ gulp.task('images', function() {
 });
 
 gulp.task('critical', function (cb) {
-    critical.generate({
-        base: 'destination/',
-        src: 'index.html',
-        css: ['destination/css/style.css'],
-        dest: 'source/_includes/critical.css',
-        extract: false,
-        dimensions: [{
-          width: 320,
-          height: 480
-        },{
-          width: 768,
-          height: 1024
-        },{
-          width: 1280,
-          height: 960
-        }]
-    });
+  return gulp.src('destination/**/*.html')
+  .pipe(critical({
+      base: 'destination/',
+      css: ['destination/css/style.css'],
+      inline: true,
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      }]
+  }))
+  .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+  .pipe(gulp.dest('destination'));
 });
 
 gulp.task('watch', function() {
@@ -162,7 +161,7 @@ gulp.task('serve', function () {
   });
 });
 
-gulp.task('deploy', function() {
+gulp.task('deploy', ['critical'], function() {
   return gulp.src('./destination/**/*')
     .pipe(ghPages());
 });

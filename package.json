@@ -16,6 +16,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-shell": "^0.5.2",
     "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
     "harmonize": "^1.4.4",
     "sass-svg": "^1.0.1",
     "sassdash": "^0.8.2"

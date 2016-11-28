@@ -8,8 +8,6 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="google-site-verification" content="KHl4yrET7iiMzLYr9dyL8Zrez6B4ZTFOYjZ7QvOYvNM" />
 
-  <style>{% include critical.css %}</style>
-
   <link rel="preload" href="/css/style.css?v={{ site.time | date: '%s' }}" as="style" onload="this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}">

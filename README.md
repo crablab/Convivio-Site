@@ -26,14 +26,11 @@ It compiles the site to `destination`, starts a local server for that folder, an
 To ensure the site is built correctly, run:
 
 1. `gulp build`
-2. `gulp critical`
-3. `gulp build` again
+2. `gulp deploy`
 
-Finally, run `gulp deploy` to push the `destination` folder contents to the `gh-pages` branch.
+`gulp deploy` pushes the `destination` folder contents to the `gh-pages` branch.
 
-The build and deploy process is currently a little convoluted in the name of performance and the [critical rendering path.](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
-
-The `gulp critical` task needs a generated site to be able to figure out the critical CSS on the page. Once the critical.css is generated the site needs to be built again to include the CSS inline.
+The build and deploy process is currently a little slow in the name of performance and the [critical rendering path.](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
 
 ## Folder structure
 
