@@ -9,6 +9,7 @@ This project is built using Jekyll and Gulp.
 ## Installing
 
 In the project root folder, run:
+
 1. `nvm use`
 1. `npm install --global gulp-cli`
 1. `nvm use`
