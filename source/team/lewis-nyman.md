@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Lewis Nyman
+sitemap: false
 ---
 
 {% include team-profile.html slug="lewis-nyman" name="Lewis Nyman" title="UX & Design" location="Brighton" bio="<p>I think everything on the web should be designed with someone in mind. I make sure that Someone is the right person, and that they’re heard and understood – and I try and put a smile on their face 😄</p>

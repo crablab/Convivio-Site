@@ -37,4 +37,5 @@ keep_files:
   - js
   - images
 
-
+gems:
+  - jekyll-sitemap
