@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Steve Hunton
+sitemap: false
 ---
 
 {% include team-profile.html slug="steve-hunton" name="Steve Hunton" title="Project Delivery" location="Newcastle" bio="<p>Project delivery is where you’ll find me. I’m a big fan of a well-delivered project, but I’m interested in bad delivery too.</p>
