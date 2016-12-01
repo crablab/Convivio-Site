@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
 
-  <title>{% if page.meta-title-override %}{{ page.meta-title-override | escape }}{% elsif page.meta-title %}title %}{{ page.meta-title | escape }} — Convivio{% elsif page.title %}{{ page.title | escape }}  — Convivio{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.meta-title-override %}{{ page.meta-title-override | escape }}{% elsif page.meta-title %}{{ page.meta-title | escape }} — Convivio{% elsif page.title %}{{ page.title | escape }}  — Convivio{% else %}{{ site.title | escape }}{% endif %}</title>
 
   {% if page.description %}
   <meta name="description" content="{{ page.description | strip_html | strip_newlines | truncate: 160 }}">
