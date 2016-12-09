@@ -93,33 +93,21 @@
 }
 .cheese-wedge__icon {
   position: absolute;
-  top: -80px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  overflow: visible;
+  left: -330px;
+  bottom: -170px;
+  width: 18%;
   z-index: 5;
+  .cheese-wedge--right & {
+    left: 100%;
+  }
 }
 .cheese-wedge__inner {
   max-width: 740px;
   margin: 0 auto;
+  overflow: visible;
+  position: relative;
   @include media-query('(max-width: 931px)') {
     padding: 0 20px;
-  }
-}
-.cheese-wedge__copy {
-  @include media-query('(min-width: 931px)') {
-    width: 85%;
-    margin-left: 15%;
-  }
-  position: relative;
-  z-index: 10;
-  .cheese-wedge--right &,
-  .cheese-wedge--align-left & {
-    @include media-query('(min-width: 931px)') {
-      margin-left: 0;
-      margin-right: 15%;
-    }
   }
 }
 

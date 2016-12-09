@@ -55,12 +55,14 @@ gulp.task('scripts', function() {
     browserSync.reload();
 });
 
-gulp.task('images', function() {
+gulp.task('svgs', function() {
   gulp.src(svgSrc)
-    .pipe(imagemin())
-    .pipe(gulp.dest(imgDest))
-    browserSync.reload();
+  .pipe(imagemin())
+  .pipe(gulp.dest(imgDest))
+  browserSync.reload();
+});
 
+gulp.task('bitmaps', function() {
   gulp.src(imgSrc)
   .pipe(responsive({
     '**/*': [
@@ -137,8 +139,17 @@ gulp.task('watch', function() {
     });
 
   gulp
-    // Run run `scripts` task when js files change
-    .watch(imgSrc, ['images'])
+    // Run run `bitmaps` task when bitmap images change
+    .watch(imgSrc, ['bitmaps'])
+    // When there is a change,
+    // log a message in the console
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
+
+  gulp
+    // Run run `svgs` task when svg images change
+    .watch(svgSrc, ['svgs'])
     // When there is a change,
     // log a message in the console
     .on('change', function(event) {
@@ -171,5 +182,5 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-gulp.task('build', ['jekyll-build', 'sass', 'scripts', 'images']);
+gulp.task('build', ['jekyll-build', 'sass', 'scripts', 'bitmaps', 'svgs']);
 gulp.task('default', ['build', 'serve', 'watch']);
