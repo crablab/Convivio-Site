@@ -2,6 +2,7 @@
 layout: full-width
 title: We work with Drupal
 meta-title: Drupal
+sitemap: false
 ---
 
 <div class="content-container content-container--top content-container--bottom">
