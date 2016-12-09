@@ -13,7 +13,7 @@
   cursor: pointer;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 0px 0px #918F89;
+  box-shadow: 0px 2px 0px 0px #918F89;
   appearance: none;
   &:hover,
   &:focus {
@@ -21,7 +21,7 @@
   }
   &:active {
     box-shadow: none;
-    transform: translate(0, 1px);
+    transform: translate(0, 2px);
   }
 }
 
@@ -29,7 +29,7 @@
   background: $jelly-bean;
   color: $isabelline;
   letter-spacing: 0.5px;
-  box-shadow: 0px 1px 0px 0px #A14233;
+  box-shadow: 0px 2px 0px 0px #A14233;
   &:hover,
   &:focus {
     background-color: #DB5A46;

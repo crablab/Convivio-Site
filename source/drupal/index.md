@@ -66,7 +66,7 @@ meta-title: Drupal
 
     <p class="intro-copy">We often find there’s one visionary person driving digital transformation in big organisations — a digital hero. It can be hard, and sometimes lonely, work, but ultimately very rewarding. We understand the challenges you face, and we can help.</p>
 
-    <a class="button button--spacing-top" href="/contact">Contact us</a>
+    <a class="button button--primary button--spacing-top" href="/contact">Contact us</a>
   </div>
   </div>
 </div>
