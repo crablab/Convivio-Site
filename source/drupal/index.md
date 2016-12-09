@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: Powered by Drupal
+title: We work with Drupal
 meta-title: Drupal
 ---
 
@@ -20,7 +20,8 @@ meta-title: Drupal
     </li>
   </ul>
 
-  <p class="intro-copy">The main tool that we work with is Drupal, a world-class web application framework. It began life in 2000 as a simple content management system like Wordpress, but has evolved to become a highly advanced framework for building complex web applications.</p>
+  <p class="intro-copy">Drupal is a highly advanced framework for building complex web applications. It can deliver seamless experiences on all devices, integrate with other systems, and with the reassurance of security approved by <a href="http://buytaert.net/whitehouse-gov-using-drupal" target="_blank">the White House.</a></p>
+  <p class="intro-copy">With decades of experience, we're Drupal specialists. We've worked on many high profile projects, including Oxfam, the Judicial Appointments Commission, and Comic Relief.</p>
 </div>
 
 <div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--align-left">
