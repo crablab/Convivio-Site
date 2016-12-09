@@ -2,6 +2,7 @@
 layout: full-width
 title: You need to deliver change.<br class="full-width-only" /> We’re ready to help you.
 meta-title: Services
+description: You need to deliver change. We do Strategy, Discovery, Prototyping, and Delivery.
 include-below: contact.html
 ---
 

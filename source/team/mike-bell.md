@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mike Bell
+sitemap: false
 ---
 
 {% include team-profile.html slug="mike-bell" name="Mike Bell" title="Senior Developer" location="Manchester" bio="<p>I like building the right solution for the right problem. I take pride in picking the right technical solution to build something that's maintainable and sustainable over the lifetime of a project. I enjoy technical challenges and discovering new ways of doing things.</p>

@@ -1,6 +1,7 @@
 ---
 layout: full-width
 title: We help organisations<br class="full-width-only" /> work better for people
+description: We help organisations work better for people. Our ambition is to do good for a million people.
 meta-title: About us
 include-below: services.html
 ---

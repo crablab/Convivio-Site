@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Joe Baker
+sitemap: false
 ---
 
 {% include team-profile.html slug="joe-baker" name="Joe Baker" title="Tech Lead" location="Birmingham" bio="<p>Tech projects are about people doing good things with technology for people. I care deeply about helping capable people to work well together on successful, healthy, good tech projects that make the world a better place.</p>

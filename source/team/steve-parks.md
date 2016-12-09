@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Steve Parks
+sitemap: false
 ---
 
 {% include team-profile.html slug="steve-parks" name="Steve Parks" title="Digital Business Strategy" location="London" bio="<p>I enjoy helping client organisations dig into what they do, finding the hard but valuable problems to solve, thinking them through, and then leading teams to successful delivery.</p>

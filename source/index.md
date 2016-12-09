@@ -1,7 +1,8 @@
 ---
 layout: page
 title: We help you serve people<br class="medium-up-only" /> better online
-meta-title: We help you serve people better online
+description: We do strategy, design, and development to transform your business. Reduce costs. Improve service. Grow sales.
+meta-title-override: Convivio — We help you serve people better online
 include-below: contact.html
 ---
 
@@ -24,4 +25,4 @@ include-below: contact.html
 
 <p class="intro-copy">We’ve helped digital leaders achieve this in government and well-known brands, and we can be your team too.</p>
 
-<a class="button button--primary button--spacing-top" href="/services">See what we do</a>
+<a class="button button--primary button--spacing-top" href="/what-we-do">See what we do</a>

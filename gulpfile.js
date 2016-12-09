@@ -13,7 +13,8 @@ var cleanCSS = require('gulp-clean-css');
 var responsive = require('gulp-responsive');
 var clean = require('gulp-clean');
 var ghPages = require('gulp-gh-pages');
-var critical = require('critical');
+var critical = require('critical').stream;
+var gutil = require('gulp-util');
 
 var sourceDir = './source/';
 var buildDir = './destination'
@@ -54,12 +55,14 @@ gulp.task('scripts', function() {
     browserSync.reload();
 });
 
-gulp.task('images', function() {
+gulp.task('svgs', function() {
   gulp.src(svgSrc)
-    .pipe(imagemin())
-    .pipe(gulp.dest(imgDest))
-    browserSync.reload();
+  .pipe(imagemin())
+  .pipe(gulp.dest(imgDest))
+  browserSync.reload();
+});
 
+gulp.task('bitmaps', function() {
   gulp.src(imgSrc)
   .pipe(responsive({
     '**/*': [
@@ -99,23 +102,21 @@ gulp.task('images', function() {
 });
 
 gulp.task('critical', function (cb) {
-    critical.generate({
-        base: 'destination/',
-        src: 'index.html',
-        css: ['destination/css/style.css'],
-        dest: 'source/_includes/critical.css',
-        extract: false,
-        dimensions: [{
-          width: 320,
-          height: 480
-        },{
-          width: 768,
-          height: 1024
-        },{
-          width: 1280,
-          height: 960
-        }]
-    });
+  return gulp.src('destination/**/*.html')
+  .pipe(critical({
+      base: 'destination/',
+      css: ['destination/css/style.css'],
+      inline: true,
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      }]
+  }))
+  .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+  .pipe(gulp.dest('destination'));
 });
 
 gulp.task('watch', function() {
@@ -138,8 +139,17 @@ gulp.task('watch', function() {
     });
 
   gulp
-    // Run run `scripts` task when js files change
-    .watch(imgSrc, ['images'])
+    // Run run `bitmaps` task when bitmap images change
+    .watch(imgSrc, ['bitmaps'])
+    // When there is a change,
+    // log a message in the console
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
+
+  gulp
+    // Run run `svgs` task when svg images change
+    .watch(svgSrc, ['svgs'])
     // When there is a change,
     // log a message in the console
     .on('change', function(event) {
@@ -162,7 +172,7 @@ gulp.task('serve', function () {
   });
 });
 
-gulp.task('deploy', function() {
+gulp.task('deploy', ['critical'], function() {
   return gulp.src('./destination/**/*')
     .pipe(ghPages());
 });
@@ -172,5 +182,5 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-gulp.task('build', ['jekyll-build', 'sass', 'scripts', 'images']);
+gulp.task('build', ['jekyll-build', 'sass', 'scripts', 'bitmaps', 'svgs']);
 gulp.task('default', ['build', 'serve', 'watch']);
