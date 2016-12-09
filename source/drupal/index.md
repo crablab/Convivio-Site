@@ -6,7 +6,7 @@ meta-title: Drupal
 
 <div class="content-container content-container--top content-container--bottom">
 
-  <h2 class="sub-heading sub-heading--centered">Drupal powers the open web.</h2>
+  <h2 class="sub-heading sub-heading--centered">Drupal powers the open web</h2>
 
   <ul class="icon-list">
     <li class="icon-list__icon icon-list__icon--phone">
@@ -59,7 +59,7 @@ meta-title: Drupal
 </div>
 
 
-<div class="cheese-wedge cheese-wedge--rajah cheese-wedge--right">
+<div class="cheese-wedge cheese-wedge--rajah">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Need Drupal experience?<br class="full-width-only" /> Let's have a chat.</h2>
@@ -71,12 +71,16 @@ meta-title: Drupal
   </div>
 </div>
 
-<div class="cheese-wedge cheese-wedge--drupal">
+<div class="cheese-wedge cheese-wedge--drupal cheese-wedge--right-odd">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Find out more about Drupal</h2>
 
-    <p class="intro-copy"><a href="http://drupal.com/" target="_blank">Drupal.com</a> has information about Drupal, while <a href="http://drupal.org/" target="_blank">Drupal.org</a> is a hub for the community and collaboration on development. In the UK <a href="http://drupal.org.uk/" target="_blank">Drupal.org.uk</a> is a place where drupal developers gather to learn and share.</p>
+     <ol class="big-numbers-list">
+      <li><a href="http://drupal.com" target="_blank">Find out who's using Drupal</a></li>
+      <li><a href="https://www.drupal.org" target="_blank">Catch up on the latest news</a></li>
+      <li><a href="https://www.drupical.com" target="_blank">Find local events close to you</a></li>
+    </ol>
 
   </div>
   </div>
