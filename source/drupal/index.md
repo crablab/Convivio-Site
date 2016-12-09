@@ -21,7 +21,7 @@ meta-title: Drupal
   </ul>
 
   <p class="intro-copy">Drupal is a highly advanced framework for building complex web applications. It can deliver seamless experiences on all devices, integrate with other systems, and with the reassurance of security approved by <a href="http://buytaert.net/whitehouse-gov-using-drupal" target="_blank">the White House.</a></p>
-  <p class="intro-copy">With decades of experience, we're Drupal specialists. We've worked on many high profile projects, including Oxfam International, the Judicial Appointments Commission, and Comic Relief.</p>
+  <p class="intro-copy">With decades of experience, we're Drupal specialists. Our team has worked worked on many high profile projects, including Oxfam International, the Judicial Appointments Commission, and Comic Relief.</p>
 </div>
 
 <div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--align-left">
@@ -78,9 +78,9 @@ meta-title: Drupal
     <h2 class="site-heading">Find out more about Drupal</h2>
 
      <ol class="big-numbers-list">
-      <li><a href="http://drupal.com" target="_blank">Find out who's using Drupal</a></li>
-      <li><a href="https://www.drupal.org" target="_blank">Catch up on the latest news</a></li>
-      <li><a href="https://www.drupical.com" target="_blank">Find local events close to you</a></li>
+      <li><a href="http://drupal.com" target="_blank">Find out who's using Drupal</a> — with case studies of websites from governments to TV stations</li>
+      <li><a href="https://www.drupal.org" target="_blank">Catch up on the latest news</a> — from the highly active and collaborative Drupal community of over a million people</li>
+      <li><a href="https://www.drupical.com" target="_blank">Find local events close to you</a> — there's something happening in the Drupal community all the time, all over the world</li>
     </ol>
 
   </div>
