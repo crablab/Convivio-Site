@@ -49,10 +49,10 @@ meta-title: Drupal
     <h2 class="site-heading">We're Drupal experts</h2>
 
     <ol class="big-numbers-list">
-      <li><strong>Joe Baker,</strong> our technical lead, has been working with Drupal for 12 years, since its earliest public versions. He has presented technical talks at international, regional and local Drupal events. Joe has worked with organisations using Drupal in many industries, in the private, public and third sectors, including Oxfam International and the UK Judicial Appointments Commission.</li>
-      <li><strong>Lewis Nyman,</strong> our UX Design lead, was on the Drupal usability team, maintained a Drupal Core theme during Drupal 8 development, and was a top 30 contributor to Drupal 8. He's worked with many organisations that use Drupal including Comic Relief, Royal Mail, and Kew Gardens.</li>
-      <li><strong>Mike Bell,</strong> our senior developer, has worked with a range of clients like British Council, Greater London Authority, Ministry of Justice and Kew Gardens.</li>
-      <li>We're all highly involved in the Drupal community. Our CEO, Steve Parks, has been in the Drupal community for 12 years, starting out building Drupal sites, and then taking a leadership role. He has three times been one of the chairs of the annual Drupal conference.</li>
+      <li><strong><a href="https://www.drupal.org/u/joe-b" target="_blank">Joe Baker,</a></strong> our technical lead, has been working with Drupal for 12 years, since its earliest public versions. He has presented technical talks at international, regional and local Drupal events. Joe has worked with organisations using Drupal in many industries, in the private, public and third sectors, including Oxfam International and the UK Judicial Appointments Commission.</li>
+      <li><a href="https://www.drupal.org/u/lewisnyman" target="_blank"><strong>Lewis Nyman,</strong></a> our UX Design lead, was on the Drupal usability team, maintained a Drupal Core theme during Drupal 8 development, and was a top 30 contributor to Drupal 8. He's worked with many organisations that use Drupal including Comic Relief, Royal Mail, and Kew Gardens.</li>
+      <li><strong><a href="https://www.drupal.org/u/mikebell_" target="_blank">Mike Bell,</a></strong> our senior developer, has worked with a range of clients like British Council, Greater London Authority, Ministry of Justice and Kew Gardens.</li>
+      <li>We're all highly involved in the Drupal community. Our CEO, <strong><a href="https://www.drupal.org/u/steveparks" target="_blank">Steve Parks,</a></strong> has been in the Drupal community for 12 years, starting out building Drupal sites, and then taking a leadership role. He has three times been one of the chairs of the annual Drupal conference.</li>
     </ol>
 
   </div>
@@ -78,7 +78,7 @@ meta-title: Drupal
     <h2 class="site-heading">Find out more about Drupal</h2>
 
      <ol class="big-numbers-list">
-      <li><a href="http://drupal.com" target="_blank">Find out who's using Drupal</a> — with case studies of websites from governments to TV stations</li>
+      <li><a href="http://drupal.com/showcase" target="_blank">Find out who's using Drupal</a> — with case studies of websites from governments to TV stations</li>
       <li><a href="https://www.drupal.org" target="_blank">Catch up on the latest news</a> — from the highly active and collaborative Drupal community of over a million people</li>
       <li><a href="https://www.drupical.com" target="_blank">Find local events close to you</a> — there's something happening in the Drupal community all the time, all over the world</li>
     </ol>
