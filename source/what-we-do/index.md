@@ -54,6 +54,8 @@ include-below: contact.html
     <p class="intro-copy">We work as one team with you to provide a multi-disciplinary team of designers, developers and delivery specialists who can work in rapid iterations to deliver your digital service. </p>
 
     <p class="intro-copy">We work in an open and collaborative way, within a solid delivery process, embracing new learning and change as way to deliver the best outcome.</p>
+
+    <p class="intro-copy">We work with many modern open source tools and technologies including&nbsp;<a href="/drupal">Drupal.</a></p>
   </div>
   </div>
 </div>
