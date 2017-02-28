@@ -14,7 +14,7 @@
     height: 90px;
     margin: 0 auto 10px;
     background: none center center no-repeat;
-    background-size: 100%;
+    background-size: contain;
   }
 }
 .icon-list__icon + .icon-list__icon {
@@ -71,7 +71,6 @@
     background-image: url(../images/icons/lock-2.svg);
   }
 }
-
 .icon-list__icon--twitter {
   color: $twitter;
   &:before {
@@ -90,8 +89,48 @@
     background-image: url(../images/icons/paper-plane.svg);
   }
 }
+.icon-list__icon--msf {
+  &:before {
+    background-image: url(../images/client-logos/msf.svg);
+    width: auto;
+  }
+}
+.icon-list__icon--obermeyer {
+  &:before {
+    background-image: url(../images/client-logos/obermeyer.svg);
+    width: auto;
+  }
+}
+.icon-list__icon--superior {
+  &:before {
+    background-image: url(../images/client-logos/superior.png);
+    width: auto;
+  }
+}
+.icon-list__icon--aas {
+  &:before {
+    background-image: url(../images/client-logos/aas.png);
+    width: auto;
+  }
+}
+.icon-list__icon--sheg {
+  &:before {
+    background-image: url(../images/client-logos/sheg.svg);
+    width: auto;
+  }
+}
+.icon-list__icon--redhat {
+  &:before {
+    background-image: url(../images/client-logos/redhat.png);
+    width: auto;
+  }
+}
+
 .icon-list__title {
   font-size: 20px;
   line-height: 22px;
   @include font-primary;
+}
+.icon-list--hide-titles .icon-list__title {
+  @include hide-text;
 }
