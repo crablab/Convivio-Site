@@ -28,7 +28,7 @@ include-below:
 
 <a class="button button--primary button--spacing-top button--spacing-bottom" href="/what-we-do">See what we do</a>
 
-<h2 class="sub-heading">Clients we've worked with</h2>
+<h2 class="sub-heading sub-heading--centered icon-list--massive-top-spacing">Clients we've worked with</h2>
 
 <ul class="icon-list icon-list--hide-titles">
   <li class="icon-list__icon icon-list__icon--msf">

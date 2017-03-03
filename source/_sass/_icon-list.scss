@@ -3,6 +3,9 @@
   justify-content: center;
   margin: 30px 0;
 }
+.icon-list--massive-top-spacing {
+  margin-top: 120px;
+}
 .icon-list__icon {
   text-align: center;
   width: 33%;
@@ -121,7 +124,7 @@
 }
 .icon-list__icon--redhat {
   &:before {
-    background-image: url(../images/client-logos/redhat.png);
+    background-image: url(../images/client-logos/redhat.svg);
     width: auto;
   }
 }
