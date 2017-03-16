@@ -19,7 +19,9 @@ layout: compress
       </main>
 
       {% if page.include-below %}
-        {% include {{page.include-below}} %}
+        {% for item in page.include-below %}
+            {% include {{item}} %}
+        {% endfor %}
       {% endif %}
 
       {% include footer.html %}

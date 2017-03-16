@@ -12,9 +12,10 @@
 }
 
 @mixin hide-text {
-  overflow:hidden;
-  text-indent:-9000px;
-  display:block;
+  overflow: hidden;
+  text-indent: -9000px;
+  display: block;
+  height: 0;
 }
 
 @mixin no-spacing {
