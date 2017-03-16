@@ -106,8 +106,9 @@
 }
 .icon-list__icon--superior {
   &:before {
-    background-image: url(../images/client-logos/superior.png);
+    background-image: url(../images/client-logos/superior.svg);
     width: auto;
+    background-position: center bottom;
   }
 }
 .icon-list__icon--aas {
