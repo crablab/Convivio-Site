@@ -34,8 +34,8 @@ include-below:
   <li class="icon-list__icon icon-list__icon--msf">
     <h3 class="icon-list__title">MSF</h3>
   </li>
-  <li class="icon-list__icon icon-list__icon--superior">
-    <h3 class="icon-list__title">Superior Recreational Products</h3>
+  <li class="icon-list__icon icon-list__icon--cps">
+    <h3 class="icon-list__title">Crown Prosecution Service</h3>
   </li>
   <li class="icon-list__icon icon-list__icon--sheg">
     <h3 class="icon-list__title">Stanford Historial Education Group</h3>

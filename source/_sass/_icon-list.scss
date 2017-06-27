@@ -14,8 +14,8 @@
     display: block;
     width: 90px;
     max-width: 100%;
-    height: 90px;
-    margin: 0 auto 10px;
+    height: 100px;
+    margin: 10px auto 0;
     background: none center center no-repeat;
     background-size: contain;
   }
@@ -104,9 +104,9 @@
     width: auto;
   }
 }
-.icon-list__icon--superior {
+.icon-list__icon--cps {
   &:before {
-    background-image: url(../images/client-logos/superior.svg);
+    background-image: url(../images/client-logos/cps.svg);
     width: auto;
     background-position: center bottom;
   }
