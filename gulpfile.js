@@ -101,7 +101,7 @@ gulp.task('bitmaps', function() {
 
 });
 
-gulp.task('critical', function (cb) {
+gulp.task('critical', ['generate-site'], function (cb) {
   return gulp.src('destination/**/*.html')
   .pipe(critical({
       base: 'destination/',
@@ -182,5 +182,6 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-gulp.task('build', ['jekyll-build', 'sass', 'scripts', 'bitmaps', 'svgs']);
-gulp.task('default', ['build', 'serve', 'watch']);
+gulp.task('generate-site', ['jekyll-build', 'sass', 'scripts', 'bitmaps', 'svgs'])
+gulp.task('build', ['critical', 'generate-site']);
+gulp.task('default', ['generate-site', 'serve', 'watch']);
