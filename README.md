@@ -1,5 +1,7 @@
 # The Convivio Site
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ConvivioTeam/Convivio-Site.svg)](https://greenkeeper.io/)
+
 This project is built using Jekyll and Gulp.
 
 ## Dependencies
