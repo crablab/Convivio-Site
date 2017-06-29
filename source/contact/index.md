@@ -6,7 +6,7 @@ include-below: address.html
 ---
 
 
-<form action="/thank-you" method="POST" accept-charset="utf-8" netlify>
+<form action="/thank-you/" method="POST" accept-charset="utf-8" netlify>
 <div class="layout-contact-us">
 
   <div class="layout-contact-us__column-one">
