@@ -1,0 +1,20 @@
+<div class="cheese-wedge cheese-wedge--keppel">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__icon"><i class="icon icon--coffee"></i></div>
+  <div class="cheese-wedge__copy">
+    <h2 class="site-heading">On the blog</h2>
+
+   <ul class="icon-list">
+    {% for post in site.data.blog-posts %}
+      <li class="icon-list__icon">
+        <h3 class="icon-list__title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        by {{ post.author }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  </div>
+  </div>
+</div>
