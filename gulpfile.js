@@ -156,7 +156,7 @@ gulp.task('watch', function() {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
 
-  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.txt', 'source/_includes/*.css'], ['jekyll-rebuild']);
+  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.yml', 'source/**/*.txt', 'source/_includes/*.css'], ['jekyll-rebuild']);
 
 });
 

@@ -1,16 +1,18 @@
-<div class="cheese-wedge cheese-wedge--keppel">
+<div class="cheese-wedge cheese-wedge--rajah">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__icon"><i class="icon icon--coffee"></i></div>
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">On the blog</h2>
 
-   <ul class="icon-list">
+   <ul class="image-list">
     {% for post in site.data.blog-posts %}
-      <li class="icon-list__icon">
-        <h3 class="icon-list__title">
-        <a href="{{ post.url }}">{{ post.title }}</a>
+      <li class="image-list__item">
+      <a class="image-list__link" href="{{ post.url }}">
+        <div class="image-list__image" style="background-image: url({{ post.img }})"></div>
+        <h3 class="image-list__title">
+        {{ post.title }}
         </h3>
         by {{ post.author }}
+        </a>
       </li>
     {% endfor %}
   </ul>
