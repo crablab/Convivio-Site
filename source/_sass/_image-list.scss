@@ -4,8 +4,11 @@
   margin: 30px 0;
 }
 .image-list__item {
-  text-align: center;
-  width: 33%;
+  text-align: left;
+  @include media-query($medium-layout) {
+    text-align: center;
+    width: 33%;
+  }
 }
 .image-list__link {
   display: block;
@@ -29,6 +32,7 @@
     font-size: 20px;
     line-height: 22px;
   }
+  overflow-wrap: break-word;
   @include font-primary;
 }
 
