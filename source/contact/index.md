@@ -6,7 +6,7 @@ include-below: address.html
 ---
 
 
-<form action="https://liveformhq.com/form/161b572d-afda-45cf-95ab-7b9492e5125d" method="POST" accept-charset="utf-8">
+<form action="/thank-you/" netlify>
 <div class="layout-contact-us">
 
   <div class="layout-contact-us__column-one">
