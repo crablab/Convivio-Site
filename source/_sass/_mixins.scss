@@ -58,13 +58,22 @@
   }
 }
 
-@mixin link-no-underline($background-color: $white, $width: 1px) {
+@mixin link-no-underline($background-color: $isabelline, $width: 1px) {
   text-decoration: none;
   text-shadow: 0 1px 1px $background-color;
   border-bottom: 0 solid;
   &:hover,
   &:focus {
     border-bottom-width: $width;
+  }
+}
+
+@mixin link-no-underline-block() {
+  text-decoration: none;
+  border: 0;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
   }
 }
 
