@@ -23,7 +23,7 @@ var cssDir = './destination/css';
 var jsDir = './source/js/*';
 var jsSrc = ['./source/js/*.js','./source/js/track-outbound-links.js'];
 var jsDest = './destination/js';
-var imgSrc = './source/images/**/*.{jpg,png}';
+var imgSrc = './source/images/**/*.{jpg,jpeg,png}';
 var svgSrc = './source/images/**/*.svg';
 var imgDest = './destination/images';
 
