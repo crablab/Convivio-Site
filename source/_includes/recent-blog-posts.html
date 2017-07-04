@@ -6,7 +6,7 @@
    <ul class="image-list">
     {% for post in site.data.blog-posts %}
       <li class="image-list__item">
-      <a class="image-list__link" href="{{ post.url }}">
+      <a class="image-list__link" target="_blank" rel="noopener" href="{{ post.url }}">
         <div class="image-list__image" style="background-image: url({{ post.img }})"></div>
         <div class="image-list__text">
           <h3 class="image-list__title">
