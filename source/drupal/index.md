@@ -20,7 +20,7 @@ meta-title: Drupal
     </li>
   </ul>
 
-  <p class="intro-copy">Drupal is a highly advanced framework for building complex web applications. It can deliver seamless experiences on all devices, integrate with other systems, and with the reassurance of security approved by <a href="http://buytaert.net/whitehouse-gov-using-drupal" target="_blank">the White House.</a></p>
+  <p class="intro-copy">Drupal is a highly advanced framework for building complex web applications. It can deliver seamless experiences on all devices, integrate with other systems, and with the reassurance of security approved by <a href="http://buytaert.net/whitehouse-gov-using-drupal" target="_blank" rel="noopener">the White House.</a></p>
   <p class="intro-copy">With decades of experience, we're Drupal specialists. Our team has worked worked on many high profile projects, including Oxfam International, the Judicial Appointments Commission, and Comic Relief.</p>
 </div>
 

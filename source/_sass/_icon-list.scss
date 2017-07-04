@@ -1,5 +1,6 @@
 .icon-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 30px 0;
 }
@@ -8,16 +9,21 @@
 }
 .icon-list__icon {
   text-align: center;
-  width: 33%;
+  width: 33.3%;
   &:before {
     content: '';
     display: block;
     width: 90px;
     max-width: 100%;
     height: 100px;
-    margin: 10px auto 0;
+    margin: 10px auto;
     background: none center center no-repeat;
     background-size: contain;
+  }
+}
+.icon-list--narrow-half .icon-list__icon {
+  @include media-query('(max-width: 550px)') {
+    width: 50%;
   }
 }
 .icon-list__icon + .icon-list__icon {
@@ -108,7 +114,8 @@
   &:before {
     background-image: url(../images/client-logos/cps.svg);
     width: auto;
-    background-position: center bottom;
+    background-size: 35% auto;
+    background-position: center center;
   }
 }
 .icon-list__icon--aas {
