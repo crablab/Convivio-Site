@@ -30,7 +30,7 @@ include-below:
 
 <h2 class="sub-heading sub-heading--centered icon-list--massive-top-spacing">Organisations we've worked with</h2>
 
-<ul class="icon-list icon-list--hide-titles">
+<ul class="icon-list icon-list--narrow-half icon-list--hide-titles">
   <li class="icon-list__icon icon-list__icon--msf">
     <h3 class="icon-list__title">MSF</h3>
   </li>
@@ -40,8 +40,6 @@ include-below:
   <li class="icon-list__icon icon-list__icon--sheg">
     <h3 class="icon-list__title">Stanford Historial Education Group</h3>
   </li>
-</ul>
-<ul class="icon-list icon-list--hide-titles">
   <li class="icon-list__icon icon-list__icon--aas">
     <h3 class="icon-list__title">American Astronomical Society</h3>
   </li>
