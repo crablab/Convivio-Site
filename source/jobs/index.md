@@ -30,4 +30,4 @@ You’ll like drawing on the walls, sticking up post-its, coaching and supportin
 
 We’d like to hear from both people we’ve worked with before and fresh faces we haven’t met yet.
 
-Interested? Send an email to introduce yourself, explain where you’d like to fit into our team, and how you’d make a difference to <a href="mailto:steve.hunton@weareconvivio.com">steve.hunton@weareconvivio.com</a>. Then let’s chat!
+Interested? Send an email to introduce yourself, explain where you’d like to fit into our team, and how you’d make a difference to <a href="mailto:hello@weareconvivio.com">hello@weareconvivio.com</a>. Then let’s chat!
