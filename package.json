@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "add-class": "^1.0.3",
-    "autosize": "^3.0.18",
+    "autosize": "^4.0.0",
     "bean": "^1.0.15",
     "priority-nav": "^1.0.12",
     "remove-class": "^1.0.0"
