@@ -43,7 +43,9 @@ meta-title: Drupal
   </div>
 </div>
 
-<div class="cheese-wedge cheese-wedge--aquamarine  cheese-wedge--right">
+{% include recent-blog-posts.html classes='cheese-wedge--right' %}
+
+<div class="cheese-wedge cheese-wedge--aquamarine cheese-wedge--align-left">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">We're Drupal experts</h2>
@@ -60,7 +62,7 @@ meta-title: Drupal
 </div>
 
 
-<div class="cheese-wedge cheese-wedge--rajah">
+<div class="cheese-wedge cheese-wedge--rajah cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Need Drupal help?<br class="full-width-only" /> Let's have a chat.</h2>
@@ -72,7 +74,7 @@ meta-title: Drupal
   </div>
 </div>
 
-<div class="cheese-wedge cheese-wedge--drupal cheese-wedge--right-odd">
+<div class="cheese-wedge cheese-wedge--drupal cheese-wedge--align-left">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <h2 class="site-heading">Find out more about Drupal</h2>
