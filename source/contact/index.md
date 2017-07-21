@@ -12,7 +12,7 @@ include-below: address.html
 
   <input type="hidden" value="http://weareconvivio.com/thank-you" name="_redirect" />
 
-    <p class="intro-copy">Feel free to <a href="mailto:hello@weareconvivio.com">email us directly</a></p>
+    <p class="intro-copy">Send us a message using the form below, or <a href="mailto:hello@weareconvivio.com">email us directly</a></p>
 
     <div class="form-group">
       <label class="form-label" for="name">Name</label>
