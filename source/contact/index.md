@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leading Digital Transformation?<br class="full-width-only" /> You’ve found your tribe
+title: Contact us
 meta-title: Contact us
 include-below: address.html
 ---
