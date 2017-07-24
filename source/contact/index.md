@@ -29,7 +29,7 @@ include-below: address.html
     </div>
 
     <div class="form-group">
-      <label class="form-label" for="email">Email</label>
+      <label class="form-label" for="email">Email*</label>
       <input class="text-input" required type="email" id="email" name="email">
     </div>
 
