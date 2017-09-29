@@ -100,12 +100,21 @@
     @include cheese-wedge-background($dark-aquamarine);
   }
 }
+// Brand specific colours
 .cheese-wedge--drupal {
   background: $drupal;
   color: $isabelline;
   &:before,
   &:after {
     @include cheese-wedge-background($drupal);
+  }
+}
+.cheese-wedge--cps {
+  background: $cps;
+  color: $white;
+  &:before,
+  &:after {
+    @include cheese-wedge-background($cps);
   }
 }
 .cheese-wedge--align-left {

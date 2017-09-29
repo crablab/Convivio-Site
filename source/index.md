@@ -4,6 +4,7 @@ title: We help you serve people<br class="medium-up-only" /> better online
 description: We do strategy, design, and development to transform your business. Reduce costs. Improve service. Grow sales.
 meta-title-override: Convivio — We help you serve people better online
 include-below:
+  - cps-case-study.html
   - recent-blog-posts.html
 ---
 
