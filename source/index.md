@@ -40,6 +40,12 @@ include-below:
   <li class="icon-list__icon icon-list__icon--sheg">
     <h3 class="icon-list__title">Stanford Historial Education Group</h3>
   </li>
+  <li class="icon-list__icon icon-list__icon--jac">
+    <h3 class="icon-list__title">Judicial Appointments Commission</h3>
+  </li>
+  <li class="icon-list__icon icon-list__icon--moj">
+    <h3 class="icon-list__title">Ministry of Justice</h3>
+  </li>
   <li class="icon-list__icon icon-list__icon--aas">
     <h3 class="icon-list__title">American Astronomical Society</h3>
   </li>

@@ -136,6 +136,18 @@
     width: auto;
   }
 }
+.icon-list__icon--jac {
+  &:before {
+    background-image: url(../images/client-logos/jac.svg);
+    width: auto;
+  }
+}
+.icon-list__icon--moj {
+  &:before {
+    background-image: url(../images/client-logos/moj.svg);
+    width: auto;
+  }
+}
 
 .icon-list__title {
   font-size: 20px;
