@@ -1,8 +1,8 @@
 ---
 layout: page
-title: We help you serve people<br class="medium-up-only" /> better online
+title: We bring people together
 description: We do strategy, design, and development to transform your business. Reduce costs. Improve service. Grow sales.
-meta-title-override: Convivio — We help you serve people better online
+meta-title-override: Convivio — We bring people together
 include-below:
   - recent-blog-posts.html
 ---
