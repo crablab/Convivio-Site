@@ -104,24 +104,12 @@
     width: auto;
   }
 }
-.icon-list__icon--obermeyer {
-  &:before {
-    background-image: url(../images/client-logos/obermeyer.svg);
-    width: auto;
-  }
-}
 .icon-list__icon--cps {
   &:before {
     background-image: url(../images/client-logos/cps.svg);
     width: auto;
     background-size: 35% auto;
     background-position: center center;
-  }
-}
-.icon-list__icon--aas {
-  &:before {
-    background-image: url(../images/client-logos/aas--small@2x.png);
-    width: auto;
   }
 }
 .icon-list__icon--sheg {
@@ -134,6 +122,20 @@
   &:before {
     background-image: url(../images/client-logos/redhat.svg);
     width: auto;
+  }
+}
+.icon-list__icon--jac {
+  &:before {
+    background-image: url(../images/client-logos/jac.svg);
+    width: auto;
+  }
+}
+.icon-list__icon--moj {
+  &:before {
+    background-image: url(../images/client-logos/moj.svg);
+    width: auto;
+    position: relative;
+    left: 15px;
   }
 }
 
