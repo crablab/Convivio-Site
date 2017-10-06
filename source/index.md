@@ -4,6 +4,7 @@ title: We bring people together
 description: We do strategy, design, and development to transform your business. Reduce costs. Improve service. Grow sales.
 meta-title-override: Convivio — We bring people together
 include-below:
+  - cps-case-study.html
   - recent-blog-posts.html
 ---
 
