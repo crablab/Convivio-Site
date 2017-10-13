@@ -32,4 +32,19 @@
       margin-top: 5px;
     }
   }
+  table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+  }
+  th {
+    @include font-secondary--bold;
+    text-align: left;
+    padding: 5px;
+    background: $jelly-bean;
+    color: $isabelline;
+  }
+  td {
+    padding: 8px;
+  }
 }
