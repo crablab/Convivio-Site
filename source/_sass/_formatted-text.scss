@@ -6,6 +6,7 @@
   h2 {
     font-size: 28px;
     margin-top: 20px;
+    margin-bottom: 5px;
   }
   p {
     margin-bottom: 10px;
@@ -15,5 +16,20 @@
   .intro-copy {
     font-size: 20px;
     line-height: 1.3em;
+  }
+  ul,
+  ol {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.3em;
+    li {
+      margin-bottom: 10px;
+      list-style-type: disc;
+      list-style-position: outside;
+      margin-left: 20px;
+    }
+    li li {
+      margin-top: 5px;
+    }
   }
 }
