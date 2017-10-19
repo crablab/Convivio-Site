@@ -6,6 +6,24 @@ description: You need to deliver change. We do Strategy, Discovery, Prototyping,
 include-below: contact.html
 ---
 
+<div class="cheese-wedge cheese-wedge--jelly-bean cheese-wedge--right">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__copy">
+    <!-- <h2 class="site-heading">Our approch</h2> -->
+    <ul class="grid">
+      <h3 class="site-heading grid__text grid__text--1">Strategy</h3>
+      <img class="grid__image grid__image--1" src="http://lorempixel.com/800/500/business" />
+      <h3 class="site-heading grid__text grid__text--2">Discovery</h3>
+      <img class="grid__image grid__image--2" src="http://lorempixel.com/800/500/food" />
+      <h3 class="site-heading grid__text grid__text--3">Prototyping</h3>
+      <img class="grid__image grid__image--3" src="http://lorempixel.com/800/500/cats" />
+      <h3 class="site-heading grid__text grid__text--4">Delivery</h3>
+      <img class="grid__image grid__image--4" src="http://lorempixel.com/800/500/city" />
+    </ul>
+  </div>
+  </div>
+</div>
+
 <div class="cheese-wedge cheese-wedge--keppel  cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__icon"><i class="icon icon--sign-post"></i></div>

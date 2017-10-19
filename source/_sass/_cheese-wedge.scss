@@ -5,31 +5,10 @@
   text-align: right;
   padding-bottom: 30px;
   padding-top: 30px;
-  margin-top: 10vw;
-  margin-bottom: 10vw;
-  @include media-query('(min-width: 500px)') {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
-.cheese-wedge:before {
-  @include cheese-wedge;
-  bottom: 100%;
-  // iPhone 6/7 have this 0.5px bug
-  @include media-query($iphone6-7) {
-    height: calc(10vw + .5px);
-    left: -10px;
-  }
-}
-.cheese-wedge:after {
-  @include cheese-wedge;
-  top: 100%;
-  transform: scaleY(-1);
-  @include media-query($iphone6-7) {
-    height: calc(10vw + .5px);
-    left: -10px;
-  }
-}
+
 .cheese-wedge--right {
   text-align: left;
   &:before {
@@ -56,6 +35,8 @@
   }
 }
 .cheese-wedge--jelly-bean {
+  background: $jelly-bean;
+  color: $isabelline;
   &:before,
   &:after {
     background: $jelly-bean;
@@ -131,12 +112,8 @@
   }
 }
 .cheese-wedge__inner {
-  max-width: 740px;
-  margin: 0 auto;
+  @include max-width;
   overflow: visible;
   position: relative;
-  @include media-query('(max-width: 931px)') {
-    padding: 0 20px;
-  }
 }
 

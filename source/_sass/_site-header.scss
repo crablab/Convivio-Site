@@ -4,29 +4,9 @@
   position: relative;
   z-index: 2;
 }
-.site-header:after {
-  @include cheese-wedge;
-  @include cheese-wedge-background($jelly-bean);
-  transform: scaleY(-1);
-  top: 100%;
-  @include media-query($iphone6-7) {
-    height: calc(10vw + .5px);
-    left: -10px;
-  }
-  @include media-query($nexus6) {
-    top: calc(100% - .5px);
-    height: calc(10vw + .5px);
-    left: -10px;
-  }
-}
 .site-header__inner {
   @include max-width;
   @include clearfix;
-  margin: 0 auto;
-  padding: 10px 15px 10px;
-  @include media-query($medium-layout) {
-    padding: 20px 40px 10px;
-  }
 }
 .site-header__logo {
   width: 250px;
@@ -52,6 +32,6 @@
   clear: both;
   margin-top: 15px;
   @include media-query($medium-layout) {
-    margin-top: 35px;
+    margin-top: 70px;
   }
 }

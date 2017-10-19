@@ -79,6 +79,8 @@
 
 @mixin max-width {
   max-width: $max-width;
+  margin: 0 auto;
+  padding: 10px 15px 10px;
 }
 
 @mixin triangle($dir, $size, $color) {
