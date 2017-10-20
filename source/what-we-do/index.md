@@ -6,20 +6,40 @@ description: You need to deliver change. We do Strategy, Discovery, Prototyping,
 include-below: contact.html
 ---
 
-<div class="cheese-wedge cheese-wedge--jelly-bean cheese-wedge--right">
+<div class="cheese-wedge cheese-wedge--isabelline cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
     <!-- <h2 class="site-heading">Our approch</h2> -->
-    <ul class="grid">
-      <h3 class="site-heading grid__text grid__text--1">Strategy</h3>
+    <div class="grid">
+<div class="grid__row grid__row--1">
+      <div class="grid__text grid__text--1">
+        <h3 class="site-heading">Strategy</h3>
+        <p>Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse. Williamsburg put a bird on it cred art party church-key PBR.</p>
+      </div>
       <img class="grid__image grid__image--1" src="http://lorempixel.com/800/500/business" />
-      <h3 class="site-heading grid__text grid__text--2">Discovery</h3>
+      </div>
+      <div class="grid__row grid__row--2">
+      <div class="grid__text grid__text--2">
+        <h3 class="site-heading">Discovery</h3>
+        <p>Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse. Williamsburg put a bird on it cred art party church-key PBR.</p>
+      </div>
       <img class="grid__image grid__image--2" src="http://lorempixel.com/800/500/food" />
-      <h3 class="site-heading grid__text grid__text--3">Prototyping</h3>
+      </div>
+      <div class="grid__row grid__row--3">
+      <div class="grid__text grid__text--3">
+        <h3 class="site-heading">Prototyping</h3>
+        <p>Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse. Williamsburg put a bird on it cred art party church-key PBR.</p>
+      </div>
       <img class="grid__image grid__image--3" src="http://lorempixel.com/800/500/cats" />
-      <h3 class="site-heading grid__text grid__text--4">Delivery</h3>
+      </div>
+      <div class="grid__row grid__row--4">
+      <div class="grid__text grid__text--4">
+        <h3 class="site-heading">Delivery</h3>
+        <p>Williamsburg direct trade hoodie lo-fi. Organic food truck american apparel hoodie hashtag fingerstache viral, fashion axe ethnic bespoke 8-bit irony helvetica flexitarian master cleanse. Williamsburg put a bird on it cred art party church-key PBR.</p>
+      </div>
       <img class="grid__image grid__image--4" src="http://lorempixel.com/800/500/city" />
-    </ul>
+      </div>
+    </div>
   </div>
   </div>
 </div>
