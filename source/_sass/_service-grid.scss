@@ -1,0 +1,22 @@
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 6fr 4fr;
+  grid-row-gap: 0.5rem;
+}
+.service-grid__title {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  z-index: 2;
+}
+.service-grid__copy {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+  z-index: 2;
+}
+.service-grid__image {
+  z-index: 1;
+  // mix-blend-mode: multiply;
+  // filter: grayscale(100%);
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 3;
+}

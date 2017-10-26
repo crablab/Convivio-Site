@@ -30,6 +30,7 @@
   float: left;
   width: 100%;
   clear: both;
+  text-align: center;
   margin-top: 15px;
   @include media-query($medium-layout) {
     margin-top: 70px;

@@ -1,0 +1,10 @@
+.parallax {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 1px;
+  perspective-origin: 0 0;
+  transform-style: preserve-3d;
+}
+.parallax__child-2 {
+      transform: translateZ(-300px) scale(2);
+}

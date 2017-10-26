@@ -2,7 +2,6 @@
   position: relative;
   z-index: 1;
   font-weight: 400;
-  text-align: right;
   padding-bottom: 30px;
   padding-top: 30px;
   padding-top: 10vh;
@@ -33,6 +32,9 @@
       left: 0;
     }
   }
+}
+.cheese-wedge--fill-viewport-height {
+  min-height: 100vh;
 }
 .cheese-wedge--jelly-bean {
   background: $jelly-bean;
