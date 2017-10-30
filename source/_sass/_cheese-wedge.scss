@@ -1,11 +1,8 @@
 .cheese-wedge {
-  position: relative;
   z-index: 1;
   font-weight: 400;
   padding-bottom: 30px;
   padding-top: 30px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
 }
 
 .cheese-wedge--right {
@@ -115,7 +112,10 @@
 }
 .cheese-wedge__inner {
   @include max-width;
-  overflow: visible;
-  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 

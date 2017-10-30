@@ -1,7 +1,7 @@
 .service-grid {
   display: grid;
-  grid-template-columns: 1fr 6fr 4fr;
-  grid-row-gap: 0.5rem;
+  grid-template-columns: 1fr 6fr 1fr 3fr;
+  grid-row-gap: 2.5rem;
 }
 .service-grid__title {
   grid-column: 1 / span 2;
@@ -15,8 +15,16 @@
 }
 .service-grid__image {
   z-index: 1;
-  // mix-blend-mode: multiply;
-  // filter: grayscale(100%);
-  grid-column: 2 / span 2;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%);
+  grid-column: 2 / span 3;
   grid-row: 1 / span 3;
+}
+.service-grid__listing {
+  grid-row: 4 / span 1;
+  grid-column: 4 / span 1;
+  z-index: 2;
+  font-size: 24px;
+  line-height: 1.25em;
+  padding-top: 0.5rem;
 }

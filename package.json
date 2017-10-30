@@ -27,8 +27,10 @@
   },
   "dependencies": {
     "add-class": "^1.0.3",
+    "animated-scroll-to": "^1.1.7",
     "autosize": "^4.0.0",
     "bean": "^1.0.15",
+    "paroller.js": "^1.2.0",
     "priority-nav": "^1.0.12",
     "remove-class": "^1.0.0"
   }

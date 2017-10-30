@@ -52,3 +52,7 @@
   grid-row: 4 / span 2;
   grid-column: 4 / span 2;
 }
+
+.grid a {
+  @include link-no-underline($jelly-bean, 3px);
+}
