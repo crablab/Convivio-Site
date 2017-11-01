@@ -8,12 +8,12 @@
   margin-left: 20px;
 }
 .site-nav a {
-  color: $isabelline;
+  // color: $isabelline;
   @include font-primary;
   font-size: 18px;
   padding-top: 20px;
   display: inline-block;
-  @include link-no-underline($width: 2px, $background-color: $jelly-bean);
+  @include link-no-underline($width: 2px, $background-color: $isabelline);
   border-bottom-color: $rajah;
   transition: border-width 0.05s ease-in;
   &.is-active {

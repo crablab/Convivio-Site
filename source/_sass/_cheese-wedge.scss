@@ -1,8 +1,14 @@
 .cheese-wedge {
+  @include max-width;
+  margin: 60px auto;
   z-index: 1;
   font-weight: 400;
-  padding-bottom: 30px;
-  padding-top: 30px;
+}
+.cheese-wedge__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
 
 .cheese-wedge--right {
@@ -33,7 +39,7 @@
 .cheese-wedge--fill-viewport-height {
   min-height: 100vh;
 }
-.cheese-wedge--jelly-bean {
+.cheese-wedge--jelly-bean .cheese-wedge__background {
   background: $jelly-bean;
   color: $isabelline;
   &:before,
@@ -41,7 +47,7 @@
     background: $jelly-bean;
   }
 }
-.cheese-wedge--keppel {
+.cheese-wedge--keppel .cheese-wedge__background {
   background: $keppel;
   color: $isabelline;
   &:before,
@@ -49,21 +55,21 @@
     @include cheese-wedge-background($keppel);
   }
 }
-.cheese-wedge--rajah {
+.cheese-wedge--rajah .cheese-wedge__background {
   background: $rajah;
   &:before,
   &:after {
     @include cheese-wedge-background($rajah);
   }
 }
-.cheese-wedge--isabelline {
+.cheese-wedge--isabelline .cheese-wedge__background {
   background: $isabelline;
   &:before,
   &:after {
     @include cheese-wedge-background($isabelline);
   }
 }
-.cheese-wedge--black {
+.cheese-wedge--black .cheese-wedge__background {
   background: $black;
   color: $white;
   &:before,
@@ -71,7 +77,7 @@
     @include cheese-wedge-background($black);
   }
 }
-.cheese-wedge--aquamarine {
+.cheese-wedge--aquamarine .cheese-wedge__background {
   $dark-aquamarine: darken( $aquamarine, 13% );
   background: $dark-aquamarine;
   color: $isabelline;
@@ -109,13 +115,5 @@
   .cheese-wedge--right & {
     left: 100%;
   }
-}
-.cheese-wedge__inner {
-  @include max-width;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 

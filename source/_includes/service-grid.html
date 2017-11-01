@@ -1,16 +1,16 @@
 <div class="service-grid">
   <div class="service-grid__copy" data-paroller-factor="0.1" data-paroller-type="foreground">
-    <h2 class="site-heading">{{ include.title }}</h2>
-    <p class="intro-copy">{{ include.copy1 }}</p>
+    <h2 class="site-heading service-grid__title cheese-wedge__background">{{ include.title }}</h2>
+    <p class="intro-copy cheese-wedge__background">{{ include.copy1 }}</p>
     {% if include.copy2 != empty %}
-      <p class="intro-copy">{{ include.copy2 }}</p>
+      <p class="intro-copy cheese-wedge__background">{{ include.copy2 }}</p>
     {% endif %}
     {% if include.copy3 != empty %}
-      <p class="intro-copy">{{ include.copy3 }}</p>
+      <p class="intro-copy cheese-wedge__background">{{ include.copy3 }}</p>
     {% endif %}
   </div>
   <img class="service-grid__image" src="{{ include.img }}" />
-  <div class="service-grid__listing" data-paroller-factor="0.1" data-paroller-type="foreground">
+  <div class="service-grid__listing cheese-wedge__background" data-paroller-factor="0.1" data-paroller-type="foreground">
   <h3 class="sub-heading">What we do</h3>
   <ul>
     <li>Service one</li>

@@ -1,6 +1,6 @@
 .site-header {
-  background: $jelly-bean;
-  color: $isabelline;
+  // background: $jelly-bean;
+  // color: $isabelline;
   position: relative;
   z-index: 2;
 }
@@ -30,7 +30,6 @@
   float: left;
   width: 100%;
   clear: both;
-  text-align: center;
   margin-top: 15px;
   @include media-query($medium-layout) {
     margin-top: 70px;
