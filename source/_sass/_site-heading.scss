@@ -2,9 +2,8 @@ $wide-heading: '(min-width: 475px)';
 
 .site-heading {
   @include font-primary;
-  font-size: 24px;
   @include media-query($wide-heading) {
-    font-size: 38px;
+    font-size: 80px;
     line-height: 1.184210526em;
   }
 }

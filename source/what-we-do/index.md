@@ -9,21 +9,21 @@ description: You need to deliver change. We do Strategy, Discovery, Prototyping,
 <div class="cheese-wedge">
   <div class="cheese-wedge__background cheese-wedge__inner">
     <div class="grid">
-      <h3 class="site-heading grid__text grid__text--1" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#strategy">Strategy</a></h3>
       <div class="grid__image grid__image--1">
-        <img src="http://lorempixel.com/800/500/business" />
+        <img src="http://lorempixel.com/773/536/food" />
+        <h3 class="site-heading grid__text grid__text--1" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#strategy">Strategy</a></h3>
       </div>
-      <h3 class="site-heading grid__text grid__text--2" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#discovery">Discovery</a></h3>
       <div class="grid__image grid__image--2">
-        <img src="http://lorempixel.com/800/500/food"  />
+        <img src="http://lorempixel.com/750/500/food"  />
+        <h3 class="site-heading grid__text grid__text--2" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#discovery">Discovery</a></h3>
       </div>
-      <h3 class="site-heading grid__text grid__text--3" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#prototyping">Prototyping</a></h3>
       <div class="grid__image grid__image--3">
-        <img src="http://lorempixel.com/800/500/cats"  />
+        <img src="http://lorempixel.com/750/500/cats"  />
+        <h3 class="site-heading grid__text grid__text--3" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#prototyping">Prototyping</a></h3>
       </div>
-      <h3 class="site-heading grid__text grid__text--4" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#delivery">Delivery</a></h3>
       <div class="grid__image grid__image--4">
-        <img src="http://lorempixel.com/800/500/city"  />
+        <img src="http://lorempixel.com/750/500/city"  />
+        <h3 class="site-heading grid__text grid__text--4" data-paroller-factor="0.1" data-paroller-type="foreground"><a href="#delivery">Delivery</a></h3>
       </div>
     </div>
   </div>
