@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: center;
 }
+.cheese-wedge__background {
+  padding: 1rem 1.5rem;
+}
 
 .cheese-wedge--right {
   text-align: left;
@@ -38,51 +41,45 @@
 .cheese-wedge--fill-viewport-height {
   min-height: 100vh;
 }
-.cheese-wedge--jelly-bean .cheese-wedge__background {
-  background: $jelly-bean;
-  color: $isabelline;
-  &:before,
-  &:after {
+.cheese-wedge--jelly-bean {
+  .cheese-wedge__background {
     background: $jelly-bean;
+    color: $isabelline;
+  }
+  .cheese-wedge__text-color {
+    color: $jelly-bean;
   }
 }
-.cheese-wedge--keppel .cheese-wedge__background {
-  background: $keppel;
-  color: $isabelline;
-  &:before,
-  &:after {
-    @include cheese-wedge-background($keppel);
+.cheese-wedge--keppel {
+  .cheese-wedge__background {
+    background: $keppel;
+    color: $isabelline;
+  }
+  .cheese-wedge__text-color {
+    color: $keppel;
   }
 }
-.cheese-wedge--rajah .cheese-wedge__background {
-  background: $rajah;
-  &:before,
-  &:after {
-    @include cheese-wedge-background($rajah);
+.cheese-wedge--rajah {
+  .cheese-wedge__background {
+    background: $rajah;
   }
 }
-.cheese-wedge--isabelline .cheese-wedge__background {
-  background: $isabelline;
-  &:before,
-  &:after {
-    @include cheese-wedge-background($isabelline);
+.cheese-wedge--aquamarine {
+  .cheese-wedge__background {
+    background: $aquamarine;
+    color: $isabelline;
+  }
+  .cheese-wedge__text-color {
+    color: $aquamarine;
   }
 }
-.cheese-wedge--black .cheese-wedge__background {
-  background: $black;
-  color: $white;
-  &:before,
-  &:after {
-    @include cheese-wedge-background($black);
+.cheese-wedge--black {
+  .cheese-wedge__background {
+    background: $black;
+    color: $isabelline;
   }
-}
-.cheese-wedge--aquamarine .cheese-wedge__background {
-  $dark-aquamarine: darken( $aquamarine, 13% );
-  background: $dark-aquamarine;
-  color: $isabelline;
-  &:before,
-  &:after {
-    @include cheese-wedge-background($dark-aquamarine);
+  .cheese-wedge__text-color {
+    color: $black;
   }
 }
 // Brand specific colours

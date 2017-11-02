@@ -1,0 +1,32 @@
+<div class="grid">
+      <div class="grid__card grid__card--1 cheese-wedge__background">
+        <h2 class="site-heading">{{ include.title }}</h2>
+        <p class="intro-copy">{{ include.copy1 }}</p>
+        {% if include.copy2 != empty %}
+          <p class="intro-copy">{{ include.copy2 }}</p>
+        {% endif %}
+        {% if include.copy3 != empty %}
+          <p class="intro-copy">{{ include.copy3 }}</p>
+        {% endif %}
+      </div>
+      <a href="/training-coaching" class="grid__card grid__card--2">
+        <img src="http://lorempixel.com/750/550/food"  />
+        <h3 class="grid__text cheese-wedge__text-color">Highlighted Service</h3>
+      </a>
+      <a href="/training-coaching" class="grid__card grid__card--5">
+        <img src="http://lorempixel.com/750/550/cats"  />
+        <h3 class="grid__text  cheese-wedge__text-color">Highlighted case study</h3>
+      </a>
+      <div class="grid__card grid__card--3 cheese-wedge__background">
+        <h3 class="sub-heading">What we do</h3>
+        <ul>
+          <li>Service one</li>
+          <li>Service two</li>
+          <li>Service three</li>
+          <li>Service four</li>
+        </ul>
+      </div>
+      <div class="grid__card grid__card--4">
+         <img src="http://lorempixel.com/769/586/food" />
+      </div>
+    </div>
